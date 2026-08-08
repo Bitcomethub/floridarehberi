@@ -1,0 +1,530 @@
+{
+  "_readme": [
+    "floridarehberi günlük içerik motorunun konu kuyruğu.",
+    "Mimari: 10 temel rehber HUB, buradaki konular SPOKE. Bir konu bir hub rehberin",
+    "yerini almaz — onun tek bir alt sorusunu derinleştirir. Kanibalizasyon önlemi:",
+    "yeni konu eklerken (a) slug hiçbir rehber/yazı slug'ıyla çakışmamalı,",
+    "(b) 'question' alanı bir rehberin ana sorusunun yeniden ifadesi olmamalı.",
+    "scripts/generate-blog-post.mjs her gün ilk 'pending' konuyu priority sırasıyla çeker.",
+    "status: pending → published | needs_review | skipped_duplicate.",
+    "priority: 1 = en yüksek arama/AI-atıf potansiyeli.",
+    "angle: üretici modele verilen kapsam sınırı — makalenin nereye GİRMEYECEĞİNİ de söyler.",
+    "SERT KURAL: VİZE / GÖÇMENLİK / OTURUM İZNİ KONUSU BU KUYRUĞA GİRMEZ.",
+    "Bu alan ayrı bir yayının (ImmigranAI) konusudur; buraya eklemek hem çakışma",
+    "hem de hukuki tavsiye riski yaratır. Konu eklerken bu filtreyi elle uygula.",
+    "İKİNCİ SERT KURAL: uydurma istatistik yasak. Fiyat/oran/ortalama gerektiren her",
+    "konunun angle alanı, modele 'rakam verme, resmî kaynağa yönlendir' talimatını taşır."
+  ],
+  "topics": [
+    {
+      "id": "kira-sozlesmesi-okuma",
+      "slug": "florida-kira-sozlesmesinde-nelere-dikkat-edilir",
+      "title": "Florida Kira Sözleşmesinde Nelere Dikkat Edilmeli?",
+      "question": "Florida'da kira sözleşmesi imzalamadan önce hangi maddeler kontrol edilmeli?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 1,
+      "keywords": [
+        "florida kira sözleşmesi",
+        "lease anlaşması maddeleri",
+        "kiracı hakları florida",
+        "erken çıkış bedeli kira"
+      ],
+      "angle": "Sözleşmede okunacak maddeleri sırala: süre ve otomatik yenileme, depozito koşulları, erken çıkış (early termination) bedeli, evcil hayvan şartı, hangi faturaların dahil olduğu, tamirat sorumluluğu, siteye giriş (landlord entry) bildirimi. DEPOZİTO İADE SÜRELERİ Florida Statutes Ch. 83 Part II'ye dayanır — süreleri anlat ama kanun metnini alıntılamış gibi rakam UYDURMA. Kira TUTARI hakkında hiçbir sayı verme. Hukuki tavsiye olmadığını ve uyuşmazlıkta yerel bir avukata danışılması gerektiğini yaz.",
+      "status": "pending"
+    },
+    {
+      "id": "hoa-nedir",
+      "slug": "florida-hoa-aidati-nedir-ne-icerir",
+      "title": "Florida'da HOA Aidatı Nedir, Neleri Kapsar?",
+      "question": "Florida'da HOA ve condo aidatı ne işe yarar, neyi kapsar?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 1,
+      "keywords": [
+        "hoa aidatı nedir",
+        "condo aidatı florida",
+        "site yönetimi amerika",
+        "special assessment nedir"
+      ],
+      "angle": "HOA/condo association'ın ne olduğunu, aidatın tipik olarak neleri kapsayabildiğini (ortak alan bakımı, bina sigortası, bazı hizmetler) ve neleri kapsamadığını anlat. 'Special assessment' kavramını mutlaka açıkla: olağandışı onarım için ek talep çıkabilir ve bu bütçe riskidir. Kiracıysa hangi kuralların onu bağladığını (evcil hayvan, misafir, park) yaz. AİDAT TUTARI İÇİN RAKAM VERME — bina ve hizmete göre çok değişir, 'ilan üzerinden ve yönetim belgelerinden teyit edin' de.",
+      "status": "pending"
+    },
+    {
+      "id": "kiracidan-ev-sahibine",
+      "slug": "floridada-kiracidan-ev-sahibine-gecis-ne-zaman-mantikli",
+      "title": "Florida'da Kiracılıktan Ev Sahipliğine Geçiş Ne Zaman Mantıklı?",
+      "question": "Florida'da kiralamak mı satın almak mı daha mantıklı?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 2,
+      "keywords": [
+        "florida ev almak mı kiralamak mı",
+        "amerika ev kredisi şartları",
+        "peşinat oranı ev",
+        "kapanış masrafları florida"
+      ],
+      "angle": "Karar çerçevesi kur: kalış süresi beklentisi, kredi geçmişi, peşinat, aylık toplam maliyet (kredi + emlak vergisi + sigorta + HOA). Florida'ya özgü iki kalemi vurgula: emlak vergisi satıştan sonra yeniden değerlenir, sigorta yükü bölgeye göre ciddi değişir. HİÇBİR FAİZ ORANI, FİYAT VEYA ORTALAMA VERME. Bunun bir yatırım tavsiyesi olmadığını yaz. MiamiLi bağlantısı bu konuda doğal — ama tek ve bağlamsal olsun.",
+      "status": "pending"
+    },
+    {
+      "id": "ehliyet-sinav-hazirlik",
+      "slug": "florida-ehliyet-yazili-sinavina-nasil-hazirlanilir",
+      "title": "Florida Ehliyet Yazılı Sınavına Nasıl Hazırlanılır?",
+      "question": "Florida'da ehliyet için yazılı sınav nasıl geçilir?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 1,
+      "keywords": [
+        "florida ehliyet sınavı",
+        "flhsmv yazılı sınav",
+        "florida trafik kuralları",
+        "ehliyet randevusu florida"
+      ],
+      "angle": "Sınavın yapısını, resmî sürücü el kitabının (Florida Driver License Handbook) tek doğru kaynak olduğunu ve Türkiye'den farklı olan kuralları anlat: dört yönlü durak (four-way stop) sırası, okul otobüsü kuralı, kırmızıda sağa dönüş, acil araç kenara çekilme. SORU SAYISI VE GEÇME NOTU İÇİN RAKAM VERME — değişebilir, 'randevu sırasında güncel bilgi verilir' de. Ücret tutarı yazma.",
+      "status": "pending"
+    },
+    {
+      "id": "arac-sigortasi-secimi",
+      "slug": "florida-arac-sigortasi-nasil-secilir",
+      "title": "Florida'da Araç Sigortası Nasıl Seçilir?",
+      "question": "Florida'da araç sigortasında hangi teminatlar seçilmeli?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 1,
+      "keywords": [
+        "florida araç sigortası",
+        "pip teminatı nedir",
+        "no fault sigorta",
+        "uninsured motorist teminatı"
+      ],
+      "angle": "Zorunlu teminatlar (PIP ve PDL) ile isteğe bağlı teminatları ayır. Bodily injury liability'nin Florida'da kayıt için zorunlu olmadığını ama korumasız bıraktığını açıkla. Uninsured/underinsured motorist teminatını mutlaka anlat. Muafiyet (deductible) mantığını göster. PRİM TUTARI VERME — yaşa, sicile, bölgeye göre değişir. Kredi tabanlı sigorta skorunun birçok şirkette kullanıldığını belirt.",
+      "status": "pending"
+    },
+    {
+      "id": "ikinci-el-arac-alimi",
+      "slug": "floridada-ikinci-el-arac-alirken-nelere-bakilir",
+      "title": "Florida'da İkinci El Araç Alırken Nelere Bakılır?",
+      "question": "Florida'da ikinci el araç alırken hangi kontroller yapılmalı?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 2,
+      "keywords": [
+        "florida ikinci el araba",
+        "sel hasarlı araç",
+        "salvage title nedir",
+        "araç ekspertiz amerika"
+      ],
+      "angle": "Florida'ya özgü asıl risk sel hasarlı araçtır — unvan (title) üzerindeki flood/salvage/rebuilt işaretlerini açıkla. VIN ile geçmiş sorgusu, bağımsız mekanik ekspertiz, satıcı tipi (bayi vs. şahıs) farkı, devir işleminin ilçe vergi tahsildarı ofisinde yapılması. FİYAT VERME. Florida'da zorunlu periyodik muayene olmadığı için ekspertizin bu boşluğu doldurduğunu vurgula.",
+      "status": "pending"
+    },
+    {
+      "id": "okul-kayit-belgeleri",
+      "slug": "florida-devlet-okuluna-kayit-icin-gereken-belgeler",
+      "title": "Florida'da Devlet Okuluna Kayıt İçin Hangi Belgeler Gerekir?",
+      "question": "Florida'da çocuğu devlet okuluna kaydettirmek için ne gerekiyor?",
+      "category": "Eğitim",
+      "cluster": "egitim",
+      "priority": 1,
+      "keywords": [
+        "florida okul kaydı",
+        "okul kayıt belgeleri amerika",
+        "aşı takvimi okul",
+        "attendance zone nedir"
+      ],
+      "angle": "Kayıt için tipik olarak istenenleri anlat: adres kanıtı, doğum belgesi, aşı kayıtları ve okul öncesi sağlık kontrolü. 'Attendance zone' mantığını (adres okulu belirler) ve controlled open enrollment seçeneğini açıkla. Türkiye'den gelen belgelerin çevirisi ve sınıf yerleştirme konusunda genel çerçeve ver, ilçeye göre değiştiğini vurgula. AŞI LİSTESİNİ TEK TEK SAYMA — 'ilçe sağlık idaresinin güncel listesi' de. Vize/göçmenlik statüsüne GİRME.",
+      "status": "pending"
+    },
+    {
+      "id": "ingilizce-destegi-okul",
+      "slug": "floridada-ingilizcesi-olmayan-cocuk-okulda-nasil-destek-alir",
+      "title": "İngilizcesi Olmayan Çocuk Florida'da Okulda Nasıl Destek Alır?",
+      "question": "Florida okullarında İngilizce bilmeyen öğrencilere ne tür destek veriliyor?",
+      "category": "Eğitim",
+      "cluster": "egitim",
+      "priority": 2,
+      "keywords": [
+        "esol programı florida",
+        "ingilizce öğrenen öğrenci",
+        "ell destek okul",
+        "amerika okul dil desteği"
+      ],
+      "angle": "Kayıt sırasında doldurulan ev dili anketi, dil düzeyi değerlendirmesi ve ESOL/ELL destek yapısını anlat. Ailenin okuldan neleri talep edebileceğini (tercüman desteği, veli toplantılarında çeviri) yaz. SÜRE VEYA BAŞARI İSTATİSTİĞİ VERME. Sürecin ilçeye göre farklılaştığını ve okul ile doğrudan iletişimin en hızlı yol olduğunu vurgula.",
+      "status": "pending"
+    },
+    {
+      "id": "universite-in-state",
+      "slug": "florida-universitelerinde-in-state-ucret-nedir",
+      "title": "Florida Üniversitelerinde In-State Ücret Ne Anlama Geliyor?",
+      "question": "Florida'da üniversite ücretlerinde eyalet sakini olmak ne değiştirir?",
+      "category": "Eğitim",
+      "cluster": "egitim",
+      "priority": 3,
+      "keywords": [
+        "in state tuition florida",
+        "florida üniversite ücreti",
+        "eyalet sakinliği üniversite",
+        "community college florida"
+      ],
+      "angle": "In-state ile out-of-state ücret ayrımının mantığını ve eyalet sakinliği (residency for tuition purposes) değerlendirmesinin okul tarafından yapıldığını anlat. Community college'dan dört yıllık okula geçiş yolunu tanıt. ÜCRET RAKAMI VERME. Sakinlik kriterlerinin göçmenlik statüsüyle karıştırılmaması gerektiğini belirt ama STATÜ KONUSUNA GİRME — okulun kayıt ofisine yönlendir.",
+      "status": "pending"
+    },
+    {
+      "id": "acil-servis-maliyeti",
+      "slug": "amerikada-acil-servise-gitmeden-once-bilinmesi-gerekenler",
+      "title": "Amerika'da Acil Servise Gitmeden Önce Bilinmesi Gerekenler",
+      "question": "Acil servis mi urgent care mi: hangi durumda nereye gidilmeli?",
+      "category": "Sağlık",
+      "cluster": "saglik",
+      "priority": 1,
+      "keywords": [
+        "acil servis amerika",
+        "urgent care nedir",
+        "amerika sağlık maliyeti",
+        "in network hastane"
+      ],
+      "angle": "Acil servis (ER), urgent care ve aile hekimi (PCP) arasındaki ayrımı klinik ölçütle anlat: gerçek acil durumda tereddüt edilmez, ER'a gidilir. Ağ içi/ağ dışı (in-network/out-of-network) farkının faturayı belirlediğini, faturanın haftalar sonra geldiğini ve itiraz hakkı olduğunu açıkla. DOLAR TUTARI VERME. Tıbbi tavsiye olmadığını, acil belirtilerde 911 aranması gerektiğini yaz.",
+      "status": "pending"
+    },
+    {
+      "id": "recete-ilac",
+      "slug": "amerikada-recete-ve-ilac-sistemi-nasil-isliyor",
+      "title": "Amerika'da Reçete ve İlaç Sistemi Nasıl İşliyor?",
+      "question": "Amerika'da ilaç nasıl alınır, Türkiye'den ilaç getirilebilir mi?",
+      "category": "Sağlık",
+      "cluster": "saglik",
+      "priority": 2,
+      "keywords": [
+        "amerika reçete sistemi",
+        "eczane amerika",
+        "jenerik ilaç",
+        "ilaç getirmek amerika"
+      ],
+      "angle": "Reçetenin doktordan eczaneye elektronik gittiğini, jenerik/muadil tercihi, sigorta formülerinin (formulary) hangi ilacın ne kadar karşılandığını belirlediğini anlat. Reçetesiz (OTC) ürünlerin marketlerde bulunduğunu yaz. Türkiye'den ilaç getirme konusunda GENEL uyarı ver ama gümrük kuralı SAYMA — resmî kaynağa yönlendir. Tıbbi tavsiye değildir notu zorunlu.",
+      "status": "pending"
+    },
+    {
+      "id": "dis-ve-goz-sigortasi",
+      "slug": "amerikada-dis-ve-goz-sigortasi-neden-ayri",
+      "title": "Amerika'da Diş ve Göz Sigortası Neden Ayrı?",
+      "question": "Sağlık sigortam diş ve göz tedavisini neden kapsamıyor?",
+      "category": "Sağlık",
+      "cluster": "saglik",
+      "priority": 3,
+      "keywords": [
+        "diş sigortası amerika",
+        "göz sigortası",
+        "dental plan nedir",
+        "sağlık sigortası kapsamı"
+      ],
+      "angle": "Sağlık, diş ve göz poliçelerinin ayrı ürünler olduğunu; diş poliçelerinde yıllık üst limit ve bekleme süresi bulunduğunu açıkla. İşveren paketlerinde bunların opsiyonel eklenti olabildiğini yaz. TUTAR VE ORAN VERME. Poliçe koşullarının kendi belgelerinden okunması gerektiğini vurgula.",
+      "status": "pending"
+    },
+    {
+      "id": "homestead-basvurusu",
+      "slug": "florida-homestead-muafiyeti-basvurusu-nasil-yapilir",
+      "title": "Florida Homestead Muafiyeti Başvurusu Nasıl Yapılır?",
+      "question": "Florida'da homestead muafiyetine nasıl başvurulur?",
+      "category": "Vergi",
+      "cluster": "vergi",
+      "priority": 1,
+      "keywords": [
+        "homestead muafiyeti başvuru",
+        "florida emlak vergisi indirimi",
+        "save our homes",
+        "property appraiser başvuru"
+      ],
+      "angle": "Başvurunun ilçe property appraiser ofisine yapıldığını, birincil konut şartını, son tarih olduğunu ve otomatik olmadığını anlat. Değer artış tavanının uzun vadeli etkisini açıkla. MUAFİYET TUTARINI ve son tarihi KESİN RAKAM olarak yazma — 'ilçe değerleme dairesinin güncel bilgisi' de. Yatırım amaçlı mülkte geçerli olmadığını net söyle.",
+      "status": "pending"
+    },
+    {
+      "id": "vergi-beyani-ilk-yil",
+      "slug": "amerikada-ilk-vergi-beyannamesi-nasil-verilir",
+      "title": "Amerika'da İlk Vergi Beyannamesi Nasıl Verilir?",
+      "question": "Amerika'daki ilk vergi beyannamem için ne yapmalıyım?",
+      "category": "Vergi",
+      "cluster": "vergi",
+      "priority": 2,
+      "keywords": [
+        "amerika vergi beyannamesi",
+        "w2 formu nedir",
+        "1099 formu",
+        "vergi iadesi amerika"
+      ],
+      "angle": "W-2 ve 1099 formlarının ne olduğunu, W-4 ile kesinti oranının belirlendiğini, iade/ek ödeme mantığını anlat. Yazılım ile beyan, ücretsiz beyan seçenekleri ve CPA'ya ne zaman gidilmesi gerektiği. VERGİ DİLİMİ VE ORAN YAZMA. Uluslararası gelir/varlık bildirimi karmaşıksa uzmana yönlendir — kesin kural verme. 'Vergi danışmanlığı değildir' notu zorunlu.",
+      "status": "pending"
+    },
+    {
+      "id": "satis-vergisi-ilce",
+      "slug": "florida-satis-vergisi-ilceye-gore-neden-degisiyor",
+      "title": "Florida'da Satış Vergisi İlçeye Göre Neden Değişiyor?",
+      "question": "Florida'da kasada ödediğim vergi neden şehre göre farklı?",
+      "category": "Vergi",
+      "cluster": "vergi",
+      "priority": 3,
+      "keywords": [
+        "florida satış vergisi",
+        "discretionary surtax",
+        "etiket fiyatı vergi hariç",
+        "vergiden muaf ürünler"
+      ],
+      "angle": "Eyalet oranı üstüne ilçe ek oranı (discretionary sales surtax) mantığını, etiket fiyatının vergisiz gösterildiğini ve hangi ürün gruplarının muaf olabildiğini anlat. İLÇE ORANLARINI TEK TEK LİSTELEME — değişir, Florida Department of Revenue'ya yönlendir. Eyalet oranı olan %6 sabit bir olgudur, o yazılabilir.",
+      "status": "pending"
+    },
+    {
+      "id": "kredi-puani-hizli",
+      "slug": "amerikada-kredi-puani-nasil-hizli-yukselir",
+      "title": "Amerika'da Kredi Puanı Nasıl Yükselir?",
+      "question": "Kredi puanımı yükseltmek için hangi davranışlar işe yarar?",
+      "category": "Finans",
+      "cluster": "finans",
+      "priority": 1,
+      "keywords": [
+        "kredi puanı yükseltme",
+        "fico skoru",
+        "kredi kullanım oranı",
+        "secured kart"
+      ],
+      "angle": "Ağırlıklı bileşenleri davranışa çevir: vadesinde ödeme, düşük kullanım oranı, hesap yaşını koruma, başvuru yığmama. Teminatlı karttan standart karta geçiş yolunu anlat. 'Şu kadar ayda şu puana çıkarsınız' GİBİ SAYI VERME. Ücretli 'kredi onarım' hizmetlerine karşı temkinli olmayı ve ücretsiz rapor hakkını yaz.",
+      "status": "pending"
+    },
+    {
+      "id": "para-transferi-turkiye",
+      "slug": "turkiyeden-amerikaya-para-transferi-secenekleri",
+      "title": "Türkiye'den Amerika'ya Para Transferi Seçenekleri",
+      "question": "Türkiye'den Amerika'daki hesabıma nasıl para gönderilir?",
+      "category": "Finans",
+      "cluster": "finans",
+      "priority": 2,
+      "keywords": [
+        "yurt dışı para transferi",
+        "swift havale amerika",
+        "döviz transfer maliyeti",
+        "wire transfer nedir"
+      ],
+      "angle": "Banka havalesi (wire/SWIFT) ile transfer servisleri arasındaki farkı, maliyetin üç yerden geldiğini (gönderim ücreti, aracı banka, kur marjı) ve alıcı bankanın da ücret alabildiğini anlat. Büyük transferlerde bankanın kaynak belgesi isteyebileceğini yaz. KOMİSYON ORANI VE KUR VERME. Vergi/bildirim yükümlülüğü konusunda uzmana yönlendir, kural saymaya kalkma.",
+      "status": "pending"
+    },
+    {
+      "id": "emeklilik-401k",
+      "slug": "amerikada-401k-nedir-nasil-calisir",
+      "title": "Amerika'da 401(k) Nedir, Nasıl Çalışır?",
+      "question": "İşverenimin sunduğu 401(k) planı nasıl işliyor?",
+      "category": "Finans",
+      "cluster": "finans",
+      "priority": 3,
+      "keywords": [
+        "401k nedir",
+        "işveren katkısı emeklilik",
+        "vesting nedir",
+        "amerika emeklilik sistemi"
+      ],
+      "angle": "İşveren üzerinden emeklilik birikiminin mantığı, işveren eşleştirmesi (match), hak ediş (vesting) takvimi ve erken çekimin cezalı olması. IRA ile farkına kısaca değin. KATKI LİMİTİ VE ORAN VERME — yıllık güncellenir, IRS'e yönlendir. Yatırım tavsiyesi değildir notu zorunlu.",
+      "status": "pending"
+    },
+    {
+      "id": "sel-sigortasi",
+      "slug": "florida-sel-sigortasi-neden-ayri-alinir",
+      "title": "Florida'da Sel Sigortası Neden Ayrı Alınır?",
+      "question": "Ev sigortam sel hasarını neden karşılamıyor?",
+      "category": "Kasırga",
+      "cluster": "kasirga",
+      "priority": 1,
+      "keywords": [
+        "sel sigortası florida",
+        "flood insurance",
+        "kasırga muafiyeti",
+        "ev sigortası kapsamı"
+      ],
+      "angle": "Standart ev sigortasının sel hasarını kapsam dışında bıraktığını, sel poliçesinin ayrı alındığını ve bekleme süresi bulunduğunu net anlat — fırtına yaklaşırken alınan poliçenin o fırtınada işlemediği kritik bilgidir. Kiracının eşyası için ayrı poliçe gerektiğini yaz. Fırtına muafiyetinin genellikle yüzde olarak hesaplandığını açıkla. PRİM VE YÜZDE RAKAMI VERME.",
+      "status": "pending"
+    },
+    {
+      "id": "tahliye-cantasi",
+      "slug": "kasirga-tahliye-cantasinda-ne-olmali",
+      "title": "Kasırga Tahliye Çantasında Ne Olmalı?",
+      "question": "Kasırga öncesi hazırlanacak çantada neler bulunmalı?",
+      "category": "Kasırga",
+      "cluster": "kasirga",
+      "priority": 1,
+      "keywords": [
+        "kasırga hazırlık çantası",
+        "tahliye listesi",
+        "acil durum çantası",
+        "hurricane kit"
+      ],
+      "angle": "Sezon başında hazırlanacak somut liste: su, bozulmayan gıda, ilaç, el feneri, powerbank, radyo, nakit, su geçirmez belge klasörü, evcil hayvan malzemesi. Elektrik kesintisinde kart sistemlerinin çalışmadığını vurgula. Belgelerin dijital kopyasını da öner. GÜN SAYISI için resmî tavsiyeye atıf yap, kendi rakamını üretme. Tahliye kararının bölge bazlı verildiğini hatırlat.",
+      "status": "pending"
+    },
+    {
+      "id": "firtina-sonrasi-hasar",
+      "slug": "kasirga-sonrasi-hasar-tespiti-ve-sigorta-talebi",
+      "title": "Kasırga Sonrası Hasar Tespiti ve Sigorta Talebi",
+      "question": "Fırtına sonrası hasar için sigorta talebi nasıl açılır?",
+      "category": "Kasırga",
+      "cluster": "kasirga",
+      "priority": 2,
+      "keywords": [
+        "sigorta hasar talebi",
+        "kasırga hasarı",
+        "lisanslı müteahhit florida",
+        "boil water notice"
+      ],
+      "angle": "Sıra: güvenlik → fotoğraf → geçici koruma → şirkete bildirim. Sezon öncesi çekilmiş envanter fotoğraflarının talebi kolaylaştırdığını yaz. Fırtına sonrası kapı kapı dolaşan, peşin ödeme isteyen tamirci teklifine karşı uyar ve lisans doğrulamasının çevrimiçi yapılabildiğini söyle. Su kaynatma uyarısı ve düşmüş elektrik hattı riskini hatırlat. TAZMİNAT TUTARI VE SÜRE VERME.",
+      "status": "pending"
+    },
+    {
+      "id": "jenerator-guvenligi",
+      "slug": "elektrik-kesintisinde-jenerator-kullanimi",
+      "title": "Elektrik Kesintisinde Jeneratör Güvenli Nasıl Kullanılır?",
+      "question": "Kasırga sonrası jeneratör kullanırken nelere dikkat edilmeli?",
+      "category": "Kasırga",
+      "cluster": "kasirga",
+      "priority": 3,
+      "keywords": [
+        "jeneratör güvenliği",
+        "karbon monoksit",
+        "elektrik kesintisi florida",
+        "taşınabilir jeneratör"
+      ],
+      "angle": "En kritik mesaj karbon monoksit zehirlenmesidir: taşınabilir jeneratör asla kapalı alanda, garajda ya da pencere yakınında çalıştırılmaz. Yakıt depolama, uzatma kablosu kapasitesi ve buzdolabı/tıbbi cihaz önceliklendirmesi. Sabit jeneratör kurulumunun lisanslı elektrikçi işi olduğunu yaz. MARKA/MODEL ÖNERME, GÜÇ HESABI İÇİN RAKAM UYDURMA.",
+      "status": "pending"
+    },
+    {
+      "id": "miami-orlando-tampa-secim",
+      "slug": "miami-orlando-tampa-hangisi-daha-uygun",
+      "title": "Miami, Orlando, Tampa: Hangisi Size Daha Uygun?",
+      "question": "Florida'da Miami, Orlando ve Tampa arasında nasıl seçim yapılır?",
+      "category": "Yerleşim",
+      "cluster": "yerlesim",
+      "priority": 1,
+      "keywords": [
+        "miami mi orlando mı",
+        "tampa yaşam",
+        "florida şehir karşılaştırma",
+        "florida nerede yaşanır"
+      ],
+      "angle": "Karşılaştırmayı NİTELİKSEL yap: iş piyasasının karakteri, Türk topluluğunun yoğunluğu, trafik ve mesafe kültürü, sahile yakınlık, kasırga maruziyeti farkı. HİÇBİR ORTALAMA KİRA, MAAŞ VEYA NÜFUS RAKAMI VERME. 'Doğru şehir' diye tek cevap olmadığını, kriterin hane önceliği olduğunu vurgula ve okuru hub rehbere yönlendir.",
+      "status": "pending"
+    },
+    {
+      "id": "turk-toplulugu",
+      "slug": "floridada-turk-toplulugu-nerelerde-yasiyor",
+      "title": "Florida'da Türk Topluluğu Nerelerde Yoğunlaşıyor?",
+      "question": "Florida'da Türkler ağırlıklı olarak nerelerde yaşıyor?",
+      "category": "Yerleşim",
+      "cluster": "yerlesim",
+      "priority": 2,
+      "keywords": [
+        "florida türk toplumu",
+        "miami türkler",
+        "türk marketi florida",
+        "türk derneği amerika"
+      ],
+      "angle": "Topluluk yoğunluğunu NİTELİKSEL anlat: hangi bölgelerde Türkçe konuşan çevre bulmak daha kolay, dernek ve kültür etkinliklerinin rolü, Türk market ve restoranlarının varlığı. NÜFUS SAYISI VERME, İSİM VERİP İŞLETME ÖNERME (kapanmış olabilir). Yeni gelen bir hane için sosyal çevrenin adaptasyondaki rolüne odaklan.",
+      "status": "pending"
+    },
+    {
+      "id": "toplu-tasima",
+      "slug": "floridada-arabasiz-yasamak-mumkun-mu",
+      "title": "Florida'da Arabasız Yaşamak Mümkün mü?",
+      "question": "Florida'da araba olmadan yaşanabilir mi?",
+      "category": "Günlük Hayat",
+      "cluster": "gunluk-hayat",
+      "priority": 2,
+      "keywords": [
+        "florida toplu taşıma",
+        "arabasız yaşam amerika",
+        "miami metromover",
+        "yürünebilir mahalle"
+      ],
+      "angle": "Gerçekçi ol: Florida'nın büyük bölümü araç merkezli planlanmıştır, ancak bazı şehir merkezlerinde toplu taşıma ve yürünebilirlik yeterli olabilir. Seçimin mahalle düzeyinde yapıldığını, aynı şehrin iki ucunun tamamen farklı deneyim verdiğini anlat. HAT/SEFER SAATİ VE ÜCRET VERME. Araç sahipliğinin toplam maliyetine (sigorta, yakıt, park) değin.",
+      "status": "pending"
+    },
+    {
+      "id": "market-alisverisi",
+      "slug": "amerikada-market-alisverisi-nasil-ucuzlar",
+      "title": "Amerika'da Market Alışverişi Nasıl Ucuzlar?",
+      "question": "Amerika'da market masrafı nasıl azaltılır?",
+      "category": "Günlük Hayat",
+      "cluster": "gunluk-hayat",
+      "priority": 3,
+      "keywords": [
+        "amerika market alışverişi",
+        "market kartı indirim",
+        "toptan market üyeliği",
+        "gıda vergisi muafiyeti"
+      ],
+      "angle": "Market zinciri türlerinin farkını (indirim marketi, toptan üyelik, mahalle marketi, etnik market), mağaza kartı ve dijital kupon mantığını, birim fiyat okumayı anlat. Temel gıdanın satış vergisinden muaf, hazır tüketime sunulan gıdanın vergili olduğunu belirt. FİYAT VE MARKA ÖNERİSİ VERME. Türk mutfağı malzemesinin nerelerde bulunabileceğine genel çerçeveyle değin.",
+      "status": "pending"
+    },
+    {
+      "id": "telefon-hatti",
+      "slug": "amerikada-telefon-hatti-nasil-acilir",
+      "title": "Amerika'da Telefon Hattı Nasıl Açılır?",
+      "question": "Amerika'da yeni gelen biri telefon hattını nasıl açar?",
+      "category": "Günlük Hayat",
+      "cluster": "gunluk-hayat",
+      "priority": 2,
+      "keywords": [
+        "amerika telefon hattı",
+        "prepaid hat amerika",
+        "esim amerika",
+        "operatör seçimi abd"
+      ],
+      "angle": "Faturalı (postpaid) hatlarda kredi kontrolü yapıldığını, yeni gelenler için ön ödemeli (prepaid) ya da eSIM'in hızlı çözüm olduğunu anlat. Numaranın birçok işlemde kimlik gibi kullanıldığını (banka doğrulaması, okul kaydı) vurgula. Cihaz kilidi ve bant uyumluluğu kontrolü. TARİFE FİYATI VE OPERATÖR ÖNERİSİ VERME.",
+      "status": "pending"
+    },
+    {
+      "id": "adres-degisikligi",
+      "slug": "amerikada-adres-degisikligi-kimlere-bildirilir",
+      "title": "Amerika'da Adres Değişikliği Kimlere Bildirilir?",
+      "question": "Taşındıktan sonra adres değişikliği nerelere bildirilmeli?",
+      "category": "Günlük Hayat",
+      "cluster": "gunluk-hayat",
+      "priority": 3,
+      "keywords": [
+        "adres değişikliği amerika",
+        "usps mail forwarding",
+        "ehliyet adres güncelleme",
+        "posta yönlendirme"
+      ],
+      "angle": "Kontrol listesi çıkar: posta yönlendirme, ehliyet ve araç kaydı, banka ve kredi kartları, sigorta poliçeleri, işveren, okul, abonelikler. Ehliyet ve araç kaydında adres güncellemesinin yasal bir yükümlülük olduğunu ve süresi bulunduğunu belirt — SÜREYİ RAKAMLA VERME, FLHSMV'ye yönlendir. Adres kanıtının birçok işlemde istendiğini hatırlat.",
+      "status": "pending"
+    },
+    {
+      "id": "is-aramak",
+      "slug": "floridada-is-aramaya-nereden-baslanir",
+      "title": "Florida'da İş Aramaya Nereden Başlanır?",
+      "question": "Florida'da iş arama süreci nasıl işliyor?",
+      "category": "Günlük Hayat",
+      "cluster": "gunluk-hayat",
+      "priority": 2,
+      "keywords": [
+        "florida iş bulmak",
+        "amerika özgeçmiş formatı",
+        "referans mektubu abd",
+        "iş görüşmesi amerika"
+      ],
+      "angle": "Amerikan özgeçmiş formatının Türkiye'den farkları (fotoğraf ve doğum tarihi yok, sonuç odaklı yazım), ilan platformları, networking'in ağırlığı ve referans kültürü. Brüt teklif ile net maaş farkını hatırlat. MAAŞ RAKAMI VE SEKTÖR ORTALAMASI VERME. ÇALIŞMA İZNİ / VİZE KONUSUNA GİRME — kapsam dışıdır, sadece 'çalışma yetkinizin durumunu ilgili uzmanla netleştirin' düzeyinde geç.",
+      "status": "pending"
+    },
+    {
+      "id": "cocukla-tasinma",
+      "slug": "cocukla-floridaya-tasinirken-ilk-30-gun",
+      "title": "Çocukla Florida'ya Taşınırken İlk 30 Gün",
+      "question": "Çocuklu bir aile Florida'ya taşındığında ilk ay ne yapmalı?",
+      "category": "Yerleşim",
+      "cluster": "yerlesim",
+      "priority": 2,
+      "keywords": [
+        "aileyle amerika taşınmak",
+        "çocukla taşınma listesi",
+        "okul kaydı ilk ay",
+        "florida yerleşim adımları"
+      ],
+      "angle": "Sıralı bir ilk-ay planı kur: geçici konaklama, adres, okul kaydı, sağlık sigortası, banka hesabı, ehliyet, faturalar. Hangi adımın hangisini beklettiğini göster (adres olmadan okul kaydı ve ehliyet ilerlemez). Çocuğun uyum sürecine kısa ve gerçekçi bir bölüm ayır. TAKVİM GÜNÜ SAYISI UYDURMA; ehliyet için 30 günlük kural gibi RESMÎ olanlar yazılabilir. Vize/statü konusuna girme.",
+      "status": "pending"
+    }
+  ]
+}

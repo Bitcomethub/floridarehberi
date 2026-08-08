@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "blog:generate": "node scripts/generate-blog-post.mjs",
+    "blog:dry": "node scripts/generate-blog-post.mjs --mock --dry-run",
+    "blog:test": "node scripts/generate-blog-post.mjs --self-test"
   },
   "dependencies": {
     "next": "16.3.0",
