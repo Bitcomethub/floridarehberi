@@ -49,7 +49,8 @@
         "special assessment nedir"
       ],
       "angle": "HOA/condo association'ın ne olduğunu, aidatın tipik olarak neleri kapsayabildiğini (ortak alan bakımı, bina sigortası, bazı hizmetler) ve neleri kapsamadığını anlat. 'Special assessment' kavramını mutlaka açıkla: olağandışı onarım için ek talep çıkabilir ve bu bütçe riskidir. Kiracıysa hangi kuralların onu bağladığını (evcil hayvan, misafir, park) yaz. AİDAT TUTARI İÇİN RAKAM VERME — bina ve hizmete göre çok değişir, 'ilan üzerinden ve yönetim belgelerinden teyit edin' de.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-17"
     },
     {
       "id": "kiracidan-ev-sahibine",
