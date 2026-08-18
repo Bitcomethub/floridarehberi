@@ -84,7 +84,8 @@
         "ehliyet randevusu florida"
       ],
       "angle": "Sınavın yapısını, resmî sürücü el kitabının (Florida Driver License Handbook) tek doğru kaynak olduğunu ve Türkiye'den farklı olan kuralları anlat: dört yönlü durak (four-way stop) sırası, okul otobüsü kuralı, kırmızıda sağa dönüş, acil araç kenara çekilme. SORU SAYISI VE GEÇME NOTU İÇİN RAKAM VERME — değişebilir, 'randevu sırasında güncel bilgi verilir' de. Ücret tutarı yazma.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-18"
     },
     {
       "id": "arac-sigortasi-secimi",
