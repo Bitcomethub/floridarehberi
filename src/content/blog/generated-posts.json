@@ -289,5 +289,100 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "florida-arac-sigortasi-nasil-secilir",
+    "title": "Florida'da Araç Sigortası Nasıl Seçilir?",
+    "question": "Florida'da araç sigortasında hangi teminatlar seçilmeli?",
+    "excerpt": "Florida'da araç sigortasında zorunlu teminatlar PIP ve PDL'dir; bodily injury liability zorunlu olmasa da olmadan sürücü korumasız kalır. Uninsured/underinsured motorist teminatı ve muafiyet seçimi de poliçenin gerçek koruma gücünü belirler.",
+    "keywords": [
+      "florida araç sigortası",
+      "pip teminatı nedir",
+      "no fault sigorta",
+      "uninsured motorist teminatı",
+      "bodily injury liability florida",
+      "florida no-fault sigorta sistemi",
+      "araç sigortası muafiyet seçimi"
+    ],
+    "publishedAt": "2026-08-19",
+    "updatedAt": "2026-08-19",
+    "intro": [
+      "Florida'da araç sigortasında seçilmesi gereken teminatlar, yasal olarak zorunlu olan PIP (kişisel yaralanma koruması) ve PDL (mülk hasarı sorumluluğu) ile bunların üzerine eklenecek bodily injury liability ve uninsured/underinsured motorist teminatlarının bir kombinasyonudur. Zorunlu asgari teminatlar tek başına kazadan sonra sürücüyü maddi olarak korumaya yetmez; bu nedenle poliçe seçimi sadece kayıt için gereken belgeyi almakla sınırlı kalmamalıdır.",
+      "Florida, no-fault (kusursuz sorumluluk) sistemi uygulayan eyaletlerden biridir; bu sistemde küçük ölçekli kazalarda herkes kendi PIP teminatından yararlanır, karşı tarafın kusurunu kanıtlamak gerekmez. Ancak ciddi yaralanma veya büyük maddi hasar durumlarında bu asgari koruma yetersiz kalabilir. Aşağıdaki bölümlerde zorunlu teminatların kapsamı, isteğe bağlı teminatların neden önemli olduğu, muafiyet tutarının nasıl belirleneceği ve prim hesaplamasında hangi faktörlerin rol oynadığı ayrı ayrı ele alınmıştır."
+    ],
+    "sections": [
+      {
+        "heading": "Florida'da Araç Sigortasında Hangi Teminatlar Zorunlu?",
+        "body": [
+          "Florida'da bir aracı kayıt ettirmek (register) için sigorta şirketinden alınacak poliçede iki teminat zorunludur: PIP (Personal Injury Protection, kişisel yaralanma koruması) ve PDL (Property Damage Liability, mülk hasarı sorumluluğu). PIP, kazada sürücünün ve yolcularının tıbbi giderlerini ve gelir kaybını, kusur kimde olursa olsun karşılar. PDL ise sürücünün kaza sırasında başkasının aracına veya mülküne verdiği hasarı öder.",
+          "Bu iki teminatın asgari tutarları Florida Highway Safety and Motor Vehicles (FLHSMV) tarafından belirlenir ve zaman zaman güncellenebilir; güncel rakamı kurumun resmi sayfasından kontrol etmek en sağlıklı yoldur. Kayıt sırasında sigorta şirketi bu bilgiyi elektronik olarak FLHSMV sistemine bildirir, poliçe kesintiye uğrarsa ehliyet ve plaka üzerinde idari sonuçlar doğabilir.",
+          "Asgari PIP ve PDL, ciddi bir kazada oluşan gerçek maliyetin çoğu zaman altında kalır. Ameliyat, uzun süreli tedavi veya araç dışı mülk hasarı bu tutarları hızla aşabilir; bu yüzden asgari teminat sadece yasal zorunluluğu karşılar, gerçek finansal korumayı garanti etmez."
+        ]
+      },
+      {
+        "heading": "PIP Teminatı Nedir ve Kazada Ne Zaman Devreye Girer?",
+        "body": [
+          "PIP teminatı nedir sorusunun cevabı, Florida'nın no-fault (kusursuz sorumluluk) sistemiyle doğrudan ilişkilidir. Bir trafik kazasında kusur kimde olursa olsun, her sürücü önce kendi PIP teminatından tıbbi gider ve gelir kaybı için tazminat alır; karşı tarafın sigortasına başvurmak için önce kusur belirlemesi beklenmez. Bu sistem, küçük ve orta ölçekli kazalarda mahkeme sürecini hızlandırmayı hedefler.",
+          "PIP genellikle tıbbi giderlerin bir bölümünü ve çalışamama süresindeki gelir kaybının bir kısmını karşılar; poliçenin ayrıntıları ve ödeme yüzdeleri sigorta şirketine göre değişir, bu yüzden poliçe belgesinin 'declarations page' (poliçe özet sayfası) bölümü dikkatle okunmalıdır. Ayrıca PIP talebinin geçerli olması için kazadan sonra makul bir süre içinde tıbbi tedavi başlatılması genellikle şart koşulur; bu süre poliçe koşullarında yer alır ve gecikme durumunda teminat reddedilebilir.",
+          "PIP kapsamı ciddi yaralanmalarda (kalıcı sakatlık, uzuv kaybı gibi ağır durumlar) genellikle yetersiz kalır; bu noktada kusurlu sürücüye karşı dava açma hakkı doğabilir, ancak bu sadece belirli yaralanma eşiklerini aşan durumlarda geçerlidir ve hukuki değerlendirme bir avukat tarafından yapılmalıdır."
+        ]
+      },
+      {
+        "heading": "Bodily Injury Liability Zorunlu Değilse Neden Alınmalı?",
+        "body": [
+          "Bodily injury liability (BIL, karşı tarafa verilen bedensel zarar sorumluluğu), Florida'da araç kaydı için zorunlu değildir; bu, eyaletin diğer birçok eyaletten farklı bir yönüdür. Ancak bu teminat olmadan bir sürücü, kazada karşı tarafı yaraladığında kendi cebinden tazminat ödemek zorunda kalabilir, çünkü PDL sadece mülk hasarını, PIP ise sadece kendi tarafını kapsar.",
+          "BIL'siz bir sürücü ciddi bir kazaya karışırsa, karşı tarafın tıbbi giderleri, kaybedilen gelir ve manevi tazminat talepleri doğrudan sürücünün kişisel malvarlığına yönelebilir; ev, araç veya gelecekteki maaş kesintisi gibi kalemler bu sürecin parçası olabilir. Bu risk, özellikle ciddi bir mülkü olan veya gelir düzeyi yüksek sürücüler için önemli bir maliyet kalemidir.",
+          "Bu nedenle sigorta uzmanları ve tüketici koruma kurumları çoğu zaman asgari zorunlu teminatın üzerine BIL eklemeyi önerir. Teminat tutarı seçimi kişisel mal varlığına ve risk toleransına göre değişir; net bir rakam vermek yerine, mevcut mal varlığı ve gelir düzeyiyle orantılı bir limit seçmek mantıklı bir yaklaşımdır."
+        ]
+      },
+      {
+        "heading": "Uninsured/Underinsured Motorist Teminatı Neden Önemli?",
+        "body": [
+          "Uninsured motorist teminatı (sigortasız sürücü koruması, UM/UIM), karşı taraf sigortasız çıktığında veya sigortası hasarı karşılamaya yetmediğinde kendi poliçenizden tazminat almanızı sağlar. Florida'da BIL zorunlu olmadığı için yollarda sigortasız veya düşük limitli sürücü sayısı göz ardı edilemeyecek bir gerçektir; bu da UM/UIM teminatını pratikte önemli hale getirir.",
+          "Bu teminat iki alt başlığa ayrılır: uninsured motorist (karşı taraf hiç sigortalı değilse) ve underinsured motorist (karşı tarafın sigortası var ama limiti hasarı karşılamıyorsa). Poliçe alırken bu iki alt teminatın limitlerinin ayrı ayrı belirtildiğinden emin olunmalı, çünkü bazı poliçelerde sadece biri sunulabilir.",
+          "UM/UIM teminatı genellikle isteğe bağlıdır ve sigorta şirketi bu teminatı reddetmek isteyen müşteriden yazılı bir feragat (waiver) imzası isteyebilir. Bu feragati imzalamadan önce, çevredeki sigortasız sürücü riskinin ne kadar gerçek olduğunu düşünmek ve gerekirse bir sigorta acentesiyle limit seçeneklerini karşılaştırmak faydalı olur. Bazı sürücüler bu teminatı, kendi sağlık sigortasının kaza sonrası giderleri zaten karşılayacağını düşünerek reddedebilir; ancak sağlık sigortası genellikle gelir kaybını, ağrı-acı tazminatını veya araç dışı kayıpları kapsamaz, bu fark UM/UIM'in asıl işlevini oluşturur."
+        ]
+      },
+      {
+        "heading": "Muafiyet (Deductible) Tutarı Nasıl Belirlenmeli?",
+        "body": [
+          "Muafiyet (deductible), bir hasar talebinde sigorta şirketinin ödemeye başlamadan önce poliçe sahibinin kendi cebinden ödediği tutardır. Genellikle çarpma (collision) ve kapsamlı (comprehensive) teminatlarda uygulanır; PIP ve PDL gibi zorunlu teminatlarda da bazı poliçelerde küçük bir muafiyet seçeneği bulunabilir.",
+          "Düşük muafiyet seçmek aylık/yıllık primi yükseltir, yüksek muafiyet seçmek primi düşürür ama kaza anında cepten çıkacak tutarı artırır. Doğru seçim, poliçe sahibinin acil durumda hangi tutarı nakit olarak karşılayabileceğine bağlıdır; bu tutar bir acil durum fonu gibi düşünülmeli ve poliçe seçilirken hesaba katılmalıdır.",
+          "Bazı sigorta şirketleri, belirli bir kusursuzluk geçmişine sahip sürücülere 'diminishing deductible' (kaza yapılmadıkça azalan muafiyet) gibi ek seçenekler sunabilir. Bu tür seçeneklerin şartları şirketten şirkete değiştiği için, poliçe teklifleri karşılaştırılırken sadece prim tutarına değil, muafiyet yapısına da bakmak gerekir. Örneğin cam hasarı gibi küçük onarımlarda yüksek bir muafiyet seçilmişse, hasarın tüm maliyetini cepten ödemek gerekebilir; bu yüzden sık karşılaşılan küçük hasar türleri de muafiyet seçiminde dikkate alınmalıdır."
+        ]
+      },
+      {
+        "heading": "Sigorta Primini Hangi Faktörler Belirler?",
+        "body": [
+          "Florida'da araç sigortası priminin kesin tutarını önceden söylemek mümkün değildir çünkü bu tutar yaşa, sürücü sicili geçmişine, yaşanılan bölgeye, aracın modeline ve seçilen teminat paketine göre değişir. Prim tutarı yerine, primi oluşturan bu kalemleri anlamak sürücüye daha fazla kontrol sağlar.",
+          "Birçok sigorta şirketi, kredi tabanlı sigorta skorunu (credit-based insurance score) da fiyatlandırma modelinin bir parçası olarak kullanır; bu skor kişinin kredi geçmişinden türetilir ve klasik kredi skorundan farklı hesaplanır. Bu uygulama Florida'da yasaldır, ancak her şirket aynı ağırlıkta kullanmaz, bu nedenle aynı sürücü profili farklı şirketlerden farklı teklifler alabilir.",
+          "Bölgesel trafik yoğunluğu, hırsızlık oranı, hava koşullarına bağlı hasar geçmişi gibi faktörler de bölgesel prim farklarına yol açar. En doğru yaklaşım, aynı teminat limitleri ve muafiyet tutarlarıyla en az üç şirketten teklif almak ve teklifleri teminat kapsamı açısından karşılaştırmaktır; sadece toplam prim tutarına bakmak yanıltıcı olabilir. Kredi geçmişi zayıf olan bir sürücü, aynı sürüş sicili ile bile daha yüksek bir teklif alabilir; bu farkın nedenini anlamak için teklif detaylarında skor bileşenine dair açıklama istemek yararlı olabilir."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Florida'da araç sigortası yaptırmadan araç kullanmak mümkün mü?",
+        "a": "Hayır. Florida'da bir aracı kayıtlı ve yolda kullanmak için en az PIP ve PDL teminatlarını içeren geçerli bir poliçe bulunması zorunludur. Bu teminatlar olmadan araç kaydı askıya alınabilir ve trafik denetiminde idari yaptırımlarla karşılaşılabilir; güncel kurallar FLHSMV'nin resmi sayfasından takip edilebilir."
+      },
+      {
+        "q": "PIP ve bodily injury liability arasındaki fark nedir?",
+        "a": "PIP, kazada kendi tarafınızın tıbbi giderlerini ve gelir kaybını karşılar; kusur kimde olduğuna bakılmaz ve Florida'da zorunludur. Bodily injury liability ise siz kusurluysanız karşı tarafın yaralanma giderlerini karşılar ve Florida'da zorunlu değildir, ancak olmadığında kusurlu sürücü kendi malvarlığıyla sorumlu tutulabilir."
+      },
+      {
+        "q": "Uninsured motorist teminatını reddetmek yasal mı?",
+        "a": "Evet, Florida'da sigorta şirketi bu teminatı sunar ama poliçe sahibi genellikle yazılı bir feragat imzalayarak reddedebilir. Reddetmeden önce çevredeki sigortasız sürücü riskinin ne kadar gerçek olduğunu değerlendirmek ve bir sigorta acentesiyle limit seçeneklerini karşılaştırmak faydalı olur."
+      },
+      {
+        "q": "Kredi tabanlı sigorta skoru kredi kartı borcuyla mı ilgili?",
+        "a": "Kısmen. Kredi tabanlı sigorta skoru, kredi geçmişindeki ödeme düzenliliği, kredi kullanım oranı ve hesap yaşı gibi verilerden türetilir, ama klasik kredi skorundan farklı bir formülle hesaplanır. Bu skor Florida'da birçok sigorta şirketinin fiyatlandırma modelinde kullanılır, ancak her şirket aynı ağırlığı vermez."
+      },
+      {
+        "q": "Muafiyet tutarını yüksek seçmek her zaman avantajlı mıdır?",
+        "a": "Hayır. Yüksek muafiyet primi düşürür ama kaza anında cepten ödenecek tutarı artırır. Sık küçük hasar riski olan (örneğin cam hasarı) bir sürücü için düşük muafiyet daha mantıklı olabilir; doğru seçim kişinin acil durumda nakit karşılayabileceği tutara bağlıdır."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]

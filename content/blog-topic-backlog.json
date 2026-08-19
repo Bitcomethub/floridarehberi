@@ -102,7 +102,8 @@
         "uninsured motorist teminatı"
       ],
       "angle": "Zorunlu teminatlar (PIP ve PDL) ile isteğe bağlı teminatları ayır. Bodily injury liability'nin Florida'da kayıt için zorunlu olmadığını ama korumasız bıraktığını açıkla. Uninsured/underinsured motorist teminatını mutlaka anlat. Muafiyet (deductible) mantığını göster. PRİM TUTARI VERME — yaşa, sicile, bölgeye göre değişir. Kredi tabanlı sigorta skorunun birçok şirkette kullanıldığını belirt.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-19"
     },
     {
       "id": "ikinci-el-arac-alimi",
