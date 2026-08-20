@@ -384,5 +384,105 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "florida-devlet-okuluna-kayit-icin-gereken-belgeler",
+    "title": "Florida'da Devlet Okuluna Kayıt İçin Hangi Belgeler Gerekir?",
+    "question": "Florida'da çocuğu devlet okuluna kaydettirmek için ne gerekiyor?",
+    "excerpt": "Florida'da devlet okuluna kayıt için genellikle adres kanıtı, doğum belgesi, aşı kayıtları ve okul öncesi sağlık kontrolü istenir; hangi okula gideceğinizi ev adresiniz (attendance zone) belirler. Belgeler ilçeye göre değişir, güncel liste okul bölgesinin resmi kayıt sayfasında yer alır.",
+    "keywords": [
+      "florida okul kaydı",
+      "okul kayıt belgeleri amerika",
+      "aşı takvimi okul",
+      "attendance zone nedir",
+      "controlled open enrollment florida",
+      "florida devlet okulu kayıt belgeleri",
+      "türkiye'den gelen belgelerin çevirisi okul kaydı"
+    ],
+    "publishedAt": "2026-08-20",
+    "updatedAt": "2026-08-20",
+    "intro": [
+      "Florida'da bir çocuğu devlet okuluna (public school) kaydettirmek için genellikle dört temel belge istenir: ailenin o adreste yaşadığını gösteren bir kanıt, çocuğun doğum belgesi, aşı kayıtları ve okul öncesi bir sağlık kontrolü (physical exam) raporu. Hangi okula kayıt yapılacağı ise büyük ölçüde ailenin ikamet adresine bağlıdır; bu sisteme attendance zone (kayıt bölgesi) denir ve bazı durumlarda controlled open enrollment adı verilen bir başvuru yoluyla zone dışındaki bir okula da başvurulabilir.",
+      "Bu belgelerin tam listesi ve kabul edilen format ilçeden ilçeye değişir; bazı okul bölgeleri ek olarak önceki okul karnesi veya nakil belgesi de ister. Türkiye'den gelen doğum belgesi, aşı kaydı ve karneler genellikle İngilizceye çevrilmeli, bazı durumlarda yeminli tercüman veya noter onayı gerekebilir; sınıf yerleştirmesi ise çoğunlukla doğum tarihine göre yapılır ama dil ve akademik hazırlık değerlendirmesiyle değişebilir."
+    ],
+    "sections": [
+      {
+        "heading": "Devlet okuluna kayıt için hangi belgeler istenir?",
+        "body": [
+          "Florida'da devlet okuluna (public school) kayıt yaptırırken ilçe okul bölgesi (school district) genellikle dört temel belge ister: ailenin o adreste oturduğunu gösteren bir kanıt, çocuğun doğum belgesi, aşı kayıtları ve okul öncesi bir sağlık kontrolü (physical exam) raporu. Bu belgeler kayıt formunun ekinde istenir ve okulun idari ofisine elden veya çevrimiçi kayıt portalı üzerinden teslim edilir.",
+          "Adres kanıtı için kira sözleşmesi (lease), elektrik veya su faturası ya da ev sahipliği belgesi gibi resmi bir evrak kabul edilir; bazı ilçeler buna ek olarak bir kimlik belgesi de talep eder. Doğum belgesi orijinal ya da onaylı kopya olmalıdır; yurt dışından gelen belgeler için resmi çeviri istenebilir. Aşı kayıtları ilçe sağlık idaresinin belirlediği forma uygun hazırlanmalı ve okul hemşiresi tarafından incelenir; bu formun güncel hâli ilçenin sağlık idaresi sayfasında yer alır."
+        ],
+        "list": [
+          "Adres kanıtı (kira sözleşmesi, fatura, tapu vb.)",
+          "Doğum belgesi (orijinal veya onaylı kopya)",
+          "Aşı kayıtları (ilçe sağlık idaresinin güncel formu)",
+          "Okul öncesi sağlık kontrolü raporu"
+        ]
+      },
+      {
+        "heading": "Attendance zone nedir, hangi okula gideceğimi nasıl belirler?",
+        "body": [
+          "Attendance zone (kayıt bölgesi), bir ailenin ikamet ettiği adrese göre hangi devlet okuluna bağlı olduğunu belirleyen coğrafi sınırdır. Her ilçe okul bölgesi, sınırları içindeki sokakları belirli ilkokul, ortaokul ve lise binalarına eşleştirir; bu eşleştirme haritası genellikle ilçenin resmi web sitesinde adres arama aracıyla sunulur.",
+          "Kayıt sırasında sunulan adres kanıtı bu nedenle sadece bir formalite değildir; çocuğun hangi okula yerleştirileceğini doğrudan belirler. Aynı ilçede yaşayan iki aile, aralarında birkaç sokak fark olsa bile farklı okul bölgelerine düşebilir. Taşınma durumunda kayıt bölgesi değişebileceğinden, ev kiralamadan veya satın almadan önce adresin hangi okula bağlı olduğunu ilçenin arama aracıyla kontrol etmek pratikte en güvenilir yoldur.",
+          "Bazı ilçelerde kardeş öğrenciler için istisna tanınır ve bir kardeş belirli bir okula kayıtlıysa diğer kardeşin aynı okula başvurması kolaylaştırılabilir; bu uygulama ilçeden ilçeye değişir ve kesin kural için ilgili okul bölgesinin kayıt ofisine sorulması gerekir. Yeni taşınan aileler için geçici adres belgeleri de bazı bölgelerde kabul edilebilir, ancak bu esneklik standart değildir."
+        ]
+      },
+      {
+        "heading": "Controlled open enrollment nedir, başka bir okula gidebilir miyim?",
+        "body": [
+          "Controlled open enrollment (denetimli açık kayıt), bir ailenin çocuğunu kendi attendance zone'undaki okul dışında, ilçe sınırları içinde başka bir devlet okuluna kaydettirmesine izin veren bir Florida eyalet politikasıdır. Bu seçenek, hedef okulda yeterli kapasite (boş sıra, sınıf mevcudu, personel oranı) bulunması koşuluna bağlıdır; kapasite dolduğunda başvuru kabul edilmez.",
+          "Başvuru genellikle her akademik yıl için belirlenen bir dönemde ilçenin kayıt portalı üzerinden yapılır; başvuru penceresinin kesin tarihleri ilçeden ilçeye değiştiği için okul bölgesinin resmi sayfasından doğrulanmalıdır. Talep sayısı kapasiteyi aştığında bazı ilçeler kura (lottery) yöntemi uygular, bazıları ise başvuru sırasına göre değerlendirme yapar. Kabul edilen öğrenciler için servis (bus) hizmeti genellikle garanti edilmez; aile taşımayı kendisi organize etmek zorunda kalabilir.",
+          "Bu politika her okulda ve her yıl aynı şekilde uygulanmaz; bazı popüler okullar kapasite sınırı nedeniyle open enrollment başvurusu almayabilir. Karar vermeden önce hem hedef okulun hem de mevcut attendance zone okulunun program ve mesafe açısından karşılaştırılması, ilçenin resmi kayıt sayfasındaki güncel koşulların okunması önerilir."
+        ]
+      },
+      {
+        "heading": "Aşı kayıtları için ne gerekiyor?",
+        "body": [
+          "Florida'da devlet okuluna başlayacak her öğrenciden, ilçe sağlık idaresi (county health department) onaylı bir aşı kaydı formu istenir. Form genellikle aile hekimi veya sağlık kliniği tarafından doldurulur ve okul hemşiresi ya da kayıt görevlisi tarafından incelenir. Hangi aşıların zorunlu olduğu zamanla güncellenebildiği için tek tek liste vermek yanıltıcı olur; bağlayıcı liste ilçe sağlık idaresinin resmi sayfasında yer alır.",
+          "Tıbbi ya da dini nedenlerle muafiyet talep edilebilir; bu durumda ayrı bir muafiyet formu ve destekleyici belge (örneğin doktor raporu) sunulması gerekir, kabul kriterleri ilçeye göre değişir. Türkiye'de yapılmış aşıların kaydı genellikle sağlık karnesi veya klinik çıktısıyla belgelenir; bu belgenin İngilizceye çevrilmesi ve bazı ilçelerde bir Amerikalı hekim tarafından yeniden onaylanması istenebilir.",
+          "Eksik aşı kaydıyla gelen öğrenciler için birçok ilçe, belirli bir süre içinde eksik dozları tamamlamak koşuluyla koşullu (conditional) kayıt imkânı tanır; bu süre ve koşullar okul bölgesine göre değişir ve okulun kayıt ofisinden teyit edilmelidir. Aşı takvimiyle ilgili tıbbi kararlar bu makalenin kapsamı dışındadır; çocuğun hekimi ve ilçe sağlık idaresi bu konuda yetkili mercidir."
+        ]
+      },
+      {
+        "heading": "Türkiye'den gelen belgelerin çevirisi ve sınıf yerleştirmesi nasıl yapılır?",
+        "body": [
+          "Türkiye'den getirilen doğum belgesi, aşı kaydı ve önceki okul karneleri gibi resmi belgelerin İngilizceye çevrilmesi genellikle kayıt sürecinin bir parçasıdır. Çoğu ilçe, bu çevirinin yeminli bir tercüman (certified translator) tarafından yapılmasını ve orijinal belgeyle birlikte sunulmasını ister; bazı okul bölgeleri ayrıca noter onayı da talep edebilir. Çeviri maliyeti ve gereken onay türü ilçeden ilçeye değiştiği için, kayıt ofisine başvurmadan önce hangi belgelerin hangi formatta istendiğinin önceden teyit edilmesi zaman kaybını önler.",
+          "Sınıf yerleştirmesinde ilk ölçüt genellikle çocuğun doğum tarihine göre belirlenen yaş grubudur; Florida'daki ilçeler belirli bir tarihe kadar belirli yaşı tamamlamış çocukları o sınıfa kabul eder. Ancak İngilizce dil yeterliliği veya akademik hazırlık konusunda belirsizlik varsa, okul bir değerlendirme (assessment) yapabilir ve öğrenciyi bir sınıf aşağı veya yukarı yerleştirebilir; bu karar okul müdürlüğünün ve varsa dil destek programının değerlendirmesine bağlıdır.",
+          "Bu uygulamalar ilçeden ilçeye, hatta okuldan okula farklılık gösterebilir; bir öğrencinin Türkiye'deki karnesindeki not ortalaması otomatik olarak aynı sınıf seviyesine denk gelmeyebilir. Kesin yerleştirme kararı için okulun kayıt veya danışma ofisiyle doğrudan görüşülmesi önerilir."
+        ]
+      },
+      {
+        "heading": "Kayıt sürecinde hangi adımlar izlenir?",
+        "body": [
+          "Kayıt süreci genellikle ailenin ikamet adresini ilçenin resmi adres arama aracına girip hangi okula bağlı olduğunu (attendance zone) öğrenmesiyle başlar. Ardından adres kanıtı, doğum belgesi, aşı kayıtları ve varsa önceki okul belgeleri toplanır; birçok ilçe bu belgelerin bir kısmının çevrimiçi kayıt portalına yüklenmesini, bir kısmının ise okula bizzat götürülmesini ister. Bazı okullar kayıt için önceden randevu almayı zorunlu kılar.",
+          "Belgeler teslim edildikten sonra okul idaresi adres kanıtını doğrular, aşı kaydını okul hemşiresine yönlendirir ve varsa önceki not döküm belgelerini inceleyerek sınıf yerleştirmesini netleştirir. Bu inceleme birkaç gün ile birkaç hafta arasında sürebilir; süre okulun o dönemki iş yüküne ve belgelerin eksiksiz olup olmamasına bağlıdır. Süreç tamamlandığında aileye başlangıç tarihi, sınıf öğretmeni ve gerekiyorsa servis (bus) bilgisi iletilir.",
+          "Tüm belgelerin fotokopisini elde tutmak ve okuldan alınan kayıt onayını saklamak ileride çıkabilecek bir tutarsızlıkta işe yarar. Okul yılı başlamadan haftalar önce kayıt yaptırmak son dakika sıkışıklığını önler; kesin tarihler ve randevu sistemi ilçeden ilçeye değiştiği için ilgili okul bölgesinin resmi kayıt sayfası son sözü söyler."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Devlet okuluna kayıt için mutlaka o adreste ikamet ettiğimi kanıtlamam mı gerekir?",
+        "a": "Evet, devlet okulları attendance zone sistemine göre çalıştığı için kayıt genellikle ailenin gerçekten o adreste yaşadığını gösteren bir kanıt ister. Kira sözleşmesi, fatura veya ev sahipliği belgesi gibi evraklar bu amaçla kabul edilir; adres doğrulanamazsa kayıt tamamlanamayabilir."
+      },
+      {
+        "q": "Türkiye'deki aşı kayıtlarım Florida'da geçerli mi?",
+        "a": "Türkiye'de yapılmış aşılar genellikle kabul edilir, ancak kaydın İngilizceye çevrilmesi ve bazı ilçelerde bir hekim tarafından yeniden onaylanması istenebilir. Hangi aşıların zorunlu olduğu ve hangi formatın kabul edildiği ilçe sağlık idaresinin güncel sayfasından kontrol edilmelidir."
+      },
+      {
+        "q": "Attendance zone dışındaki bir okula gitmek istersem ne yapmalıyım?",
+        "a": "Bu durumda controlled open enrollment başvurusu yapılabilir; ancak kabul, hedef okulun boş kapasitesine bağlıdır ve başvuru dönemleri ilçeye göre değişir. Kabul edilse bile servis (bus) hizmeti her zaman garanti edilmez, bu nedenle ulaşımın nasıl sağlanacağı önceden planlanmalıdır."
+      },
+      {
+        "q": "Kayıt sırasında hangi belgelerin çevirisi zorunlu olur?",
+        "a": "Doğum belgesi, aşı kaydı ve önceki okul karneleri gibi Türkçe belgelerin çoğu ilçede İngilizceye çevrilmesi istenir; bazı okul bölgeleri bu çevirinin yeminli bir tercüman tarafından yapılmasını ve orijinaliyle birlikte sunulmasını şart koşar. Kesin gereklilik okulun kayıt ofisinden teyit edilmelidir."
+      },
+      {
+        "q": "Kayıt için istenen okul öncesi sağlık kontrolü ne demektir?",
+        "a": "Bu, çocuğun genel sağlık durumunu değerlendiren ve okulun istediği bir fiziksel muayene (physical exam) raporudur; genellikle bir hekim tarafından doldurulan standart bir form üzerinden belgelenir. Bu bir tıbbi tavsiye değildir; formun içeriği ve geçerlilik süresi konusunda çocuğun hekimine ve ilçenin kayıt ofisine danışılmalıdır."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]

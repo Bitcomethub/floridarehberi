@@ -137,7 +137,8 @@
         "attendance zone nedir"
       ],
       "angle": "Kayıt için tipik olarak istenenleri anlat: adres kanıtı, doğum belgesi, aşı kayıtları ve okul öncesi sağlık kontrolü. 'Attendance zone' mantığını (adres okulu belirler) ve controlled open enrollment seçeneğini açıkla. Türkiye'den gelen belgelerin çevirisi ve sınıf yerleştirme konusunda genel çerçeve ver, ilçeye göre değiştiğini vurgula. AŞI LİSTESİNİ TEK TEK SAYMA — 'ilçe sağlık idaresinin güncel listesi' de. Vize/göçmenlik statüsüne GİRME.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-20"
     },
     {
       "id": "ingilizce-destegi-okul",
