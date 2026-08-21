@@ -189,7 +189,8 @@
         "in network hastane"
       ],
       "angle": "Acil servis (ER), urgent care ve aile hekimi (PCP) arasındaki ayrımı klinik ölçütle anlat: gerçek acil durumda tereddüt edilmez, ER'a gidilir. Ağ içi/ağ dışı (in-network/out-of-network) farkının faturayı belirlediğini, faturanın haftalar sonra geldiğini ve itiraz hakkı olduğunu açıkla. DOLAR TUTARI VERME. Tıbbi tavsiye olmadığını, acil belirtilerde 911 aranması gerektiğini yaz.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-21"
     },
     {
       "id": "recete-ilac",
