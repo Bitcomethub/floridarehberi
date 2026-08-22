@@ -241,7 +241,8 @@
         "property appraiser başvuru"
       ],
       "angle": "Başvurunun ilçe property appraiser ofisine yapıldığını, birincil konut şartını, son tarih olduğunu ve otomatik olmadığını anlat. Değer artış tavanının uzun vadeli etkisini açıkla. MUAFİYET TUTARINI ve son tarihi KESİN RAKAM olarak yazma — 'ilçe değerleme dairesinin güncel bilgisi' de. Yatırım amaçlı mülkte geçerli olmadığını net söyle.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-22"
     },
     {
       "id": "vergi-beyani-ilk-yil",
