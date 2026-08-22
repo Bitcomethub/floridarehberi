@@ -95,7 +95,30 @@ da `Service` düğümüne yazmak ihlaldir ve hiçbir parse hatası vermez. Yeni 
 ## Tasarım sistemi — "Coastal Calm"
 
 Ferah, sakin, nefes alan bir Florida gündüzü. **Krem/bej YASAK** (kardeş yayın
-miamigezi o alanı tutuyor; iki site birbirine benzemeyecek).
+miamigezi o alanı tutuyor; iki site birbirine benzemeyecek). Bu yasak artık
+niyet değil, ÇALIŞAN KAPI — iki katman, ikisi de exit 1:
+
+- **Statik:** `npm run palette:check` — `src/` + `public/` içindeki her renk
+  literalini (hex / rgb / hsl / **oklch** / isimli renk / Tailwind sıcak-nötr
+  sınıfı) OKLCH'e çevirir. Yasak liste + **sıcak nötr bandı**:
+  `L ≥ 0.70` · `0.0012 ≤ C ≤ 0.08` · `40° ≤ hue ≤ 118°`. Bant liste yerine
+  ölçü kullanır — `#E8DDD0` yasaklanınca `#E9DECF` yazılmasını da keser.
+  `prebuild`'e bağlı: Vercel deploy'u dahil her `npm run build` bu kapıdan
+  geçer.
+- **Render:** `npm run palette:render` — build alır, `next start` eder,
+  headless Chrome'u CDP ile sürer, her sayfada zemini ölçer.
+  Neden ayrı katman: `color-mix(in oklch, var(--color-sun) 12%, white)`
+  kaynakta HİÇ renk literali içermez, `rgba(255,209,102,.12)` ise computed
+  style'da sun kromasıyla (0.135) bandın dışında görünür — ama ekranda ikisi
+  de krem. Bu yüzden ham computed değil, **ata zinciri beyaz üstüne kompozit
+  edilip 1×1 canvas'tan okunan BOYANMIŞ PİKSEL** sınıflandırılır.
+
+Bant sayılarına dokunmadan önce kalibrasyona bak (`scripts/palette-guard.mjs`
+başlığı): meşru palet banda üç ayrı gerekçeyle uzak — mist/line SOĞUK hue
+(183°), beyaz/gri AKROMATİK (C=0), sun/coral/palm/sea YÜKSEK KROMA
+(sun C=0.135, tavanın 1.7 katı). Kapı `--self-test` ile iki yönlü korunur
+(18 mutasyon yakalanmalı, 16 meşru yazım geçmeli) — yeni kural eklerken
+İKİSİNİ birden ekle.
 
 - Zemin `--color-page` #FFFFFF, ikincil `--color-mist` #EFF9F7
 - Metin `--color-ink` #0B2E2B · `--color-ink-soft` #3A5C57 (7.37:1) ·
@@ -151,6 +174,9 @@ Ayrıntılı işletim rehberi: `docs/blog-pipeline.md`.
 npm run dev            # localhost:3000
 npm run build          # SSG — tüm rotalar prerender edilmeli
 npm run lint
+npm run palette:check  # krem/bej statik kapısı (prebuild'de otomatik)
+npm run palette:test   # palet kapısının birim testi (iki yönlü)
+npm run palette:render # gerçek render — headless Chrome, boyanmış piksel
 npm run blog:test      # kalite kapısı birim testi (API yok)
 npm run blog:dry       # uçtan uca prova (API yok, dosya yazmaz)
 npm run blog:generate  # gerçek üretim

@@ -6,6 +6,85 @@
 
 ---
 
+## 2026-08-22 — "Krem/bej yasak" kuralı 4 aydır yalnız yazılı bir niyetti
+
+**Problem.** Tasarım sistemi krem/bej'i yasaklıyor (kardeş yayın miamigezi o
+alanı tutuyor), ama kuralı hiçbir şey uygulamıyordu. Denetimde `src/` temiz
+çıktı — yani ihlal YOKTU; sorun kuralın bir sonraki "biraz sıcaklık katalım"
+düzenlemesinde sessizce delinebilecek olmasıydı. İhlal aramak değil, ihlali
+imkânsızlaştırmak gerekiyordu.
+
+**Elenen seçenekler.**
+- *Yalnız yasak-hex listesi* → işe yaramaz. `#E8DDD0` yasaklanınca bir sonraki
+  düzenleme `#E9DECF` yazar; liste yalnız kendi elemanlarını korur, rengi değil.
+- *HSL bandı* → aşırı açık renklerde doygunluk patlıyor: `#FFFEFC` HSL'de
+  `s=100%` verir (L→1 iken payda sıfıra gider). Krem tam da o bölgede yaşıyor,
+  yani ölçüm aracının kör noktası hedefin tam üstüne düşüyordu. OKLCH kroması
+  algısal ve kararlı: aynı renk C=0.0013.
+- *`@theme { --color-*: initial }` ile Tailwind varsayılan paletini tamamen
+  silmek* → beji temsil edilemez yapardı ve daha güçlü bir çözümdür, AMA
+  `bg-white`/`text-black` dahil her varsayılan yardımcıyı da siler; tasarım
+  sistemine dokunmak bu görevin kapsamı değildi. Yerine Tailwind'in sıcak-nötr
+  ailesi (`stone-50..300`, `amber|orange|yellow-50..200`) sınıf düzeyinde
+  yasaklandı. Kapsam genişletilecekse ilk aday bu.
+- *Yalnız statik tarama* → aşağıdaki kök neden yüzünden yetersiz.
+- *Yalnız render taraması* → build gerektirir, deploy yolunda ucuz değil ve
+  yorumdaki/ölü koddaki bej'i hiç görmez.
+
+**Semptomdan uzaktaki kök neden (asıl bulgu).** Statik tarama "kaynakta krem
+literali var mı" sorusunu yanıtlar; kuralın gerçek konusu ise "ekranda krem
+var mı". İkisi ayrışıyor:
+- `color-mix(in oklch, var(--color-sun) 12%, white)` kaynakta HİÇ renk
+  literali içermez → statik kapı kör.
+- `rgba(255, 209, 102, 0.12)` computed style'da sun'ın kromasıyla (C=0.135)
+  görünür, yani bandın 1.7 katı uzağında "temiz" okunur — ama beyaz üstüne
+  boyandığında piksel `rgb(255, 250, 238)`, düpedüz krem.
+Yani ham computed değeri sınıflandırmak YANLIŞ soruyu sorar. Doğru ölçüm
+birimi BOYANMIŞ PİKSEL: elemanın ata zincirindeki tüm zeminler beyaz üstüne
+1×1 canvas'a sırayla boyanıp `getImageData` ile geri okunuyor. Alfa
+kompozitini, oklch/color-mix dönüşümünü tarayıcının kendisi yapıyor — sRGB
+matematiğini yeniden yazmıyoruz.
+
+**İki küçük tuzak (ikisi de sahte yeşil üretirdi).**
+1. `color-mix(..., transparent)` çıktısı `oklch(0.974097 0.0109078 none / 0.26)`
+   biçiminde geliyor. CSS Color 4'te eksik bileşen `none` olarak serileşir ve
+   kullanım değeri 0'dır; parser bunu NaN sayıp "çözülemedi" diye ihlal
+   listesine düşürüyordu. Çözülemeyen rengi sessizce GEÇİRMEK de olmaz — o
+   yüzden `none`→0 düzeltildi, çözülemeyen string ise hâlâ ihlal sayılıyor.
+2. Chrome SIGKILL'den sonra profil dizinine yazmayı sürdürüyor; `rmSync`
+   `ENOTEMPTY` fırlatıp GEÇEN bir koşuyu kırmızıya çeviriyordu. Temizlik artık
+   `exit` bekliyor, 5 kez deniyor ve sonucu asla değiştirmiyor.
+
+**Seçilen mimari.** İki katman, tek bant tanımı (`BAND` yalnız
+`palette-guard.mjs`'te; render script'i onu import eder — ayrışamazlar).
+- Statik: `scripts/palette-guard.mjs` → `npm run palette:check`, `prebuild`'e
+  bağlı, yani Vercel deploy'u dahil her build bu kapıdan geçiyor.
+- Render: `scripts/check-render-palette.mjs` → `npm run palette:render`;
+  build + `next start` + headless Chrome (CDP, ek bağımlılık yok).
+  Ölçümden ÖNCE `EADDRINUSE` ve `/_next/static/**` 200 kontrolü yapıyor —
+  2026-08-08 vakasının (stilsiz sayfa denetimi sahte geçer) kodlanmış hâli.
+
+**Bant kalibrasyonu (ölçülmüş).** `L ≥ 0.70` · `0.0012 ≤ C ≤ 0.08` ·
+`40° ≤ h ≤ 118°`. Meşru palet banda üç ayrı gerekçeyle uzak: mist/line SOĞUK
+hue (183°), beyaz/gri AKROMATİK (C=0.0000), sun/coral/palm/sea YÜKSEK KROMA
+(sun C=0.135). Yani bant, paleti hiç tırmalamadan krem ailesini kapatıyor.
+
+**Kanıt.** `npm run palette:test` → 18 mutasyon yakalandı, 16 meşru yazım
+geçti. Sabotajlar: `#FAF9F6` (liste) exit 1 · `#EDE4D6` (listede yok, bant)
+exit 1 · `oklch(0.95 0.02 80)` (paletin kendi dili) exit 1 · `bg-stone-100`
+exit 1 · sabotajlı `npm run build` exit 1 (prebuild kesti, `next build` hiç
+çalışmadı). Literalsiz sabotaj (`color-mix` + `rgba` yıkaması): statik kapı
+exit 0 (beklenen körlük), render kapısı 55 bulguyla exit 1 — `body` →
+`rgb(255, 250, 238)`, hatta yarı saydam sticky header krem gövde üstünde
+`rgb(255, 255, 254)` (C=0.0013, bant tabanının hemen üstü). Temiz ağaç:
+18 sayfa, 158 boyanmış zemin, hepsi bant dışı.
+
+**Kural.** Bir tasarım yasağını "renk listesi" olarak değil ÖLÇÜLEBİLİR BANT
+olarak yaz, ve ekrandaki rengi ham computed değerden değil kompozit edilmiş
+pikselden oku — alfa yıkaması ve `color-mix` kaynakta hiçbir iz bırakmaz.
+
+---
+
 ## 2026-08-08 — Lighthouse a11y 100 verdi ama sayfa STİLSİZDİ (yanlış yeşil)
 
 **Problem.** Erişilebilirlik denetimi `color-contrast` ve

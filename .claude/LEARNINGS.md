@@ -56,6 +56,17 @@ her gün insan incelemesine düşer. `generateDraft()` boş içeriği artık aç
 hata olarak fırlatıyor. Model değiştirmeden önce `--dry-run` ile gerçek bir
 çağrı yapıp çıktının geldiğini gör.
 
+**Renk yasağı liste değil BANT olur, ve ekrandaki renk kompozit edilmiş
+pikselden okunur.** Krem/bej kapısı (`npm run palette:check` + `:render`)
+her renk literalini OKLCH'e çevirip şu banda bakar: L≥0.70, C 0.0012–0.08,
+hue 40°–118°. Liste yaklaşımı delinir (`#E8DDD0` yasaklanınca `#E9DECF`
+yazılır); HSL ise aşırı açık renklerde doygunluğu patlatır (kör nokta tam
+kremin üstünde). Ayrıca ham computed değer yanıltır: `rgba(255,209,102,.12)`
+computed'da sun kromasıyla temiz görünür, ekranda krem boyar — bu yüzden
+render katmanı ata zincirini beyaz üstüne kompozit edip 1×1 canvas'tan okur.
+Bant sayısına dokunmadan önce `scripts/palette-guard.mjs` başlığındaki
+kalibrasyona bak.
+
 **Marka renkleri metin rengi değildir.** Coastal Calm'ın parlak dörtlüsü
 (palm/sea/coral/sun) beyaz üstünde 1.44–3.39 kontrast verir. Beyaz zeminde
 metin için `-deep` varyantları var; parlak olanlar yalnız koyu (`ink`) bantta
