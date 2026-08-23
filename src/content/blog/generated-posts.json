@@ -684,5 +684,111 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "amerikada-kredi-puani-nasil-hizli-yukselir",
+    "title": "Amerika'da Kredi Puanı Nasıl Yükselir?",
+    "question": "Kredi puanımı yükseltmek için hangi davranışlar işe yarar?",
+    "excerpt": "Kredi puanını yükselten davranışlar vadesinde ödeme, düşük kredi kullanım oranı, hesap yaşını koruma ve az sorgu yapmaktır; secured karttan standart karta geçiş yolu ve ücretsiz kredi raporu hakkı bu yazıda anlatılır.",
+    "keywords": [
+      "kredi puanı yükseltme",
+      "fico skoru",
+      "kredi kullanım oranı",
+      "secured kart",
+      "secured karttan standart karta geçiş",
+      "kredi geçmişi yaşı",
+      "ücretsiz kredi raporu"
+    ],
+    "publishedAt": "2026-08-23",
+    "updatedAt": "2026-08-23",
+    "intro": [
+      "Kredi puanını yükseltmek için işe yarayan davranışlar; her ay vadesinde ödeme yapmak, kredi kartı limitlerinin küçük bir bölümünü kullanmak, eski hesapları açık tutarak kredi geçmişinin yaşını korumak ve kısa sürede çok sayıda yeni kredi başvurusu yapmaktan kaçınmaktır. Bu dört davranış, FICO puan modelinin en ağırlıklı bileşenlerine karşılık gelir ve aralarında en büyük etkiyi ödeme geçmişi ile kullanım oranı taşır.",
+      "Kredi geçmişi kısa olan ya da sıfırdan başlayan biri için en pratik yol genellikle teminatlı bir kartla (secured card) başlamak ve düzenli ödeme yaparak zamanla standart bir karta geçmektir. Bu süreçte ücretli 'kredi onarım' şirketlerine ihtiyaç yoktur; kredi raporunuzu ücretsiz olarak düzenli kontrol etmek ve hatalı kayıtlara kendiniz itiraz etmek, aynı sonucu maliyetsiz biçimde sağlar."
+    ],
+    "sections": [
+      {
+        "heading": "Kredi puanını en çok hangi davranışlar etkiler?",
+        "body": [
+          "FICO puan modeli, kredi puanını birkaç ana bileşenin ağırlıklı toplamından hesaplar. En büyük ağırlığı ödeme geçmişi taşır; hemen ardından kredi kullanım oranı, kredi geçmişinin yaşı, kredi çeşitliliği ve son dönemde açılan yeni hesap sayısı gelir. Bu beş bileşenin her biri belirli bir davranışa karşılık geldiği için puanı yükseltmek soyut bir hedef değil, somut alışkanlıkları değiştirmek anlamına gelir.",
+          "Örneğin ödeme geçmişi her ayın fatura son ödeme tarihine uyulup uyulmadığını, kullanım oranı mevcut kart limitlerinin ne kadarının kullanıldığını, hesap yaşı ise en eski ve en yeni hesabınızın ortalama süresini yansıtır. Bu bileşenleri aynı anda düzeltmeye çalışmak yerine önce en ağır basan iki kalemi -ödeme geçmişi ve kullanım oranı- düzene koymak, zamanla diğer bileşenleri de dolaylı olarak iyileştirir."
+        ],
+        "list": [
+          "Ödeme geçmişi: her ay son ödeme tarihine gecikmeden ödeme yapma",
+          "Kredi kullanım oranı: kart limitinin küçük bir bölümünü kullanma",
+          "Hesap yaşı: eski kart ve kredi hesaplarını kapatmadan açık tutma",
+          "Kredi çeşitliliği: kredi kartı, taşıt kredisi gibi farklı ürün türlerine sahip olma",
+          "Yeni sorgular: kısa sürede birden fazla kredi başvurusu yapmaktan kaçınma"
+        ]
+      },
+      {
+        "heading": "Vadesinde ödeme neden en önemli faktördür?",
+        "body": [
+          "Ödeme geçmişi, kredi puanı hesaplamasında en büyük tekil ağırlığa sahip bileşendir çünkü kredi verenler için en güvenilir gösterge, borcun geçmişte düzenli ödenip ödenmediğidir. Bir ödemenin genellikle otuz günden fazla geciktiği anda kredi bürolarına bildirilme riski oluşur ve bu bilgi raporda uzun süre görünür kalabilir. Bu yüzden tek bir gecikme, aylarca sürdürülen düzenli ödemelerin etkisini gölgede bırakabilir.",
+          "Ödemeleri kaçırmamanın en pratik yolu, banka veya kart uygulaması üzerinden en az asgari tutar için otomatik ödeme talimatı kurmaktır; böylece unutkanlık ya da yoğunluk yüzünden gecikme riski ortadan kalkar. Fatura tutarının tamamını ödeyemeseniz bile asgari tutarı zamanında yatırmak, hesabın 'güncel' statüde kalmasını sağlar ve bu, kredi raporunda gecikme kaydı oluşmasını engeller.",
+          "Geçmişte oluşmuş bir gecikme kaydı raporda bir süre görünse de etkisi zamanla azalır; en fazla katkı, en yeni ve tekrarlanan gecikmelerden gelir. Tek seferlik ve eski bir gecikmeyi telafi etmenin en etkili yolu, o tarihten sonra kesintisiz biçimde zamanında ödeme yapmaya devam etmektir; bu, kredi verene istikrarlı bir davranış örüntüsü gösterir."
+        ]
+      },
+      {
+        "heading": "Kredi kullanım oranını düşürmek için ne yapılır?",
+        "body": [
+          "Kredi kullanım oranı, açık kredi kartlarınızdaki toplam bakiyenin toplam kredi limitine bölünmesiyle hesaplanır ve puan üzerinde ödeme geçmişinden sonra en ağır ikinci etkiye sahiptir. Bu oranı düşürmenin en doğrudan yolu, kart borcunu ekstre kapanış tarihinden önce mümkün olduğunca azaltmaktır; çünkü kredi bürolarına genellikle o tarihteki bakiye bildirilir, ödeme son tarihindeki değil.",
+          "İkinci bir yol, toplam kredi limitini büyütmektir; kart şirketinden limit artışı istemek veya ikinci bir kart açmak, aynı bakiyeyi daha büyük bir limite yayarak oranı düşürür -ancak yeni kart başvurusu kısa vadede sorgu etkisi yaratır. Kartı hiç kullanmamak yerine küçük, düzenli harcamalar yapıp her ay tam kapatmak, hem oranı düşük tutar hem de hesabı aktif gösterir.",
+          "Genel kural olarak toplam kullanım oranını düşük tutmak, mümkünse tek bir kartta da yüksek bakiye biriktirmemek önemlidir; birkaç kart arasında dengeli dağıtılmış küçük bakiyeler, tek kartta yüksek bakiyeye göre daha olumlu değerlendirilir."
+        ],
+        "list": [
+          "Ekstre kapanışından önce bakiyeyi azaltın",
+          "Limit artışı talep edin veya ikinci kart açın",
+          "Kartı düzenli kullanıp her ay tam kapatın"
+        ]
+      },
+      {
+        "heading": "Hesap yaşını korumak neden önemli?",
+        "body": [
+          "Kredi geçmişinin yaşı, hem en eski açık hesabınızın süresini hem de tüm hesaplarınızın ortalama yaşını kapsar ve kredi verenler için ne kadar süredir borç yönetimi deneyiminiz olduğunu gösterir. Uzun süre açık tutulan bir hesap, kredi geçmişinizin omurgasını oluşturur; bu yüzden en eski kartınızı kapatmak, ortalama hesap yaşını aniden düşürerek puanı olumsuz etkileyebilir.",
+          "Yıllık ücreti olmayan eski bir kartı, hiç kullanmasanız bile açık tutmak genellikle daha avantajlıdır; küçük ve düzenli bir harcama yapıp otomatik ödeme kurarak hesabı 'aktif ama kontrollü' halde bırakabilirsiniz. Yeni bir kart açmadan önce, o kartın gerçekten gerekli olup olmadığını sorgulamak faydalıdır çünkü her yeni hesap, ortalama yaşı biraz daha aşağı çeker ve kısa vadede geçici bir düşüşe yol açabilir.",
+          "Kart şirketi bir hesabı tek taraflı olarak hareketsizlik nedeniyle kapatabilir; bunu önlemek için yılda birkaç kez küçük bir alışveriş yapmak yeterlidir. Hesap kapatıldığında geçmiş ödeme kaydı bir süre raporda kalsa da, hesap aktif kaldığı sürece yaş faktörü kredi puanına katkı sağlamayı sürdürür."
+        ]
+      },
+      {
+        "heading": "Secured karttan standart karta nasıl geçilir?",
+        "body": [
+          "Secured kart (teminatlı kart), kredi geçmişi kısa veya hiç olmayan kişilerin bir banka hesabına yatırdığı depozito karşılığında kullandığı bir kredi kartı türüdür; depozito genellikle kartın kredi limitine eşittir ve kartın normal bir kredi kartı gibi kullanılıp raporlanmasını sağlar. Bu ürünün amacı, kredi bürolarına düzenli ödeme geçmişi bildirmek ve zamanla teminatsız bir karta geçiş için temel oluşturmaktır.",
+          "Bir secured kartı açtıktan sonra yapılması gereken en önemli şey, standart bir kartla aynı disiplini uygulamaktır: her ay zamanında ödeme yapmak, kullanım oranını düşük tutmak ve kartı kapatmadan aktif tutmak. Birçok kart şirketi, belirli bir süre düzenli ve olumlu ödeme geçmişi biriktirdikten sonra müşteriyi otomatik olarak teminatsız bir karta 'yükseltmeyi' (graduation) değerlendirir ve bu durumda depozito iade edilir.",
+          "Otomatik yükseltme sunmayan kartlarda ise belirli aralıklarla kart şirketini arayıp hesap geçmişinizi sorgulamak ve teminatsız bir ürüne geçiş talep etmek mümkündür; bu görüşmede düzenli ödeme geçmişiniz en güçlü argümanınızdır. Geçiş gerçekleşmezse, güçlenen kredi geçmişinizle ayrı bir standart karta başvurmak da bir seçenektir."
+        ]
+      },
+      {
+        "heading": "Ücretli kredi onarım hizmetlerine güvenilir mi, ücretsiz rapor hakkı nedir?",
+        "body": [
+          "Ücretli 'kredi onarım' şirketleri genellikle kredi bürolarına itiraz mektupları göndererek raporunuzdaki olumsuz kayıtları kaldırtmayı vaat eder, ancak bu itiraz mekanizması yasal olarak her tüketicinin kendisinin de ücretsiz kullanabildiği bir haktır. Doğru olmayan veya güncelliğini kaybetmiş bir kayıt varsa, doğrudan ilgili kredi bürosuna kendiniz itiraz edebilirsiniz; bu süreç için üçüncü bir şirkete ücret ödemek zorunlu değildir.",
+          "Bazı kredi onarım şirketleri, doğru bilgileri de 'hatalı' göstererek geçici olarak kaldırtır ve büro yeniden doğruladığında kayıt tekrar görünür -bu arada sizden aylık ücret tahsil edilmiş olur. Peşin ücret talep eden, sonuç garantisi veren veya sizi mevcut hesaplarınızı kapatmaya yönlendiren hizmetlere karşı temkinli olmak gerekir; gerçek bir düzelme, zaman ve düzenli ödeme davranışıyla oluşur, kısayol yoktur.",
+          "Amerika'da her tüketici, üç büyük kredi bürosundan (Equifax, Experian, TransUnion) yılda ücretsiz kredi raporu isteme hakkına sahiptir ve bu hak federal kanunla düzenlenip AnnualCreditReport.com üzerinden kullanılır. Raporunuzu düzenli aralıklarla kontrol etmek, hatalı kayıtları erken fark etmenizi ve kimlik hırsızlığı belirtilerini zamanında yakalamanızı sağlar; bu, ücretli izleme hizmetlerinin sunduğu temel işlevi karşılar."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kredi puanım ne zaman düzelmeye başlar?",
+        "a": "Kesin bir süre vermek mümkün değildir çünkü her kredi geçmişi farklı bilgiler içerir; ancak vadesinde ödeme ve düşük kullanım oranı gibi davranışlar tutarlı biçimde sürdürüldüğünde etkisi zamanla raporlara yansır. En güvenilir takip yolu, kredi raporunuzu düzenli aralıklarla kontrol ederek değişimi kendiniz gözlemlemektir."
+      },
+      {
+        "q": "Secured kart ile standart kredi kartı arasındaki fark nedir?",
+        "a": "Secured kart, kullanıcının yatırdığı bir depozito karşılığında verilir ve limit genellikle bu depozitoya eşittir; standart kartta ise depozito istenmez, limit kredi geçmişine göre belirlenir. Her iki kart türü de düzenli kullanıldığında kredi bürolarına aynı şekilde raporlanır."
+      },
+      {
+        "q": "Kredi kullanım oranı kaç olmalı?",
+        "a": "Genel kabul gören öneri, toplam kredi kullanım oranını mümkün olduğunca düşük, tercihen kart limitinizin küçük bir bölümünde tutmaktır; oran ne kadar düşükse kredi verenler için o kadar olumlu bir sinyal oluşur. Kesin bir eşik yerine, bakiyeyi ekstre kapanışından önce azaltmaya odaklanmak daha pratik bir yaklaşımdır."
+      },
+      {
+        "q": "Ücretsiz kredi raporumu nereden alabilirim?",
+        "a": "Amerika'da üç büyük kredi bürosu -Equifax, Experian ve TransUnion- federal düzenleme kapsamında yılda ücretsiz kredi raporu sunmakla yükümlüdür ve bu rapora AnnualCreditReport.com üzerinden erişilir. Raporu düzenli kontrol etmek, hatalı kayıtları ve olası kimlik hırsızlığı belirtilerini erken fark etmenizi sağlar."
+      },
+      {
+        "q": "Ücretli kredi onarım şirketine para vermeye değer mi?",
+        "a": "Genellikle değmez, çünkü bu şirketlerin sunduğu itiraz mekanizması her tüketicinin doğrudan kredi bürolarına ücretsiz başvurarak kullanabildiği yasal bir haktır. Peşin ücret isteyen veya kesin sonuç garantisi veren hizmetlere karşı temkinli olmak, yasal ve ücretsiz itiraz yollarını kendiniz denemek daha güvenli bir yaklaşımdır."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]

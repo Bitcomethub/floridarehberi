@@ -293,7 +293,8 @@
         "secured kart"
       ],
       "angle": "Ağırlıklı bileşenleri davranışa çevir: vadesinde ödeme, düşük kullanım oranı, hesap yaşını koruma, başvuru yığmama. Teminatlı karttan standart karta geçiş yolunu anlat. 'Şu kadar ayda şu puana çıkarsınız' GİBİ SAYI VERME. Ücretli 'kredi onarım' hizmetlerine karşı temkinli olmayı ve ücretsiz rapor hakkını yaz.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-23"
     },
     {
       "id": "para-transferi-turkiye",
