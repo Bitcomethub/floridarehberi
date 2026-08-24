@@ -345,7 +345,8 @@
         "ev sigortası kapsamı"
       ],
       "angle": "Standart ev sigortasının sel hasarını kapsam dışında bıraktığını, sel poliçesinin ayrı alındığını ve bekleme süresi bulunduğunu net anlat — fırtına yaklaşırken alınan poliçenin o fırtınada işlemediği kritik bilgidir. Kiracının eşyası için ayrı poliçe gerektiğini yaz. Fırtına muafiyetinin genellikle yüzde olarak hesaplandığını açıkla. PRİM VE YÜZDE RAKAMI VERME.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-24"
     },
     {
       "id": "tahliye-cantasi",
