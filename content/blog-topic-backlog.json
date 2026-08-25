@@ -363,7 +363,8 @@
         "hurricane kit"
       ],
       "angle": "Sezon başında hazırlanacak somut liste: su, bozulmayan gıda, ilaç, el feneri, powerbank, radyo, nakit, su geçirmez belge klasörü, evcil hayvan malzemesi. Elektrik kesintisinde kart sistemlerinin çalışmadığını vurgula. Belgelerin dijital kopyasını da öner. GÜN SAYISI için resmî tavsiyeye atıf yap, kendi rakamını üretme. Tahliye kararının bölge bazlı verildiğini hatırlat.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-25"
     },
     {
       "id": "firtina-sonrasi-hasar",

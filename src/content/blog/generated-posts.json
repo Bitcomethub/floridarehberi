@@ -890,5 +890,121 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "kasirga-tahliye-cantasinda-ne-olmali",
+    "title": "Kasırga Tahliye Çantasında Ne Olmalı?",
+    "question": "Kasırga öncesi hazırlanacak çantada neler bulunmalı?",
+    "excerpt": "Kasırga çantasında su, bozulmayan gıda, ilaç, el feneri, powerbank, radyo, nakit ve su geçirmez belge klasörü bulunmalı; evcil hayvan malzemesi ve belgelerin dijital kopyası da eklenmelidir. Elektrik kesintisinde kart sistemleri çalışmayabileceğinden nakit önemlidir.",
+    "keywords": [
+      "kasırga hazırlık çantası",
+      "tahliye listesi",
+      "acil durum çantası",
+      "hurricane kit",
+      "kasırga çantası içeriği",
+      "florida kasırga hazırlığı",
+      "evcil hayvan tahliye çantası"
+    ],
+    "publishedAt": "2026-08-25",
+    "updatedAt": "2026-08-25",
+    "intro": [
+      "Kasırga öncesi hazırlanacak çantada su, bozulmayan gıda, reçeteli ilaçlar, el feneri, yedek pil, powerbank, pilli ya da şarjlı bir radyo, nakit para ve su geçirmez bir belge klasörü bulunmalıdır; evcil hayvanı olan haneler için ayrı bir mama ve malzeme seti de eklenmelidir. Bu liste, elektriğin günlerce kesilebildiği ve mağaza raflarının kasırga yaklaştıkça hızla boşaldığı bir dönemi karşılamak üzere tasarlanır.",
+      "Çantanın etkili olması için içeriğin sadece toplanması değil, doğru şekilde saklanması ve düzenli kontrol edilmesi de gerekir; belgelerin dijital kopyaları alınmalı, ilaçların ve suyun tazeliği kontrol edilmeli, powerbank şarjlı tutulmalıdır. Kaç günlük stok yeterli olacağı ve tahliye kararının hangi bölgeleri kapsayacağı, ilçenin acil durum yönetimi birimleri ve FEMA gibi resmi kaynaklardan takip edilmelidir."
+    ],
+    "sections": [
+      {
+        "heading": "Kasırga çantasında hangi temel malzemeler bulunmalı?",
+        "body": [
+          "Kasırga çantasının temelini hayatta kalmayı sağlayan üç kalem oluşturur: su, bozulmayan gıda ve gerekli ilaçlar. Su miktarı hesaplanırken hem içme hem de temel hijyen ihtiyacı göz önünde bulundurulmalı, şişeler serin, güneş almayan ve kolay erişilebilir bir yerde saklanmalıdır. Bozulmayan gıda seçiminde konserve, kraker, kuru meyve, fındık-fıstık karışımı ve elektriksiz kutu açacağı gibi ek ekipman gerektirmeyen ürünler tercih edilmelidir.",
+          "Elektrik kesintisi kasırga sonrasında günlerce sürebileceğinden aydınlatma ve iletişim ekipmanı da çantanın vazgeçilmez bir parçasıdır. El feneri, yedek piller, tam şarjlı bir powerbank ve pilli ya da el ile şarj edilebilen küçük bir radyo, hem karanlıkta güvenli hareket etmeyi hem de resmi yetkililerin açıklamalarını takip etmeyi mümkün kılar. Reçeteli ilaçların en az birkaç günlük dozu, ilk yardım malzemeleri ve kişisel hijyen ürünleri de bu temel kitin ayrılmaz bir bölümüdür."
+        ],
+        "list": [
+          "Su: kişi başına günlük ihtiyaç hesaplanarak birkaç günlük stok",
+          "Bozulmayan gıda: konserve, kraker, kuru meyve, kutu açacağı",
+          "El feneri, yedek pil, powerbank, pilli/şarjlı radyo",
+          "Reçeteli ve reçetesiz temel ilaçlar, ilk yardım çantası"
+        ]
+      },
+      {
+        "heading": "Elektrik kesintisinde nakit neden çanta içinde bulunmalı?",
+        "body": [
+          "Kasırga sonrasında elektrik kesintileri günler, bazen daha uzun sürebilir ve bu süre boyunca kart okuyucular, ATM'ler ve internet bağlantısına dayanan ödeme sistemleri çalışmayabilir. Marketler, akaryakıt istasyonları ve eczaneler jeneratörle kısmi hizmet verse de kart ile ödeme her zaman mümkün olmayabilir; bu nedenle küçük kupürlerden oluşan nakit bulundurmak pratik bir zorunluluktur.",
+          "Nakit tutarını belirlerken hane büyüklüğü, birkaç günlük yakıt ve temel market ihtiyacı göz önünde bulundurulmalı; kesin bir tutar öngörmek yerine küçük kupürlerden oluşan, kolay taşınabilir bir miktar ayrılmalıdır. Banka kartı ya da kredi kartı yanında bulundurulsa da, jeneratörle çalışan bir kasa dahi bazen sadece nakit kabul edebilir, bu yüzden nakit her zaman yedek plan olarak görülmelidir.",
+          "Nakit ayrıca tahliye sırasında yolda karşılaşılabilecek durumlar için de önemlidir; bazı bölgelerde yakıt istasyonlarında uzun kuyruklar oluşabilir ve kart sistemlerinin devre dışı kaldığı istasyonlarda sadece nakit ödeme kabul edilebilir. Bu nedenle nakdi çanta içinde, kolay erişilebilir ama göz önünde olmayan bir bölmede saklamak önerilir."
+        ]
+      },
+      {
+        "heading": "Önemli belgeler kasırga çantasında nasıl korunmalı?",
+        "body": [
+          "Kimlik, tapu, sigorta poliçeleri, sağlık kayıtları ve reçete bilgileri gibi belgeler su geçirmez bir klasör (waterproof folder) içinde saklanmalı ve bu klasör tahliye anında kolayca kapılabilecek bir yere yerleştirilmelidir. Belgelerin özgün nüshaları kaybolsa ya da ıslansa dahi işlemlerin sürdürülebilmesi için bu adım hayati önemdedir.",
+          "Fiziksel belgelerin yanı sıra bu evrakların dijital kopyalarının da alınması önerilir; taranmış ya da fotoğraflanmış belgeler güvenli bir bulut depolama hesabına veya şifreli bir USB belleğe yüklenebilir. Böylece elektrik kesintisi ya da klasörün hasar görmesi durumunda belgelere internet bağlantısı olan herhangi bir cihazdan ya da yedek bellekten erişmek mümkün olur.",
+          "Belge klasörünün üzerine iletişim bilgileri, kısa bir aile planı ve gerekirse acil durum kişisi bilgisi eklemek, tahliye sırasında kaybolma ya da ayrılma durumunda toparlanmayı kolaylaştırır. Bu klasör evin çıkış noktasına yakın, kolay hatırlanan bir dolapta tutulmalıdır."
+        ],
+        "list": [
+          "Kimlik belgeleri, pasaport, doğum belgesi kopyaları",
+          "Sigorta poliçeleri ve iletişim bilgileri",
+          "Tapu, kira sözleşmesi ve mülk belgeleri",
+          "Reçete listesi ve sağlık sigortası kartı bilgileri"
+        ]
+      },
+      {
+        "heading": "Evcil hayvanlar için çantada ne olmalı?",
+        "body": [
+          "Evcil hayvan sahipleri için ayrı bir mini kit hazırlanmalı; bu kit birkaç günlük mama, taşınabilir su kabı, tasma, ağızlık (gerekiyorsa) ve hayvanın düzenli kullandığı ilaçları içermelidir. Kedi kumu, poşet ve temizlik malzemeleri de kapalı bir torbada bu kite eklenmelidir.",
+          "Aşı kayıtları ve kimlik künyesi gibi belgelerin fotokopisi de belge klasörüne eklenmeli, çünkü bazı geçici barınaklar ya da tahliye merkezleri hayvan kabul ederken bu kayıtları isteyebilir. Hayvanın taşıma kafesi ya da tasması tahliye anında hemen ulaşılabilecek bir yerde tutulmalı, ani bir çıkışta zaman kaybı yaşanmamalıdır.",
+          "Sahiplenilen hayvan sayısı birden fazlaysa her biri için ayrı mama ve su porsiyonu hesaplanmalı, alerjisi ya da özel diyeti olan hayvanlar için ek stok tutulmalıdır. Tahliye edilen bazı geçici barınaklar evcil hayvan kabul etmeyebileceğinden, önceden hayvan kabul eden bir sığınağın olup olmadığı yerel yönetimden öğrenilmelidir."
+        ],
+        "list": [
+          "Birkaç günlük mama ve su",
+          "Tasma, ağızlık, taşıma kafesi",
+          "Aşı kayıtları ve kimlik künyesi fotokopisi",
+          "Düzenli kullanılan ilaçlar"
+        ]
+      },
+      {
+        "heading": "Kasırga çantası kaç günlük ihtiyaca göre hazırlanmalı?",
+        "body": [
+          "Kaç günlük stok hazırlanacağı konusunda kesin bir sayı vermek yerine, Florida Division of Emergency Management ve FEMA gibi resmi kurumların güncel önerilerine bakılmalıdır; bu kurumlar sezon başında ve kasırga yaklaştığında önerilen gün sayısını güncelleyebilir. Genel ilke, elektrik, su ve market erişiminin kesintiye uğradığı bir dönemi karşılayacak kadar stok tutmaktır.",
+          "Bu süre, kasırganın büyüklüğüne, hasarın kapsamına ve bölgedeki altyapının onarım hızına göre değişebilir; bazı bölgelerde elektrik birkaç gün içinde geri gelirken bazı bölgelerde bu süre haftalara uzayabilir. Bu nedenle çantanın içeriği tek seferlik bir alışverişle değil, sezon boyunca düzenli olarak kontrol edilip yenilenen bir sistem olarak düşünülmelidir.",
+          "Sezon başında hazırlanan bir çanta, kasırganın oluşum aşamasında market raflarının hızla boşalması riskini de ortadan kaldırır. İlaçların son kullanma tarihleri, powerbank'ların şarj durumu ve su şişelerinin tazeliği düzenli aralıklarla kontrol edilmeli, gerekirse yenilenmelidir."
+        ],
+        "list": [
+          "Resmi kaynaklardan (FEMA, Florida Division of Emergency Management) güncel gün sayısı önerisi",
+          "Sezonluk stok kontrolü ve son kullanma tarihi takibi"
+        ]
+      },
+      {
+        "heading": "Tahliye kararı nasıl alınır, herkes aynı anda mı tahliye eder?",
+        "body": [
+          "Hayır, tahliye kararı eyalet çapında tek bir emirle değil, ilçe (county) bazında ve genellikle kasırganın beklenen rotası, sel riski ve kıyı yakınlığına göre belirlenen tahliye bölgeleri (evacuation zones) üzerinden verilir. Bir ilçedeki A bölgesi tahliye emri alırken, aynı ilçenin iç kesimlerdeki bölgeleri bu emirden etkilenmeyebilir.",
+          "Bu nedenle kasırga çantası hazırlığı yapan herkesin kendi ilçesinin tahliye bölge haritasını ve evinin bu haritadaki konumunu önceden öğrenmesi önemlidir; bu bilgi genellikle ilçenin acil durum yönetimi (emergency management) biriminin sitesinde yayınlanır. Yaşanılan bölge zorunlu tahliye kapsamına girmese dahi, çantanın hazır olması ani bir karar değişikliğinde zaman kazandırır.",
+          "Zorunlu ve isteğe bağlı tahliye emirleri arasındaki fark da önemlidir; isteğe bağlı emirlerde kalmak yasal olarak mümkün olsa da, altyapı hizmetlerinin (elektrik, su, sağlık) kesintiye uğrama olasılığı yüksektir. Güncel tahliye bölgesi bilgisi ve emir durumu için ilçenin resmi acil durum yönetimi kanallarının takip edilmesi, doğru ve zamanında karar vermeyi sağlar."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kasırga çantası her yıl mı yenilenmeli?",
+        "a": "Evet, çanta içeriği her sezon başında kontrol edilmeli; su ve gıdanın son kullanma tarihleri, ilaçların geçerliliği ve powerbank'ların şarj kapasitesi zamanla bozulabilir. Ailedeki değişiklikler (yeni bebek, farklı ilaç kullanımı, evcil hayvan sayısı) de listeye yansıtılmalıdır."
+      },
+      {
+        "q": "Kart ile ödeme yapılamıyorsa ne kadar nakit taşınmalı?",
+        "a": "Kesin bir tutar söylemek yanıltıcı olur; hane büyüklüğü, birkaç günlük yakıt ve temel market ihtiyacına göre küçük kupürlerden oluşan, taşınması kolay bir miktar ayırmak yeterlidir. Önemli olan, elektrik kesintisinde kart sistemlerinin çalışmayabileceğini öngörüp yedek bir ödeme yolu bulundurmaktır."
+      },
+      {
+        "q": "Belgelerin dijital kopyası nasıl saklanmalı?",
+        "a": "Kimlik, tapu, sigorta poliçesi ve sağlık kayıtları taranıp güvenli bir bulut depolama hesabına ya da şifreli bir USB belleğe yüklenmelidir. Bu, fiziksel belge klasörü kaybolsa ya da hasar görse dahi belgelere erişimi mümkün kılar."
+      },
+      {
+        "q": "Evcil hayvan barınakları her zaman hayvan kabul eder mi?",
+        "a": "Hayır, bazı geçici tahliye barınakları evcil hayvan kabul etmeyebilir; bu nedenle önceden ilçenin acil durum yönetimi biriminden hayvan kabul eden sığınakların listesi öğrenilmeli ve aşı kayıtlarının fotokopisi hazır bulundurulmalıdır."
+      },
+      {
+        "q": "Tahliye bölgesi bilgisi nereden öğrenilir?",
+        "a": "Her ilçenin kendi tahliye bölge haritası ve emir durumu, ilçenin resmi acil durum yönetimi (emergency management) biriminin internet sitesinde yayınlanır; ev adresinin hangi bölgede olduğunu sezon başında bu kaynaktan doğrulamak gerekir."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
