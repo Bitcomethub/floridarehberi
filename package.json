@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "prebuild": "node scripts/palette-guard.mjs",
+    "prebuild": "node scripts/palette-guard.mjs && node scripts/check-image-places.mjs",
     "start": "next start",
     "lint": "eslint",
     "palette:check": "node scripts/palette-guard.mjs",
     "palette:test": "node scripts/palette-guard.mjs --self-test",
     "palette:render": "node --experimental-websocket scripts/check-render-palette.mjs",
+    "images:check": "node scripts/check-image-places.mjs",
+    "images:test": "node scripts/check-image-places.mjs --self-test",
     "blog:generate": "node scripts/generate-blog-post.mjs",
     "blog:dry": "node scripts/generate-blog-post.mjs --mock --dry-run",
     "blog:test": "node scripts/generate-blog-post.mjs --self-test"

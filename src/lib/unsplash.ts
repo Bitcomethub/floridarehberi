@@ -17,7 +17,7 @@
  */
 
 /** Unsplash'te kayıtlı uygulama adı. Değiştirilirse atıf bağlantıları kırılır. */
-export const UNSPLASH_APP = 'florida_rehberi';
+export const UNSPLASH_APP = 'floridarehberi';
 
 export const UNSPLASH_LICENSE_URL = 'https://unsplash.com/license';
 

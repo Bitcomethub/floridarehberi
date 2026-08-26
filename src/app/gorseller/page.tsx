@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { GUIDES } from '@/content/guides';
-import { ALL_IMAGES } from '@/content/images';
+import { ALL_IMAGES, ogImage } from '@/content/images';
 import { ALL_POSTS } from '@/lib/blogData';
 import { breadcrumbSchema, graph } from '@/lib/schema';
 import {
@@ -38,7 +38,9 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     locale: SITE.locale,
     siteName: SITE.name,
+    images: ogImage('anasayfa'),
   },
+  twitter: { card: 'summary_large_image', images: ogImage('anasayfa') },
 };
 
 /**
@@ -102,6 +104,12 @@ export default function GorsellerPage() {
               sayfa o künyelerin yerine geçmez, tek listede toplanmış
               hâlidir.
             </p>
+            <p>
+              Bir fotoğraf tanımlı bir yeri gösteriyorsa o yer Florida’dır ve
+              aşağıda yazılıdır. Geri kalanlar belge, kart ya da cihaz gibi
+              belirli bir yeri göstermeyen nesne çekimleridir — bunlar
+              hiçbir yer iddiası taşımaz.
+            </p>
           </div>
         </div>
       </header>
@@ -139,8 +147,21 @@ export default function GorsellerPage() {
                     {image.alt}
                   </p>
 
+                  {/* Yer iddiası açıkça yazılır: okur fotoğrafın gerçek bir
+                      Florida yerini mi yoksa yersiz bir nesne çekimini mi
+                      gördüğünü buradan doğrulayabilir. */}
+                  <p className="mt-1.5 text-[0.8125rem] text-mute">
+                    {image.place ? (
+                      <>
+                        Çekim yeri: <span className="text-ink-soft">{image.place}</span>
+                      </>
+                    ) : (
+                      'Nesne çekimi — belirli bir yeri göstermiyor.'
+                    )}
+                  </p>
+
                   <p className="mt-2 text-[0.8125rem] text-mute">
-                    Foto:{' '}
+                    Fotoğraf:{' '}
                     <a
                       href={photographerUrl(image.username)}
                       rel="noopener"
@@ -148,7 +169,7 @@ export default function GorsellerPage() {
                     >
                       {image.photographer}
                     </a>{' '}
-                    /{' '}
+                    <span aria-hidden="true">·</span>{' '}
                     <a
                       href={photoUrl(image.photoId)}
                       rel="noopener"

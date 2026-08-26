@@ -4,6 +4,7 @@ import './globals.css';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { Analytics } from '@/components/Analytics';
+import { ogImage } from '@/content/images';
 import { SITE, PUBLISHER } from '@/lib/site';
 import { graph, organizationSchema, websiteSchema } from '@/lib/schema';
 
@@ -40,8 +41,9 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: 'Florida Rehberi — Türkler için Florida’da yaşam el kitabı',
     description: SITE.description,
+    images: ogImage('anasayfa'),
   },
-  twitter: { card: 'summary_large_image' },
+  twitter: { card: 'summary_large_image', images: ogImage('anasayfa') },
   robots: { index: true, follow: true },
 };
 

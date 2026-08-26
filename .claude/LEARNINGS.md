@@ -112,3 +112,15 @@ kalabilir; o da her yola 200 + `text/html` döner ve "varlıklar sağlam"
 yanılsaması üretir (yaşandı: `.webp` isteğine `<title>Vetto</title>` döndü).
 Portu `net.createServer()` ile çekirdekten iste ve yanıtın
 `content-type`'ının beklenen tür olduğunu ayrıca doğrula.
+
+**Stok fotoğraf TANIMLI bir yer gösteriyorsa, o yer konunun yeri olmak
+zorunda.** "Temsilî" demek okuru yanıltmayı önlemez — okur fotoğrafa bakar,
+alt metni okumaz. Kardeş projede hastane tabelası «Chinook Regional
+Hospital, Lethbridge, Alberta», cami Abu Dabi çıktı; burada da
+«SPRINGBANK MEDICAL CENTRE» (Londra, Ontario) seçilmişti. Kural artık
+çalıştırılabilir: `ContentImage.place` `string | null` (isteğe bağlı DEĞİL,
+"yer iddiası var mı" sorusuna açık cevap zorunlu) + `npm run images:check`
+prebuild'de. Ayrıca arama yanıtı `location` alanını TAŞIMAZ — açıklamada yer
+adı geçmemesi yerin belirsiz olduğu anlamına gelmez; `GET /photos/:id`
+(`--verify`) ile bakılır. Süreç/belge konularında NESNE çekimi seç: bir
+sigorta evrakı hangi ülkede çekilirse çekilsin aynı görünür.

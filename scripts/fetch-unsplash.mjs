@@ -62,8 +62,8 @@ const QUALITY = 76;
 // Genel "Florida beach" ile doldurma YOK — `reason` her seçimin gerekçesi.
 const MANIFEST = [
   // ── Ana sayfa ──
-  { key: 'anasayfa', kind: 'anasayfa', query: 'Florida coastline palm trees aerial',
-    reason: 'Site eyalet geneli — tek şehre demirlenmez; kıyı + palmiye Florida’yı temsil eder.' },
+  { key: 'anasayfa', kind: 'anasayfa', query: 'Florida skyline',
+    reason: 'Site eyalet geneli. YER İDDİASI TAŞIYAN konu → sorgu Florida’ya demirlendi; seçilen kare Unsplash location alanında Florida göstermek ZORUNDA.' },
 
   // ── Rehberler (şehir geçen: manifest o şehre demirlenir) ──
   { key: 'nerede-yasanir', kind: 'content', query: 'Tampa Florida downtown skyline',
@@ -74,23 +74,23 @@ const MANIFEST = [
     reason: 'Kiralama bölümünde geçen tek şehir Miami (×3).' },
   { key: 'ehliyet', kind: 'content', query: 'Florida highway road palm trees driving',
     reason: 'Şehir geçmiyor; konu sürüş — eyalet yolu görsel karşılığı.' },
-  { key: 'arac-sahibi-olmak', kind: 'content', query: 'car parked street Florida palm trees',
-    reason: 'Şehir geçmiyor; konu araç sahipliği.' },
+  { key: 'arac-sahibi-olmak', kind: 'content', query: 'Florida street parked cars palm trees',
+    reason: 'Sokak sahnesi yer iddiası taşır (palmiyeli cadde Kaliforniya da olabilir) → Florida’ya demirlendi.' },
   { key: 'okul-sistemi', kind: 'content', query: 'yellow school bus',
-    reason: 'Miami-Dade/Broward anılıyor ama konu okul sistemi — okul otobüsü evrensel işaret. (İlk sorgu tek ve alakasız sonuç döndürdü: «yellow truck».)' },
-  { key: 'saglik-sistemi', kind: 'content', query: 'modern hospital building exterior',
-    reason: 'Şehir geçmiyor; konu sağlık sistemi.' },
+    reason: 'İlk seçimin arka planı tepelikti — Florida düpedüz düz, görsel çelişki. Konu SÜREÇ → yer iddiası taşımayan yakın plan otobüs güvenli.' },
+  { key: 'saglik-sistemi', kind: 'content', query: 'health insurance form clipboard stethoscope',
+    reason: 'İlk seçim (Ytcp0r7SIE4) ekranda «SPRINGBANK MEDICAL CENTRE» tabelası taşıyordu — Londra, Ontario; kural gereği kullanılamaz. «Florida hospital» sorgusu da tanımlı Florida hastanesi döndürmedi (Red Cross binaları çıktı, konuyla ilgisiz). Bölüm SİGORTA/sistem anlatıyor → yer iddiası taşımayan NESNE çekimi hem güvenli hem daha yerinde.' },
   { key: 'vergiler', kind: 'content', query: 'florida county courthouse government building',
     reason: 'Miami-Dade anılıyor; vergi/ilçe yönetimi görsel karşılığı adliye/idare binası.' },
   { key: 'banka-ve-kredi', kind: 'content', query: 'credit card payment hand bank',
     reason: 'Şehir geçmiyor; konu banka hesabı ve KREDİ geçmişi — kart/ödeme, bina cephesinden daha somut. (İlk sorgu yalnız jenerik bina cepheleri döndürdü.)' },
-  { key: 'kasirga-sezonu', kind: 'content', query: 'dark storm clouds over ocean palm trees',
-    reason: 'Şehir geçmiyor; konu kasırga — yaklaşan fırtına, felaket görüntüsü DEĞİL. (İlk sorgu 3 sonuç döndürdü, hiçbirinde fırtına yoktu.)' },
+  { key: 'kasirga-sezonu', kind: 'content', query: 'Florida hurricane palm trees storm',
+    reason: 'Konu doğrudan Florida kasırga sezonu → GERÇEK Florida şart. Yaklaşan fırtına; felaket/enkaz görüntüsü DEĞİL.' },
 
   // ── Blog (hiçbirinde şehir geçmiyor → konu bazlı) ──
   { key: 'floridada-elektrik-su-internet-nasil-baglanir', kind: 'content',
-    query: 'electricity meter residential house exterior',
-    reason: 'Şehir geçmiyor; konu abonelik açılışı.' },
+    query: 'electricity meter box wall',
+    reason: 'İlk seçim tipik Florida’ya benzemeyen (koyu ahşap cephe, ılıman bitki) bir evdi. Konu SÜREÇ/abonelik → yer iddiası taşımayan NESNE çekimi güvenli.' },
   { key: 'floridada-arac-muayenesi-var-mi', kind: 'content',
     query: 'car mechanic garage vehicle inspection',
     reason: 'Şehir geçmiyor; konu araç muayenesi.' },
@@ -101,8 +101,8 @@ const MANIFEST = [
     query: 'signing lease contract document house keys',
     reason: 'Şehir geçmiyor; konu kira sözleşmesi.' },
   { key: 'florida-hoa-aidati-nedir-ne-icerir', kind: 'content',
-    query: 'florida gated community houses aerial neighborhood',
-    reason: 'Şehir geçmiyor; HOA’nın görsel karşılığı planlı site/mahalle.' },
+    query: 'Florida gated community aerial homes',
+    reason: 'Mahalle sahnesi yer iddiası taşır → Florida’ya demirlendi. (İlk Florida sorgusu tek ve alakasız sonuç döndürdü.)' },
   { key: 'florida-ehliyet-yazili-sinavina-nasil-hazirlanilir', kind: 'content',
     query: 'student studying notes desk exam preparation',
     reason: 'Şehir geçmiyor; konu YAZILI sınav hazırlığı (yol değil, masa başı).' },
@@ -113,8 +113,8 @@ const MANIFEST = [
     query: 'documents forms paperwork desk',
     reason: 'Şehir geçmiyor; konu kayıt BELGELERİ. (İlk sorgu SIFIR sonuç döndürdü.)' },
   { key: 'amerikada-acil-servise-gitmeden-once-bilinmesi-gerekenler', kind: 'content',
-    query: 'hospital emergency room entrance sign',
-    reason: 'Şehir geçmiyor; konu acil servis.' },
+    query: 'Florida hospital emergency entrance',
+    reason: 'Yazı ABD geneli («Amerika’da acil servis») ama ilk seçimin (Exh5m8sgCBQ) kayıtlı yeri Rome, Georgia çıktı — karede tanımlayıcı bir ad görünmüyor, yine de kardeş projedeki «Chinook Regional Hospital, Alberta» vakasıyla aynı şekil. Önce Florida denenir.' },
 ];
 
 // ── Anahtar ───────────────────────────────────────────────────────────────
@@ -222,12 +222,14 @@ async function fetchPicked() {
     const out = await sharp(bin).webp({ quality: QUALITY }).toBuffer();
     fs.writeFileSync(file, out);
     const dim = await sharp(out).metadata();
+    const blurDataURL = await makeBlur(sharp, out);
 
     meta[item.key] = {
       file: `/gorseller/${item.key}.webp`,
       width: dim.width,
       height: dim.height,
       bytes: out.length,
+      blurDataURL,
       photoId: photo.id,
       photographer: photo.user.name,
       username: photo.user.username,
@@ -244,9 +246,59 @@ async function fetchPicked() {
   log(`bitti — ${spent} istek harcandı. Meta: ${path.relative(ROOT, META)}`);
 }
 
-if (args.includes('--search')) await search();
+/**
+ * Bulanık önizleme: 16px genişliğinde WebP, base64 data URL.
+ * next/image `placeholder="blur"` bunu CSS zemin olarak büyütüp bulanıklaştırır;
+ * ~300–600 bayt, HTML'e gömülüyor, ayrı istek yok.
+ */
+async function makeBlur(sharp, buf) {
+  const tiny = await sharp(buf).resize(16, null, { fit: 'inside' }).webp({ quality: 45 }).toBuffer();
+  return `data:image/webp;base64,${tiny.toString('base64')}`;
+}
+
+/** İnmiş dosyalardan blur'ları yeniden üretir — API çağrısı YOK. */
+async function blurOnly() {
+  const sharp = (await import('sharp')).default;
+  const meta = JSON.parse(fs.readFileSync(META, 'utf8'));
+  for (const [key, m] of Object.entries(meta)) {
+    const file = path.join(ROOT, 'public', m.file.replace(/^\//, ''));
+    if (!fs.existsSync(file)) { log(`⊘ ${key} — dosya yok`); continue; }
+    m.blurDataURL = await makeBlur(sharp, fs.readFileSync(file));
+    log(`✓ ${key.padEnd(50)} blur ${String(m.blurDataURL.length).padStart(4)} bayt`);
+  }
+  fs.writeFileSync(META, JSON.stringify(meta, null, 2));
+  log('blur üretimi bitti — API çağrısı yapılmadı');
+}
+
+/**
+ * Seçilen fotoğrafın Unsplash'teki KAYITLI YERİNİ okur (`GET /photos/:id`).
+ *
+ * NEDEN GEREKLİ: arama yanıtı `location` alanını TAŞIMAZ. Bir fotoğrafın
+ * açıklaması yer adı içermiyor diye yerinin belirsiz olduğu sonucu çıkmaz —
+ * kayıtlı yeri Florida dışı olabilir. Yer iddiası taşıyan konularda
+ * (şehir/manzara/mahalle) bu doğrulama atlanmaz.
+ */
+async function verifyLocations() {
+  const picks = JSON.parse(fs.readFileSync(PICKS, 'utf8'));
+  const meta = fs.existsSync(META) ? JSON.parse(fs.readFileSync(META, 'utf8')) : {};
+  for (const key of Object.keys(picks)) {
+    if (key === '_') continue;
+    if (ONLY && key !== ONLY) continue;
+    const { json, remaining } = await api(`https://api.unsplash.com/photos/${picks[key].id}`);
+    const loc = json.location || {};
+    const where = [loc.name, loc.city, loc.country].filter(Boolean).join(' · ') || '(kayıtlı yer yok)';
+    const fl = /florida|,\s*FL\b|miami|orlando|tampa|jacksonville|tallahassee|naples/i.test(where);
+    if (meta[key]) { meta[key].location = where; meta[key].locationIsFlorida = fl; }
+    log(`${fl ? 'FL ' : '?? '}${key.padEnd(50)} ${where}   (kota: ${remaining})`);
+  }
+  fs.writeFileSync(META, JSON.stringify(meta, null, 2));
+}
+
+if (args.includes('--verify')) await verifyLocations();
+else if (args.includes('--blur')) await blurOnly();
+else if (args.includes('--search')) await search();
 else if (args.includes('--fetch')) await fetchPicked();
 else {
-  console.log('Kullanım: --search  |  --fetch   [--only=<anahtar>]');
+  console.log('Kullanım: --search | --fetch | --blur | --verify   [--only=<anahtar>]');
   process.exit(1);
 }

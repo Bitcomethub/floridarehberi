@@ -5,7 +5,7 @@ import { ContentImage } from '@/components/ContentImage';
 import { ContentSections } from '@/components/ContentSections';
 import { FaqList } from '@/components/FaqList';
 import { GUIDE_SLUGS, getGuide, relatedGuides } from '@/content/guides';
-import { getImage } from '@/content/images';
+import { getImage, ogImage } from '@/content/images';
 import { formatDate } from '@/lib/format';
 import {
   breadcrumbSchema,
@@ -51,7 +51,9 @@ export async function generateMetadata({
       locale: SITE.locale,
       siteName: SITE.name,
       modifiedTime: guide.updated,
+      images: ogImage(guide.slug),
     },
+    twitter: { card: 'summary_large_image', images: ogImage(guide.slug) },
   };
 }
 

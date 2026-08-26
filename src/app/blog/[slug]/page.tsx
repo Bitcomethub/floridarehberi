@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { ContentImage } from '@/components/ContentImage';
 import { ContentSections } from '@/components/ContentSections';
 import { FaqList } from '@/components/FaqList';
-import { getImage } from '@/content/images';
+import { getImage, ogImage } from '@/content/images';
 import { ALL_POSTS, getPost } from '@/lib/blogData';
 import { formatDate } from '@/lib/format';
 import {
@@ -52,7 +52,9 @@ export async function generateMetadata({
       siteName: SITE.name,
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
+      images: ogImage(post.slug),
     },
+    twitter: { card: 'summary_large_image', images: ogImage(post.slug) },
   };
 }
 

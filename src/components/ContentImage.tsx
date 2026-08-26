@@ -40,6 +40,8 @@ export function ContentImage({
           fill
           sizes={sizes}
           priority={priority}
+          placeholder="blur"
+          blurDataURL={image.blurDataURL}
           className="object-cover"
         />
       </div>
@@ -47,7 +49,7 @@ export function ContentImage({
       {/* Lisans künyesi. Unsplash fotoğrafçı adının VE Unsplash'in linkli
           olmasını şart koşar; ikisi de UTM taşır (lib/unsplash.ts). */}
       <figcaption className="mt-2.5 text-[0.8125rem] leading-relaxed text-mute">
-        Foto:{' '}
+        Fotoğraf:{' '}
         <a
           href={photographerUrl(image.username)}
           rel="noopener"
@@ -55,7 +57,7 @@ export function ContentImage({
         >
           {image.photographer}
         </a>{' '}
-        /{' '}
+        <span aria-hidden="true">·</span>{' '}
         <a
           href={photoUrl(image.photoId)}
           rel="noopener"
