@@ -95,3 +95,20 @@ kaldığını kontrol et.
 **Yayınlanmamış içerik = var olmayan URL.** `generateStaticParams()` süzülmüş
 listeyi okur + `dynamicParams = false`. Koşullu gizleme (sayfa var ama boş)
 yerine yapısal yokluk tercih edilir.
+
+**Kapının yeşil yanması, o şeyi ÖLÇTÜĞÜ anlamına gelmez.** Krem/bej render
+kapısı yalnız `backgroundColor`/`backgroundImage` örnekler; bir `<img>`
+içindeki kum bej'ini HİÇ görmez ve sahte yeşil verir. Bu yüzden fotoğraf
+yasağı render'da değil SEÇİM anında uygulanıyor: indirme aracı Unsplash'in
+baskın rengini kapının kendi `isWarmNeutral()` bandından geçiriyor. Yeni bir
+içerik türü (video, SVG, gömülü iframe) eklerken önce kapının ne
+örneklediğini oku; ölçmediği bir alan varsa yasağı zincirin daha erkeninde
+uygula. Fotoğraf bu nedenle `<img>` olmak zorunda — CSS `background-image`
+hem alt metni öldürür hem kapıya çözülemeyen `url(...)` sokar.
+
+**Yerel doğrulamada sabit port kullanma; HTTP 200 kimlik değildir.** `-p 4399`
+ile açılan sunucu sessizce ölüp port başka bir projenin dev sunucusunda
+kalabilir; o da her yola 200 + `text/html` döner ve "varlıklar sağlam"
+yanılsaması üretir (yaşandı: `.webp` isteğine `<title>Vetto</title>` döndü).
+Portu `net.createServer()` ile çekirdekten iste ve yanıtın
+`content-type`'ının beklenen tür olduğunu ayrıca doğrula.
