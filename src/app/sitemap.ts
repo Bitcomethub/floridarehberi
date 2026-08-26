@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: abs('/'), lastModified: latest, changeFrequency: 'weekly', priority: 1 },
     { url: abs('/hakkinda'), lastModified: latest, changeFrequency: 'yearly', priority: 0.4 },
     { url: abs('/blog'), lastModified: ALL_POSTS[0]?.publishedAt ?? latest, changeFrequency: 'daily', priority: 0.7 },
+    { url: abs('/gorseller'), lastModified: latest, changeFrequency: 'yearly', priority: 0.2 },
   ];
 
   const guidePages: MetadataRoute.Sitemap = GUIDES.map((guide) => ({

@@ -40,3 +40,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# görsel aracının geçici önbelleği — kalıcı kayıt scripts/image-picks.json
+scripts/.unsplash-candidates.json
+scripts/.unsplash-meta.json

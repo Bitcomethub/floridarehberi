@@ -1,5 +1,7 @@
 import Link from 'next/link';
+import { ContentImage } from '@/components/ContentImage';
 import { GUIDES } from '@/content/guides';
+import { getImage } from '@/content/images';
 import { getRecentPosts } from '@/lib/blogData';
 import { formatDate } from '@/lib/format';
 import { SITE } from '@/lib/site';
@@ -7,6 +9,7 @@ import { SITE } from '@/lib/site';
 export const dynamic = 'force-static';
 
 const recentPosts = getRecentPosts(3);
+const heroImage = getImage('anasayfa');
 
 export default function HomePage() {
   return (
@@ -56,6 +59,21 @@ export default function HomePage() {
             </p>
           </aside>
         </div>
+
+        {/* Açılış bandı — H1'in ALTINDA. Üstünde olsaydı sayfanın ilk
+            ekranı fotoğrafla açılır ve "el kitabı" değil dergi olurdu. */}
+        {heroImage ? (
+          <div
+            className="swell"
+            style={{ '--i': 3 } as React.CSSProperties}
+          >
+            <ContentImage
+              image={heroImage}
+              priority
+              sizes="(min-width: 1200px) 1120px, (min-width: 640px) calc(100vw - 4rem), calc(100vw - 2.5rem)"
+            />
+          </div>
+        ) : null}
       </section>
 
       {/* ── El kitabı dizini. Kart ızgarası DEĞİL: numaralı bölüm listesi.

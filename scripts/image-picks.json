@@ -1,0 +1,26 @@
+{
+  "_": "Hangi fotoğrafın neden seçildiğinin kaydı. Görsel değiştirilirse burası da güncellenir. 'id' Unsplash foto kimliği; adaylar scripts/.unsplash-candidates.json içinde.",
+
+  "anasayfa": { "id": "6nxZiyU4AyU", "not": "Palmiyeli kıyı, açık mavi gökyüzü. Tek şehre demirlenmiyor — site eyalet geneli. Miami manzarası bilerek seçilmedi (kardeş yayın orayı tutuyor)." },
+
+  "nerede-yasanir": { "id": "VyyNcb4plSM", "not": "Downtown Tampa hava fotoğrafı. Metinde Tampa ×10 ile Jacksonville ×10 başı çekiyor; Tampa'nın silueti tanınabilir." },
+  "yasam-maliyeti": { "id": "Tyn3-Cljx-A", "not": "Orlando Lake Eola Park. Metinde Orlando ×10 ile en çok geçen şehir." },
+  "ev-kiralamak": { "id": "fNNlAxGMVMw", "not": "Little Havana, Miami — konut dokusu. Bölümde geçen tek şehir Miami. Lüks gökdelen yerine sıradan mahalle: konu kiralamak, yatırım değil." },
+  "ehliyet": { "id": "zh9LAc3vynE", "not": "Venetian Islands, Miami — palmiyeli cadde. Konu sürüş; yol sahnesi." },
+  "arac-sahibi-olmak": { "id": "QNGMeba_PLk", "not": "Park hâlinde araçlar ve palmiyeler. Ehliyet bölümünden ayrışsın diye 'yol' değil 'park edilmiş araç' seçildi — konu sahiplik/kayıt." },
+  "okul-sistemi": { "id": "IGfYkjawPAc", "not": "Sarı okul otobüsü. Miami-Dade/Broward anılıyor ama konu eyalet geneli okul sistemi; otobüs evrensel işaret." },
+  "saglik-sistemi": { "id": "Ytcp0r7SIE4", "not": "Cam cepheli modern sağlık merkezi. Şehir geçmiyor." },
+  "vergiler": { "id": "Cidfg4k5NxM", "not": "Tallahassee'deki eski eyalet meclis binası — Florida'nın kendi vergi mevzuatının kaynağı. Jenerik 'para' görselinden çok daha yerinde." },
+  "banka-ve-kredi": { "id": "3YSDTzqnVtQ", "not": "Ödeme terminalinde kredi kartı. Bölüm kredi GEÇMİŞİ kurmayı anlatıyor; banka binası cephesi bunu anlatmıyordu. Marka görünen kareler elendi." },
+  "kasirga-sezonu": { "id": "EEAdIxllp-0", "not": "Bulutlu gökyüzü altında palmiye siluetleri. Yaklaşan hava; enkaz/felaket görüntüsü BİLEREK seçilmedi — bölüm hazırlık anlatıyor, korku değil. Tayland'daki kare (Koh Samui) elendi." },
+
+  "floridada-elektrik-su-internet-nasil-baglanir": { "id": "VZJ1BnsMTb4", "not": "Müstakil ev ve bahçe yolu — aboneliklerin açıldığı yer." },
+  "floridada-arac-muayenesi-var-mi": { "id": "C4dFQqNVt8g", "not": "Özel araç tamirhanesi. Yazı Florida'da yıllık muayene OLMADIĞINI anlatıyor; servis bağlamı doğru." },
+  "floridada-yaz-elektrik-faturasi-neden-yuksek": { "id": "JBw9IlbHhVY", "not": "Dış ünite (kondenser) — yaz faturasının doğrudan kaynağı." },
+  "florida-kira-sozlesmesinde-nelere-dikkat-edilir": { "id": "wNxbeoNUg_4", "not": "Masada sözleşme imzalayan çift." },
+  "florida-hoa-aidati-nedir-ne-icerir": { "id": "4T4AcGJvARQ", "not": "Palmiyeli, bakımlı banliyö sokağı — HOA'nın görsel karşılığı tam olarak bu." },
+  "florida-ehliyet-yazili-sinavina-nasil-hazirlanilir": { "id": "AZrBFoXP_3I", "not": "Masa başı çalışma. Ehliyet rehberindeki yol sahnesinden ayrışıyor: bu yazı YAZILI sınav hazırlığı." },
+  "florida-arac-sigortasi-nasil-secilir": { "id": "oY-Mo5hh3r4", "not": "Naples, Florida'da bir otoparkın drone görüntüsü — Florida'da çekilmiş olması tercih sebebi." },
+  "florida-devlet-okuluna-kayit-icin-gereken-belgeler": { "id": "nCk22aqZjlM", "not": "Masada evraklar. Yazı belgelerin listesini veriyor." },
+  "amerikada-acil-servise-gitmeden-once-bilinmesi-gerekenler": { "id": "Exh5m8sgCBQ", "not": "Bina üzerindeki travma merkezi tabelası. Sağlık rehberindeki bina cephesinden ayrışsın diye tabela seçildi." }
+}

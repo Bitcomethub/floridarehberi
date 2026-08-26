@@ -58,6 +58,14 @@ export function SiteFooter() {
                   Hakkında
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/gorseller"
+                  className="text-small text-ink-soft no-underline transition-colors hover:text-palm-deep"
+                >
+                  Görsel kaynakları
+                </Link>
+              </li>
             </ul>
 
             <p className="mt-7 text-small text-mute">
