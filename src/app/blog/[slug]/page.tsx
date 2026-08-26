@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { ContentImage } from '@/components/ContentImage';
 import { ContentSections } from '@/components/ContentSections';
 import { FaqList } from '@/components/FaqList';
+import { getImage, ogImage } from '@/content/images';
 import { ALL_POSTS, getPost } from '@/lib/blogData';
 import { formatDate } from '@/lib/format';
 import {
@@ -50,7 +52,9 @@ export async function generateMetadata({
       siteName: SITE.name,
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
+      images: ogImage(post.slug),
     },
+    twitter: { card: 'summary_large_image', images: ogImage(post.slug) },
   };
 }
 
@@ -65,6 +69,9 @@ export default async function BlogPostPage({
 
   const url = abs(`/blog/${post.slug}`);
   const others = ALL_POSTS.filter((p) => p.slug !== post.slug).slice(0, 3);
+  // Görselsiz yazı normaldir: günlük hattın ürettiği yazıların küratörlük
+  // yapılmış görseli olmaz. Bant o zaman hiç render edilmez.
+  const image = getImage(post.slug);
 
   const jsonLd = graph([
     blogPostingSchema(post),
@@ -115,6 +122,16 @@ export default async function BlogPostPage({
             ) : null}
           </p>
         </div>
+
+        {image ? (
+          <div className="max-w-[46rem]">
+            <ContentImage
+              image={image}
+              priority
+              sizes="(min-width: 800px) 736px, calc(100vw - 2.5rem)"
+            />
+          </div>
+        ) : null}
       </header>
 
       <div className="mx-auto max-w-page px-5 pb-band sm:px-8">

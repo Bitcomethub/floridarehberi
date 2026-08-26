@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { ContentImage } from '@/components/ContentImage';
 import { ContentSections } from '@/components/ContentSections';
 import { FaqList } from '@/components/FaqList';
 import { GUIDE_SLUGS, getGuide, relatedGuides } from '@/content/guides';
+import { getImage, ogImage } from '@/content/images';
 import { formatDate } from '@/lib/format';
 import {
   breadcrumbSchema,
@@ -49,7 +51,9 @@ export async function generateMetadata({
       locale: SITE.locale,
       siteName: SITE.name,
       modifiedTime: guide.updated,
+      images: ogImage(guide.slug),
     },
+    twitter: { card: 'summary_large_image', images: ogImage(guide.slug) },
   };
 }
 
@@ -64,6 +68,7 @@ export default async function GuidePage({
 
   const url = abs(`/${guide.slug}`);
   const related = relatedGuides(guide);
+  const image = getImage(guide.slug);
 
   const jsonLd = graph([
     guideArticleSchema(guide),
@@ -108,6 +113,16 @@ export default async function GuidePage({
             </p>
           </div>
         </div>
+
+        {/* Görsel bandı başlıktan SONRA: tipografik giriş (bölüm numarası +
+            başlık) sayfanın kimliği, fotoğraf onu çerçeveler — değiştirmez. */}
+        {image ? (
+          <ContentImage
+            image={image}
+            priority
+            sizes="(min-width: 1200px) 1120px, (min-width: 640px) calc(100vw - 4rem), calc(100vw - 2.5rem)"
+          />
+        ) : null}
       </header>
 
       <div className="mx-auto max-w-page px-5 pb-band sm:px-8">

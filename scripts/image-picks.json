@@ -1,0 +1,103 @@
+{
+  "_": "Hangi fotoğrafın neden seçildiğinin kaydı. 'place' = fotoğrafın gösterdiği TANIMLI yer (Unsplash açıklaması/konumundan birebir); null = yer iddiası taşımayan nesne/süreç çekimi. Dolu olan her 'place' Florida olmak ZORUNDA — npm run images:check uygular.",
+  "anasayfa": {
+    "id": "kqpkGXju6po",
+    "not": "Havadan Miami South Beach — Unsplash açıklamasında açıkça Florida. Önceki seçim (6nxZiyU4AyU) yalnız «palm trees line the waterfront» diyordu: yer doğrulanamıyordu, ana sayfa YER İDDİASI TAŞIYAN bir yüzey.",
+    "place": "Miami, FL, USA"
+  },
+  "nerede-yasanir": {
+    "id": "VyyNcb4plSM",
+    "not": "Downtown Tampa hava fotoğrafı. Metinde Tampa ×10 ile Jacksonville ×10 başı çekiyor; Tampa'nın silueti tanınabilir.",
+    "place": "Tampa, FL, USA"
+  },
+  "yasam-maliyeti": {
+    "id": "Tyn3-Cljx-A",
+    "not": "Orlando Lake Eola Park. Metinde Orlando ×10 ile en çok geçen şehir.",
+    "place": "Lake Eola, Orlando, FL, USA"
+  },
+  "ev-kiralamak": {
+    "id": "fNNlAxGMVMw",
+    "not": "Little Havana, Miami — konut dokusu. Bölümde geçen tek şehir Miami. Lüks gökdelen yerine sıradan mahalle: konu kiralamak, yatırım değil.",
+    "place": "Little Havana, Miami, FL, USA"
+  },
+  "ehliyet": {
+    "id": "zh9LAc3vynE",
+    "not": "Venetian Islands, Miami — palmiyeli cadde. Konu sürüş; yol sahnesi.",
+    "place": "Venetian Islands, Miami Beach, FL, USA"
+  },
+  "arac-sahibi-olmak": {
+    "id": "kKynV_4hbto",
+    "not": "Key West, Florida sokağı — açıklamada açıkça Florida. Önceki seçim (QNGMeba_PLk) yer belirtmiyordu. Ehliyet bölümü Miami sokağı kullandığı için farklı bir Florida şehri seçildi.",
+    "place": "Key West, Florida, USA"
+  },
+  "okul-sistemi": {
+    "id": "apP7443MXIQ",
+    "not": "Sarı okul otobüsünün ön camı — yakın plan NESNE çekimi, yer iddiası yok. Önceki seçim (IGfYkjawPAc) tepelik bir arazide çekilmişti; Florida düpedüz düz, görsel çelişki yaratıyordu.",
+    "place": null
+  },
+  "saglik-sistemi": {
+    "id": "Mmx6dI3PVtM",
+    "not": "Sağlık kartı + steteskop — NESNE çekimi, yer iddiası yok. Önceki seçim ekranda «SPRINGBANK MEDICAL CENTRE» (Londra, Ontario) tabelası taşıyordu; kural gereği elendi. «Florida hospital» sorgusu tanımlı bir Florida hastanesi döndürmedi. Bölüm sigortayı anlatıyor, kart görseli konuya bina cephesinden daha yakın.",
+    "place": null
+  },
+  "vergiler": {
+    "id": "Cidfg4k5NxM",
+    "not": "Tallahassee'deki eski eyalet meclis binası — Florida'nın kendi vergi mevzuatının kaynağı. Jenerik 'para' görselinden çok daha yerinde.",
+    "place": "Florida Historic Capitol Museum, South Monroe Street, Tallahassee, FL, USA"
+  },
+  "banka-ve-kredi": {
+    "id": "3YSDTzqnVtQ",
+    "not": "Ödeme terminalinde kredi kartı. Bölüm kredi GEÇMİŞİ kurmayı anlatıyor; banka binası cephesi bunu anlatmıyordu. Marka görünen kareler elendi.",
+    "place": null
+  },
+  "kasirga-sezonu": {
+    "id": "TQe8ClKeA2k",
+    "not": "Captiva Island, Florida — açıklamada açıkça Florida. Önceki seçim (EEAdIxllp-0) yer belirtmiyordu ve kasırga bölümü doğrudan Florida konusu. Palmiye silueti; felaket/enkaz görüntüsü DEĞİL.",
+    "place": "Captiva Island, Florida, USA"
+  },
+  "floridada-elektrik-su-internet-nasil-baglanir": {
+    "id": "PeGyRpDKQy4",
+    "not": "Duvarda sıralı elektrik sayaçları — NESNE çekimi, yer iddiası yok. Önceki seçim (VZJ1BnsMTb4) Florida’ya benzemeyen bir evdi; konu abonelik açılışı olduğu için sayaç zaten daha yerinde.",
+    "place": null
+  },
+  "floridada-arac-muayenesi-var-mi": {
+    "id": "C4dFQqNVt8g",
+    "not": "Özel araç tamirhanesi. Yazı Florida'da yıllık muayene OLMADIĞINI anlatıyor; servis bağlamı doğru.",
+    "place": null
+  },
+  "floridada-yaz-elektrik-faturasi-neden-yuksek": {
+    "id": "JBw9IlbHhVY",
+    "not": "Dış ünite (kondenser) — yaz faturasının doğrudan kaynağı.",
+    "place": null
+  },
+  "florida-kira-sozlesmesinde-nelere-dikkat-edilir": {
+    "id": "wNxbeoNUg_4",
+    "not": "Masada sözleşme imzalayan çift.",
+    "place": null
+  },
+  "florida-hoa-aidati-nedir-ne-icerir": {
+    "id": "jzyAoEn3kx4",
+    "not": "Miami Beach, Florida’daki golf sahaları — açıklamada açıkça Florida. Önceki seçim (4T4AcGJvARQ) görsel olarak daha doğrudan bir HOA mahallesiydi ama --verify KAYITLI YER döndürmedi: palmiye + kiremit çatı Arizona’da da var, Florida olduğu doğrulanamıyordu. HOA aidatı zaten ortak alanları (peyzaj, golf, güvenlik) finanse eder; sahalar konunun tam karşılığı.",
+    "place": "Miami Beach, FL, USA"
+  },
+  "florida-ehliyet-yazili-sinavina-nasil-hazirlanilir": {
+    "id": "AZrBFoXP_3I",
+    "not": "Masa başı çalışma. Ehliyet rehberindeki yol sahnesinden ayrışıyor: bu yazı YAZILI sınav hazırlığı.",
+    "place": null
+  },
+  "florida-arac-sigortasi-nasil-secilir": {
+    "id": "oY-Mo5hh3r4",
+    "not": "Naples, Florida'da bir otoparkın drone görüntüsü — Florida'da çekilmiş olması tercih sebebi.",
+    "place": "Naples, FL, USA"
+  },
+  "florida-devlet-okuluna-kayit-icin-gereken-belgeler": {
+    "id": "nCk22aqZjlM",
+    "not": "Masada evraklar. Yazı belgelerin listesini veriyor.",
+    "place": null
+  },
+  "amerikada-acil-servise-gitmeden-once-bilinmesi-gerekenler": {
+    "id": "Exh5m8sgCBQ",
+    "not": "Bina duvarında kırmızı neon «TRAUMA CENTER» tabelası. --verify kayıtlı yeri «Rome, Georgia, USA» gösterdi. YİNE DE place: null: karede tanımlayıcı hiçbir ad yok (kardeş projedeki «Chinook Regional Hospital» vakasında ad OKUNUYORDU) ve yazının kapsamı zaten ABD geneli — başlığı «Amerika’da acil servis», Florida değil. «Florida hospital emergency entrance» sorgusu tek bir acil servis döndürmedi (Red Cross binaları, Miami Beach Kongre Merkezi ve Belediye Binası çıktı). Florida acil servis karesi bulunursa değiştirilmeli.",
+    "place": null
+  }
+}

@@ -59,6 +59,7 @@ konuşan hanelere yönelik, ticari olmayan bir referans yayını. Yayıncı:
 | Render | Tamamen statik (SSG). Sunucu çalışma zamanı yok. |
 | Hosting | Vercel |
 | İçerik | Kod içinde veri: `src/content/guides/*.ts` + `src/content/blog/` |
+| Görsel | `src/content/images/` kayıt defteri + `public/gorseller/*.webp` (Unsplash) |
 | Ölçüm | GA4, kendi onay kapımızın arkasında (`components/Analytics.tsx`) |
 | Hat | GitHub Actions cron → OpenRouter → kalite kapısı → commit |
 
@@ -152,6 +153,79 @@ bantlarda kullanılan tam da bu.
   gerçek taşmayı gizlemek için bahane değil — 393px'te `scrollWidth ===
   clientWidth` ölçülerek doğrulanır.
 
+## Görseller
+
+Fotoğraflar Unsplash'ten alınır, **WebP'ye çevrilip `public/gorseller/`
+altına commit'lenir**. Site çalışma zamanında Unsplash'e HİÇ istek atmaz;
+`UNSPLASH_ACCESS_KEY` yalnızca `scripts/fetch-unsplash.mjs`'in gördüğü bir
+yerel değişkendir, tarayıcıya girmez.
+
+`src/content/images/index.ts` SSOT'tur; **anahtar = sayfanın slug'ı**
+(ana sayfa için `anasayfa`). Alt metin, ölçüler ve atıf alanları aynı
+nesnededir — `ContentImage` tipi atıf alanlarını ZORUNLU tutar, yani atıfsız
+bir görsel derlenmez.
+
+**Eksik anahtar hata değil, tasarım.** `getImage()` `undefined` döner ve bant
+hiç render edilmez. Günlük hattın ürettiği yeni yazının küratörlüğü yapılmış
+görseli olmaz; ona görsel "bulmaya" çalışmak konuyla ilgisiz stok fotoğraf ya
+da uydurma alt metin üretirdi.
+
+### Lisans — iki ayrı zorunluluk, ikisi de yerine getirilir
+
+1. **Tetikleme ucu:** fotoğraf kullanıldığında `links.download_location`
+   çağrılmak ZORUNDA (Unsplash API Guidelines). Fotoğrafçının indirme sayacı
+   böyle işler; atlamak sessiz ihlaldir, hiçbir hata dönmez.
+   `--fetch` bunu her indirmede çağırır.
+2. **Atıf:** fotoğrafçı adı VE Unsplash, ikisi de linkli ve UTM'li — görselin
+   altındaki künyede (`ContentImage`) ve `/gorseller` sayfasında.
+   `lib/unsplash.ts` tek kaynak; `UNSPLASH_APP` (`floridarehberi`)
+   Unsplash'te KAYITLI uygulama adıdır, uydurulursa atıf geçersizdir.
+   Künye TÜRKÇE: «Fotoğraf: Ad Soyad · Unsplash».
+
+Not: bu akış Unsplash **lisansının** izin verdiği indir-ve-barındır yoludur.
+API Guidelines'ın hotlink tavsiyesi API ile dinamik foto çeken uygulamalar
+içindir; burada 20 fotoğraf elle küratörlük edilip sabitlenmiştir.
+
+### Yer iddiası: gerçek Florida ya da hiç yer yok
+
+**Bir fotoğraf TANIMLI bir yeri gösteriyorsa (şehir silueti, adı okunan bina,
+mahalle) ve o yer Florida DEĞİLSE kullanılmaz.** Alt metni "temsilî" diye
+yumuşatmak bunu çözmez — okur fotoğrafa bakar, alt metni okumaz.
+
+Kardeş projede yaşandı: hastane tabelası «Chinook Regional Hospital,
+Lethbridge, Alberta», cami «Abu Dabi» çıktı. Bu projede de ilk turda
+«SPRINGBANK MEDICAL CENTRE» (Londra, Ontario) seçilip gözle yakalandı —
+gözle yakalamak kapı değildir.
+
+Bu yüzden `ContentImage.place` **isteğe bağlı değil, `string | null`**:
+- `null` → nesne/süreç çekimi (belge, kart, klima dış ünitesi). Bir sigorta
+  evrakı hangi ülkede çekilirse çekilsin aynı görünür, yer iddiası taşımaz.
+  Bu sitenin çoğu konusu süreç/belge temelli olduğu için ÇOĞUNLUK budur.
+- dolu → Florida işareti taşımak ZORUNDA. `npm run images:check` uygular,
+  `prebuild`'e bağlı.
+
+Yer içeren konularda (nerede yaşanır, yaşam maliyeti, kasırga, ana sayfa)
+arama sorgusuna "Florida" ya da şehir adı EKLENİR; jenerik palmiye/sahil
+sorgusu Kaliforniya ya da Karayipler döndürür.
+
+Kapı `--self-test` ile iki yönlü korunur (6 mutasyon yakalanmalı, 6 meşru
+yazım geçmeli) — yeni kural eklerken İKİSİNİ birden ekle.
+
+### Krem/bej: kapı fotoğrafın İÇİNİ göremez
+
+`palette:render` yalnız `backgroundColor`/`backgroundImage` ölçer; bir
+`<img>` içindeki kum bej'i kapıdan görünmez ve kapı SAHTE YEŞİL verir. Yasak
+bu yüzden **seçim anında** uygulanır: `fetch-unsplash.mjs`, Unsplash'in
+döndürdüğü baskın rengi (`color`) palet kapısının KENDİ `isWarmNeutral()`
+fonksiyonundan geçirir ve bej adayları `⚠KREM` ile işaretler.
+
+Bu yüzden fotoğraf **`<img>` olmak zorunda, CSS `background-image` OLAMAZ**:
+zemine konursa hem alt metni olmaz, hem kapıya çözülemeyen bir `url(...)`
+girer.
+
+`scripts/image-picks.json` hangi fotoğrafın neden seçildiğinin kaydıdır —
+görsel değiştirilirse orası da güncellenir.
+
 ## İçerik hattı (günlük blog)
 
 `scripts/generate-blog-post.mjs` → kalite kapısı → `generated-posts.json`.
@@ -180,6 +254,14 @@ npm run palette:render # gerçek render — headless Chrome, boyanmış piksel
 npm run blog:test      # kalite kapısı birim testi (API yok)
 npm run blog:dry       # uçtan uca prova (API yok, dosya yazmaz)
 npm run blog:generate  # gerçek üretim
+
+# Görseller — TEK SEFERLİK, siteyi çalıştırmaz (kota: 50 istek/saat)
+node scripts/fetch-unsplash.mjs --search   # adayları tara + önbelleğe al
+node scripts/fetch-unsplash.mjs --fetch    # seçilenleri indir, WebP'ye çevir
+node scripts/fetch-unsplash.mjs --verify   # seçilenin KAYITLI YERİNİ oku
+node scripts/fetch-unsplash.mjs --blur     # blur önizlemeleri yeniden üret (API yok)
+npm run images:check   # yer iddiası kapısı (prebuild'de otomatik)
+npm run images:test    # yer kapısının birim testi (iki yönlü)
 ```
 
 ## Env

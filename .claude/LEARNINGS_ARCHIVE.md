@@ -6,6 +6,56 @@
 
 ---
 
+## 2026-08-26 — Krem/bej kapısı fotoğrafın İÇİNİ göremiyor, sahte yeşil veriyor
+- **Problem:** Siteye 20 fotoğraf eklenecekti. Florida'nın en tipik stok görseli
+  kumsal; kum düpedüz krem/bej. Kapı (`palette:render`) yeşil yanıyordu ama bu
+  bir kanıt değildi.
+- **Kök neden semptomdan uzakta:** Kapı `getComputedStyle` ile yalnız
+  `backgroundColor` / `backgroundImage` ölçüyor. `<img>` içindeki piksel hiçbir
+  zaman örneklenmiyor. Yani kum rengi bir hero fotoğrafı kapıdan SORUNSUZ geçer;
+  kapı "krem yok" der, ekran krem görünür.
+- **Elenen:** (a) Kapıya `<img>` piksel örneklemesi eklemek → fotoğrafın baskın
+  rengi zaten meşru olabilir (gün batımı, tuğla), kapı yanlış pozitif üretir ve
+  meşru fotoğrafı reddeder. (b) Hiç önlem almayıp "kapı yeşil" demek → kapının
+  ölçmediği bir şeyi ölçtü saymak. (c) Fotoğrafı CSS `background-image` yapmak →
+  kapı görürdü ama alt metin ölür ve kapıya çözülemeyen `url(...)` girer.
+- **Seçilen:** Yasağı RENDER'da değil SEÇİM anında uygula. `fetch-unsplash.mjs`,
+  Unsplash'in her fotoğraf için döndürdüğü baskın renk alanını (`color`) palet
+  kapısının KENDİ `isWarmNeutral()` fonksiyonundan geçiriyor ve aday listesinde
+  `⚠KREM` diye işaretliyor. Kural tek kaynaktan (BAND) geliyor, ikinci bir eşik
+  tanımı yok.
+- **Kanıt:** `--search` çıktısında bej adaylar işaretlendi (`#d9c0a6 ⚠KREM`,
+  `#d9d9c0 ⚠KREM`) ve elendi; seçilen 20 fotoğrafın hiçbiri bantta değil
+  (`.unsplash-meta.json` → `warmNeutral: false` ×20). `palette:render` 24 sayfa
+  exit 0.
+- **Kural:** Bir kapının yeşil yanması, kapının o şeyi ÖLÇTÜĞÜ anlamına gelmez.
+  Yeni bir içerik türü eklerken önce kapının ne örneklediğini oku; ölçmediği bir
+  alan varsa yasağı üretim zincirinin daha erken bir noktasında uygula.
+
+## 2026-08-26 — Sabit portta HTTP 200 alındı, yanıt başka projenin uygulamasıydı
+- **Problem:** Görsellerin servis edildiğini doğrulamak için `next start -p 4399`
+  açılıp `curl` atıldı. Üç varlık da `HTTP 200` döndü — ama üçü de aynı 1359
+  baytlık `text/html`. "200 geldi, varlıklar sağlam" denebilirdi.
+- **Kök neden semptomdan uzakta:** 4399'u başka bir projenin (Vetto) Expo dev
+  sunucusu tutuyordu. Bizim `next start` sessizce ölmüş, `curl` komşu projenin
+  SPA'sına gitmiş, o da her yola kendi `index.html`'ini 200 ile dönmüştü.
+  `/gorseller/anasayfa.webp` bile `<title>Vetto</title>` döndürüyordu.
+- **Elenen:** (a) Yalnız durum koduna bakmak → 200 kimliği kanıtlamıyor.
+  (b) "Hazır mı" yoklamasını `/` 200 mü diye yapmak → komşu sunucu da 200 dönüyor,
+  yoklama ilk denemede "hazır" dedi. (c) Portu öldürüp devam etmek → başka
+  projenin dev sunucusuydu, dokunulmadı.
+- **Seçilen:** Sabit port hiç kullanma. Doğrulama betiği `net.createServer()`
+  ile port 0 açıp çekirdeğin verdiği serbest portu alıyor (repo'nun kendi
+  `check-render-palette.mjs`'i zaten böyle yapıyordu — sabit port o yüzden yoktu).
+  Ayrıca yanıtın `content_type` alanı da yazdırılıyor.
+- **Kanıt:** Serbest portta (61099) aynı üç yol: `image/webp 360916B`,
+  `image/webp 192912B`, `image/jpeg 244465B` — `text/html` yok. `lsof -nP
+  -iTCP:4399` çakışmayı doğruladı (`node 82606 … Vetto`).
+- **Kural:** Yerel doğrulamada sabit port kullanma ve HTTP 200'ü kimlik sanma;
+  portu çekirdekten iste, yanıtın `content-type`/gövdesinin BEKLENEN tür
+  olduğunu ayrıca doğrula.
+
+
 ## 2026-08-22 — "Krem/bej yasak" kuralı 4 aydır yalnız yazılı bir niyetti
 
 **Problem.** Tasarım sistemi krem/bej'i yasaklıyor (kardeş yayın miamigezi o

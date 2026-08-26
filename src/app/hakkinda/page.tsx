@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { GUIDES } from '@/content/guides';
 import { breadcrumbSchema, faqSchema, graph } from '@/lib/schema';
+import { ogImage } from '@/content/images';
 import { PUBLISHER, SITE, abs, miamiliUrl } from '@/lib/site';
 
 export const dynamic = 'force-static';
@@ -42,7 +43,9 @@ export const metadata: Metadata = {
       'Yayın ilkeleri, kapsam sınırları ve yayıncı bilgisi.',
     locale: SITE.locale,
     siteName: SITE.name,
+    images: ogImage('anasayfa'),
   },
+  twitter: { card: 'summary_large_image', images: ogImage('anasayfa') },
 };
 
 const jsonLd = graph([
