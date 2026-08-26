@@ -224,7 +224,11 @@ async function fetchPicked() {
     const dim = await sharp(out).metadata();
     const blurDataURL = await makeBlur(sharp, out);
 
+    // Önceki `--verify` sonucunu KORU: burada nesneyi komple değiştirmek
+    // `location` alanını sessizce düşürür ve doğrulanmış yer bilgisi kaybolur.
     meta[item.key] = {
+      ...(meta[item.key]?.location ? { location: meta[item.key].location,
+                                       locationIsFlorida: meta[item.key].locationIsFlorida } : {}),
       file: `/gorseller/${item.key}.webp`,
       width: dim.width,
       height: dim.height,
