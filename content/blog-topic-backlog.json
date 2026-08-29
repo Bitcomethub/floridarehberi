@@ -121,7 +121,8 @@
         "araç ekspertiz amerika"
       ],
       "angle": "Florida'ya özgü asıl risk sel hasarlı araçtır — unvan (title) üzerindeki flood/salvage/rebuilt işaretlerini açıkla. VIN ile geçmiş sorgusu, bağımsız mekanik ekspertiz, satıcı tipi (bayi vs. şahıs) farkı, devir işleminin ilçe vergi tahsildarı ofisinde yapılması. FİYAT VERME. Florida'da zorunlu periyodik muayene olmadığı için ekspertizin bu boşluğu doldurduğunu vurgula.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-29"
     },
     {
       "id": "okul-kayit-belgeleri",
