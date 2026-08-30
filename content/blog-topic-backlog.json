@@ -157,7 +157,8 @@
         "amerika okul dil desteği"
       ],
       "angle": "Kayıt sırasında doldurulan ev dili anketi, dil düzeyi değerlendirmesi ve ESOL/ELL destek yapısını anlat. Ailenin okuldan neleri talep edebileceğini (tercüman desteği, veli toplantılarında çeviri) yaz. SÜRE VEYA BAŞARI İSTATİSTİĞİ VERME. Sürecin ilçeye göre farklılaştığını ve okul ile doğrudan iletişimin en hızlı yol olduğunu vurgula.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-30"
     },
     {
       "id": "universite-in-state",
