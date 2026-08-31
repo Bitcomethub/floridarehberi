@@ -210,7 +210,8 @@
         "ilaç getirmek amerika"
       ],
       "angle": "Reçetenin doktordan eczaneye elektronik gittiğini, jenerik/muadil tercihi, sigorta formülerinin (formulary) hangi ilacın ne kadar karşılandığını belirlediğini anlat. Reçetesiz (OTC) ürünlerin marketlerde bulunduğunu yaz. Türkiye'den ilaç getirme konusunda GENEL uyarı ver ama gümrük kuralı SAYMA — resmî kaynağa yönlendir. Tıbbi tavsiye değildir notu zorunlu.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-08-31"
     },
     {
       "id": "dis-ve-goz-sigortasi",
