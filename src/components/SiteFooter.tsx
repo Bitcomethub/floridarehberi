@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { GUIDES } from '@/content/guides';
-import { SITE, PUBLISHER, miamiliUrl } from '@/lib/site';
+import { SITE, PUBLISHER, KARDES_SITELER, miamiliUrl } from '@/lib/site';
 
 // `new Date()` YOK: Vercel UTC'de çalışır ve build zamanına göre değişen bir
 // yıl, statik sayfalarda sessizce eskiyen tek dinamik veri olurdu.
@@ -80,6 +80,35 @@ export function SiteFooter() {
             </p>
           </div>
         </div>
+
+        {/* ── İlgili siteler — kardeş yayın ağı ──────────────────────────
+            Dört site karşılıklı linkli; liste ve atıf parametreleri
+            `lib/site.ts` → `KARDES_SITELER`'den gelir (elle URL YAZMA,
+            utm sessizce düşer). `rel="nofollow"` YOK: bağ gerçek. */}
+        <section aria-labelledby="footer-ag" className="mt-12 border-t border-line pt-8">
+          <h2
+            id="footer-ag"
+            className="font-display text-label font-semibold tracking-[0.14em] text-mute uppercase"
+          >
+            İlgili siteler
+          </h2>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-3">
+            {KARDES_SITELER.map((site) => (
+              <li key={site.alan}>
+                <a
+                  href={site.href}
+                  rel="noopener"
+                  className="group block border border-line bg-page px-4 py-3 no-underline transition-colors hover:border-palm-deep"
+                >
+                  <span className="block text-small font-medium text-ink">{site.ad}</span>
+                  <span className="mt-0.5 block text-[0.8125rem] text-mute transition-colors group-hover:text-palm-deep">
+                    {site.alan}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
 
         <div className="mt-12 border-t border-line-strong pt-6">
           <p className="text-[0.8125rem] leading-relaxed text-mute">
