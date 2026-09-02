@@ -263,7 +263,8 @@
         "vergi iadesi amerika"
       ],
       "angle": "W-2 ve 1099 formlarının ne olduğunu, W-4 ile kesinti oranının belirlendiğini, iade/ek ödeme mantığını anlat. Yazılım ile beyan, ücretsiz beyan seçenekleri ve CPA'ya ne zaman gidilmesi gerektiği. VERGİ DİLİMİ VE ORAN YAZMA. Uluslararası gelir/varlık bildirimi karmaşıksa uzmana yönlendir — kesin kural verme. 'Vergi danışmanlığı değildir' notu zorunlu.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-02"
     },
     {
       "id": "satis-vergisi-ilce",

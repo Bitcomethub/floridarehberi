@@ -1499,5 +1499,106 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "amerikada-ilk-vergi-beyannamesi-nasil-verilir",
+    "title": "Amerika'da İlk Vergi Beyannamesi Nasıl Verilir?",
+    "question": "Amerika'daki ilk vergi beyannamem için ne yapmalıyım?",
+    "excerpt": "Amerika'da ilk vergi beyannameniz için işvereninizden gelen W-2 ya da 1099 formunu, kimlik bilgilerinizi ve gerekiyorsa banka hesap bilgilerinizi toplayıp IRS'in onayladığı bir yazılım veya ücretsiz beyan programıyla beyannamenizi göndermeniz gerekir; karmaşık durumlarda bir CPA'ya danışmak en güvenli yoldur.",
+    "keywords": [
+      "amerika vergi beyannamesi",
+      "w2 formu nedir",
+      "1099 formu",
+      "vergi iadesi amerika",
+      "w4 formu nedir",
+      "ilk vergi beyannamesi nasıl verilir",
+      "irs free file"
+    ],
+    "publishedAt": "2026-09-02",
+    "updatedAt": "2026-09-02",
+    "intro": [
+      "Amerika'daki ilk vergi beyannameniz için önce işvereninizden veya ödeme yaptığınız kurumlardan gelen W-2 ya da 1099 formlarını, kimlik bilgilerinizi ve varsa iade almak için banka hesap bilgilerinizi toplamanız, ardından bu bilgileri IRS'in onayladığı bir e-beyan yazılımına ya da uygun gelir seviyesindeyseniz ücretsiz beyan programına girip beyannamenizi IRS'in belirlediği son tarihe kadar göndermeniz gerekir.",
+      "Florida'da eyalet gelir vergisi bulunmadığı için burada yalnızca federal beyanname vermeniz yeterlidir; bu da işlemi bazı eyaletlerde yaşayanlara kıyasla biraz daha basitleştirir. Sürecin temel mantığı, yıl içinde işvereninizin veya ödeme yapan kurumların sizin adınıza önceden kestiği vergiyle, beyannamede hesaplanan gerçek vergi borcunuzun karşılaştırılmasına dayanır; aradaki fark size iade olarak döner veya sizden ek ödeme istenir. Bu yazı vergi danışmanlığı değildir; karmaşık ya da uluslararası boyutu olan durumlarda bir CPA veya IRS'in yetkilendirdiği bir vergi uzmanına danışmanız önerilir."
+    ],
+    "sections": [
+      {
+        "heading": "W-2 formu nedir, ne zaman gelir?",
+        "body": [
+          "W-2 formu, işvereninizin sizin için tuttuğu resmi kazanç ve kesinti belgesidir; yıl boyunca kazandığınız brüt ücreti, işvereninizin sizin adınıza kestiği federal gelir vergisini, Sosyal Güvenlik (Social Security) ve Medicare kesintilerini tek bir sayfada gösterir. Florida'da eyalet gelir vergisi olmadığı için W-2'nizde eyalet vergisi kesintisi görmezsiniz; bu, formun Florida'da çalışanlar için biraz daha sade görünmesine yol açar. İşvereniniz bu belgeyi her yıl posta veya elektronik olarak, IRS'in belirlediği son tarihe kadar göndermek zorundadır; güncel tarihi IRS'in resmi sayfasından kontrol edebilirsiniz.",
+          "Formda yer alan kutular arasında brüt ücret, federal vergi kesintisi, Sosyal Güvenlik ücreti ve kesintisi, Medicare ücreti ve kesintisi bulunur; bu rakamlar beyannamenizi doldururken doğrudan kullanılır. Yıl içinde birden fazla işveren için çalıştıysanız her birinden ayrı bir W-2 alırsınız ve beyannamenizde tümünü bildirmeniz gerekir.",
+          "Eğer belirtilen tarihe kadar W-2'niz elinize geçmediyse önce işvereninizle iletişime geçmeniz, ulaşamıyorsanız IRS'i aramanız gerekir; IRS, işvereninizle iletişime geçerek belgeyi talep edebilir veya size alternatif bir bildirim yolu gösterebilir."
+        ]
+      },
+      {
+        "heading": "1099 formu W-2'den nasıl farklıdır?",
+        "body": [
+          "1099 formu, bir işveren-çalışan ilişkisi olmadan aldığınız ödemeleri gösterir; serbest çalışan (freelancer), bağımsız yüklenici (independent contractor) olarak iş yaptığınızda, faiz geliri elde ettiğinizde veya kira, temettü gibi gelirleriniz olduğunda size 1099 serisinden bir form gönderilir. W-2'nin aksine 1099'da genellikle herhangi bir federal vergi kesintisi yapılmamıştır; yani ödemeyi yapan kurum sizin adınıza vergi kesip IRS'e yatırmaz, bu sorumluluk tamamen size kalır.",
+          "Bu fark önemlidir çünkü 1099 geliri olan kişiler genellikle kendi vergilerini ve serbest meslek vergisini (self-employment tax) hesaplayıp çeyrek dönemler halinde tahmini ödeme yapmakla yükümlü olabilir; aksi halde yıl sonunda büyük bir ek ödeme ve gecikme cezasıyla karşılaşabilirsiniz. 1099-NEC, 1099-INT, 1099-DIV, 1099-MISC gibi farklı alt türler farklı gelir kategorilerini temsil eder ve her biri beyannamenin farklı bölümüne işlenir.",
+          "Bir yıl içinde hem W-2 hem de 1099 geliri elde etmiş olmanız mümkündür; beyannamenizde her iki gelir türünü de ayrı ayrı bildirmeniz gerekir. Bu karışık gelir durumlarında yazılımlar genellikle adım adım yönlendirme sunar, ancak gelir çeşitliliği arttıkça bir muhasebeciyle çalışmak işlemi kolaylaştırabilir."
+        ]
+      },
+      {
+        "heading": "W-4 formu vergi kesintimi nasıl belirler?",
+        "body": [
+          "W-4 formu, işe başladığınızda işvereninize verdiğiniz ve her maaş döneminde ne kadar federal vergi kesileceğini belirleyen belgedir; formda medeni durumunuz, bakmakla yükümlü olduğunuz kişi sayısı, ikinci bir işten geliriniz olup olmadığı gibi bilgileri beyan edersiniz. İşvereniniz bu bilgilere göre bordronuzdan her dönem belirli bir tutarı keserek IRS'e aktarır; bu kesinti, yıl sonunda ödeyeceğiniz gerçek vergi borcunun bir ön ödemesi niteliğindedir.",
+          "W-4'te verdiğiniz bilgiler ne kadar doğru olursa, yıl sonunda çıkacak iade veya ek ödeme tutarı da o kadar öngörülebilir olur; evlenme, boşanma, çocuk sahibi olma, ikinci bir iş edinme gibi hayat değişikliklerinde formu güncellemeniz önerilir. Formu güncellemek istediğinizde yeni bir W-4 doldurup insan kaynakları departmanınıza teslim etmeniz yeterlidir, ayrıca IRS'in kendi web sitesinde kesinti tahmini yapmanıza yardımcı olan bir hesaplama aracı da bulunur.",
+          "W-4'ü hiç doldurmamış veya eski bilgilerle doldurmuş olmak, beyanname zamanı sürpriz bir borç veya düşük bir maaşla sonuçlanabilir; bu yüzden yeni bir işe başladığınızda ya da gelir durumunuz değiştiğinde formu gözden geçirmek, yıl sonunda karşılaşacağınız tutarı dengelemenin en pratik yoludur."
+        ]
+      },
+      {
+        "heading": "Vergi iadesi mi çıkar, ek ödeme mi çıkar? Bu nasıl belirlenir?",
+        "body": [
+          "Beyannamenizde iade mi çıkacağı yoksa ek ödeme mi yapacağınız, yıl boyunca gerçekten ödemeniz gereken toplam vergi tutarı ile işvereninizin veya ödeme yapan kurumların sizin adınıza IRS'e önceden aktardığı tutarın karşılaştırılmasıyla belirlenir. Kesilen tutar, gerçek vergi borcunuzdan fazlaysa fark size iade edilir; kesilen tutar borcunuzdan azsa beyanname verirken aradaki farkı ödemeniz gerekir.",
+          "Fazla kesinti genellikle W-4'te bekar veya bağımlı sayısını düşük beyan etmenizden, ek ödeme ise ikinci bir işten veya 1099 gelirinden vergi kesilmemiş olmasından kaynaklanır. Bazı durumlarda yıl içinde yeterli miktarda vergi ödenmemişse, ek ödemenin yanında düşük ödeme cezası (underpayment penalty) da uygulanabilir; bu ceza genellikle çeyrek dönemler halinde tahmini ödeme yapmayan serbest çalışanları ilgilendirir.",
+          "İade almak illa iyi bir sonuç anlamına gelmez; yıl boyunca fazla kesinti yaptırmış olduğunuz için aslında kendi paranızı faizsiz olarak devlete ödünç vermiş olursunuz. Kesintinizi gerçek vergi borcunuza yakın tutmak için W-4'ünüzü yıl içinde gözden geçirmek, hem sürpriz ek ödemelerden hem de gereksiz yere büyük iadeler beklemekten kaçınmanızı sağlar."
+        ]
+      },
+      {
+        "heading": "Beyannamemi kendim mi vermeliyim, yazılım mı kullanmalıyım?",
+        "body": [
+          "İlk kez beyanname veriyorsanız, gelir durumunuz basitse (yalnızca bir W-2 geliri, standart kesinti kullanacaksanız) IRS'in onayladığı bir e-beyan yazılımı ya da IRS Free File programı çoğu zaman yeterlidir; bu araçlar sizi soru-cevap formatında yönlendirerek doğru formları otomatik olarak doldurur ve hesaplama hatası riskini büyük ölçüde azaltır.",
+          "IRS Free File, belirli bir gelir eşiğinin altında kalan kişilere ücretsiz erişim sağlayan resmi bir programdır; uygunluk koşulları ve ortak yazılım sağlayıcıları her yıl değişebileceği için güncel listeyi IRS'in resmi sayfasından kontrol etmeniz gerekir. Gelir eşiğinin üzerinde kalıyorsanız bile birçok yazılım şirketi ücretli sürümlerle federal ve gerekiyorsa eyalet beyannamesini bir arada sunar.",
+          "Yazılım kullanırken dikkat etmeniz gereken noktalar şunlardır:"
+        ],
+        "list": [
+          "Kullandığınız programın IRS Authorized e-file Provider listesinde olduğunu doğrulayın.",
+          "W-2, 1099 ve varsa diğer gelir belgelerinizin tümünü elinizin altında bulundurun.",
+          "Beyannameyi göndermeden önce banka hesap bilgilerinizi iade veya ödeme için doğru girdiğinizden emin olun.",
+          "Gönderim sonrası aldığınız onay numarasını (confirmation number) saklayın."
+        ]
+      },
+      {
+        "heading": "Ne zaman bir CPA'ya (mali müşavir) danışmalıyım?",
+        "body": [
+          "Gelir durumunuz basitse ve tek bir W-2'niz varsa yazılım genellikle yeterlidir; ancak serbest meslek geliriniz varsa, birden fazla eyalette gelir elde ettiyseniz, ev sahibi olduysanız veya evlilik/boşanma gibi büyük bir hayat değişikliği yaşadıysanız bir CPA (Certified Public Accountant, yeminli mali müşavir benzeri bir unvan) veya IRS'in yetkilendirdiği bir vergi uzmanıyla (enrolled agent) çalışmak hataları önlemenize yardımcı olabilir.",
+          "Uluslararası geliriniz, yurt dışında banka hesabınız veya varlığınız varsa bildirim kuralları karmaşıklaşabilir ve durumdan duruma büyük farklar gösterebilir; bu tür durumlar için kesin bir kural vermek yanıltıcı olur, bu nedenle uluslararası vergi konularında deneyimli bir CPA'ya veya vergi avukatına danışmanız en güvenli yoldur. IRS'ten gelen bir inceleme mektubu (audit letter) aldıysanız da kendi başınıza yanıtlamak yerine bir profesyonelden destek almanız önerilir.",
+          "Bu yazı genel bilgilendirme amaçlıdır ve vergi danışmanlığı yerine geçmez; her beyannamenin ayrıntıları kişisel gelir yapınıza, medeni durumunuza ve varlıklarınıza göre değişir. Kendi durumunuza özel, bağlayıcı bir yanıt için IRS'in resmi sayfalarına veya lisanslı bir vergi uzmanına başvurmanız gerekir."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "W-2 ve 1099 formunu aynı yıl birlikte alabilir miyim?",
+        "a": "Evet, alabilirsiniz. Yıl içinde hem maaşlı bir işte çalışıp hem de serbest bir iş yapıyorsanız işvereninizden W-2, serbest işlerinizden ödeme yapan kurumlardan ise 1099 formu alırsınız; beyannamenizde her iki gelir türünü ayrı ayrı bildirmeniz gerekir."
+      },
+      {
+        "q": "W-2'm veya 1099'um hiç gelmezse ne yapmalıyım?",
+        "a": "Önce belgeyi göndermesi gereken işvereninizle veya kurumla iletişime geçin. Belirtilen süre geçtiği halde ulaşamıyorsanız IRS'i arayarak durumu bildirebilirsiniz; IRS gerekirse kurumla doğrudan iletişime geçer. Bu süreçte kendi kayıtlarınızı (bordro, ödeme dökümü) saklamak işinizi kolaylaştırır."
+      },
+      {
+        "q": "İlk beyannamemi ücretsiz verebilir miyim?",
+        "a": "Belirli bir gelir eşiğinin altında kalıyorsanız IRS Free File programı üzerinden ücretsiz beyan verebilirsiniz; eşik ve katılımcı yazılım sağlayıcıları her yıl değişebildiği için güncel bilgiyi IRS'in resmi sayfasından kontrol etmeniz gerekir. Eşiğin üzerinde kalsanız da bazı yazılımlar basit beyannameler için sınırlı ücretsiz sürüm sunabilir."
+      },
+      {
+        "q": "İade almak yerine ek ödeme çıkarsa ne olur?",
+        "a": "Ek ödeme çıkması, yıl içinde kesilen vergi tutarının gerçek vergi borcunuzdan az olduğu anlamına gelir; bu farkı beyannameyi verirken ödemeniz gerekir. Bazı durumlarda yeterli miktarda vergi ödenmediği için ayrıca düşük ödeme cezası da uygulanabilir; bu genellikle 1099 geliri olan ve tahmini ödeme yapmayan kişileri ilgilendirir."
+      },
+      {
+        "q": "Beyannamemi kendim doldurmak yerine ne zaman profesyonel yardım almalıyım?",
+        "a": "Serbest meslek geliriniz, birden fazla eyalette geliriniz, uluslararası varlığınız veya büyük bir hayat değişikliğiniz (evlilik, ev alımı, iş değişikliği) varsa bir CPA veya IRS'in yetkilendirdiği bir vergi uzmanına danışmak hataları önler. Bu yazı vergi danışmanlığı değildir, kişisel durumunuz için uzman görüşü almanız önerilir."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
