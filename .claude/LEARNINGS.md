@@ -7,6 +7,22 @@
 
 ## Kalıcı kurallar
 
+**Üretken görsel modelinde "logo" isteyeceksen model ailesini doğru seç.**
+Recraft'ın `*_illustration` aileleri editoryal SAHNE çizer ve negative prompt'u
+onurlandırmaz — prompt sıkılaştırmak çözmez (2 tur ispatlandı). Marka işareti
+için `fal-ai/ideogram/v3` + `style: DESIGN` + `negative_prompt` +
+`color_palette`, ve **`expand_prompt: false`** (açıksa MagicPrompt manzarayı
+geri getirir). Model yeteneğini şema enum'undan doğrula, hafızadan değil.
+Raster→SVG'de `recraft/vectorize` ALFAYI DÜZLEŞTİRİR; yerel `potrace` ile
+alfadan izle. Anahtar: `~/.config/superpowers/worktrees/vitrin-ai/fal-logo/.env.local`.
+
+**Başlığa görsel eklemek sarma eşiğini taşır — ölç, sonra breakpoint'le çöz.**
+Marka işareti tek-satır eşiğini 352→375px'e itti. Çözüm ikon'a
+`hidden min-[375px]:block` vermek oldu (`display:none` flex öğesini kutudan
+çıkarır, `gap` de uygulanmaz → dar ekran birebir eski hâline döner). Başlığın
+ölçülmüş `gap` değerlerine DOKUNULMADI. Ölçüm: headless Chrome CDP, sarma
+tespiti `header` YÜKSEKLİĞİNDEN (nav.top karşılaştırması yanıltıyor).
+
 **JSON-LD `@context` olmadan sessizce yok sayılır.** Node dizisini doğrudan
 `JSON.stringify` etmek geçerli görünen ama hiçbir arama motorunun okumadığı
 bir çıktı üretir; parse hatası da vermez. Bu yüzden `lib/schema.ts`'teki

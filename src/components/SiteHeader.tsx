@@ -1,17 +1,27 @@
 import Link from 'next/link';
 import { SITE } from '@/lib/site';
+import { SiteMark } from './SiteMark';
 
 /**
  * Sabit üst bant. Açılır menü YOK — 10 rehberin tamamı ana sayfa dizininde ve
  * footer'da duruyor. Açılır menü klavye/odak yükü getirir, buradaki bilgi
  * mimarisi (tek seviye) onu gerektirmiyor.
  *
- * `flex-wrap` DEKORATİF DEĞİL: künye + üç bağlantı 330px yer istiyor, 320px
- * ekranda kullanılabilir genişlik 288px. Sarma olmadan "Hakkında" bağlantısı
+ * `flex-wrap` DEKORATİF DEĞİL: sarma olmadan "Hakkında" bağlantısı
  * `body{overflow-x:hidden}` tarafından kırpılıp ERİŞİLEMEZ hâle geliyordu —
  * WCAG 1.4.10 (Reflow) ihlali; kaydırma çubuğu bile görünmediği için sessiz.
- * Ölçülen davranış: ≤320px iki satır, ≥360px tek satır. Boşlukları
- * büyütürsen 360px'i de ikinci satıra düşürürsün — ölçmeden değiştirme.
+ *
+ * ÖLÇÜLEN EŞİK (headless Chrome, 320→393px tarandı; menü sabit 201px):
+ *   marka 106px (işaretsiz) → ≥352px tek satır
+ *   marka 128px (işaretli)  → ≥375px tek satır
+ * Marka işareti 22px (16px ikon + 6px boşluk) ekliyor ve eşiği 352→375'e
+ * taşıyordu: 360px Android'de başlık 58px'ten 88px'e çıkıyordu. ÇÖZÜM:
+ * işaret 375px ALTINDA hiç render EDİLMEZ (`hidden min-[375px]:block`).
+ * Böylece dar ekran ölçülmüş 352px eşiğini AYNEN korur — bu başlığın
+ * boşluk değerlerine (`gap-4`, `gap-x-3`) DOKUNULMADI, kasıtlı.
+ * `display:none` bir flex öğesini kutudan tamamen çıkarır: `gap-1.5` de
+ * uygulanmaz, yani 375 altında künye baytı baytına eski hâline döner.
+ * Bu sayıları değiştiren her düzenleme yeniden ÖLÇER — tahmin etme.
  */
 export function SiteHeader() {
   return (
@@ -27,9 +37,13 @@ export function SiteHeader() {
         */}
         <Link
           href="/"
-          className="group flex items-baseline gap-2 no-underline"
+          className="group flex items-center gap-1.5 no-underline"
           aria-label={`${SITE.wordmark} — ana sayfa`}
         >
+          {/* İşaret künye GENİŞLİĞİNE eklenir; eşiği 352→375px'e taşıyor
+              (yukarıdaki ölçüm notu). `items-baseline` → `items-center`:
+              SVG'nin metin taban çizgisi yok, baseline'da ikon aşağı kayıyordu. */}
+          <SiteMark className="hidden h-4 w-4 shrink-0 min-[375px]:block" />
           <span className="font-display text-[1.0625rem] font-semibold tracking-[-0.03em] text-ink">
             florida<span className="text-palm-deep">rehberi</span>
           </span>
