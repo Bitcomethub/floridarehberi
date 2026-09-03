@@ -316,7 +316,8 @@
         "wire transfer nedir"
       ],
       "angle": "Banka havalesi (wire/SWIFT) ile transfer servisleri arasındaki farkı, maliyetin üç yerden geldiğini (gönderim ücreti, aracı banka, kur marjı) ve alıcı bankanın da ücret alabildiğini anlat. Büyük transferlerde bankanın kaynak belgesi isteyebileceğini yaz. KOMİSYON ORANI VE KUR VERME. Vergi/bildirim yükümlülüğü konusunda uzmana yönlendir, kural saymaya kalkma.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-03"
     },
     {
       "id": "emeklilik-401k",
