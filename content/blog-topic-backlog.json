@@ -387,7 +387,8 @@
         "boil water notice"
       ],
       "angle": "Sıra: güvenlik → fotoğraf → geçici koruma → şirkete bildirim. Sezon öncesi çekilmiş envanter fotoğraflarının talebi kolaylaştırdığını yaz. Fırtına sonrası kapı kapı dolaşan, peşin ödeme isteyen tamirci teklifine karşı uyar ve lisans doğrulamasının çevrimiçi yapılabildiğini söyle. Su kaynatma uyarısı ve düşmüş elektrik hattı riskini hatırlat. TAZMİNAT TUTARI VE SÜRE VERME.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-04"
     },
     {
       "id": "jenerator-guvenligi",
