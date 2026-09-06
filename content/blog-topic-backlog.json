@@ -458,7 +458,8 @@
         "yürünebilir mahalle"
       ],
       "angle": "Gerçekçi ol: Florida'nın büyük bölümü araç merkezli planlanmıştır, ancak bazı şehir merkezlerinde toplu taşıma ve yürünebilirlik yeterli olabilir. Seçimin mahalle düzeyinde yapıldığını, aynı şehrin iki ucunun tamamen farklı deneyim verdiğini anlat. HAT/SEFER SAATİ VE ÜCRET VERME. Araç sahipliğinin toplam maliyetine (sigorta, yakıt, park) değin.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-06"
     },
     {
       "id": "market-alisverisi",
