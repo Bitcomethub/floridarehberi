@@ -493,7 +493,8 @@
         "operatör seçimi abd"
       ],
       "angle": "Faturalı (postpaid) hatlarda kredi kontrolü yapıldığını, yeni gelenler için ön ödemeli (prepaid) ya da eSIM'in hızlı çözüm olduğunu anlat. Numaranın birçok işlemde kimlik gibi kullanıldığını (banka doğrulaması, okul kaydı) vurgula. Cihaz kilidi ve bant uyumluluğu kontrolü. TARİFE FİYATI VE OPERATÖR ÖNERİSİ VERME.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-07"
     },
     {
       "id": "adres-degisikligi",
