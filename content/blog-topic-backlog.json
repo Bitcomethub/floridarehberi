@@ -528,7 +528,8 @@
         "iş görüşmesi amerika"
       ],
       "angle": "Amerikan özgeçmiş formatının Türkiye'den farkları (fotoğraf ve doğum tarihi yok, sonuç odaklı yazım), ilan platformları, networking'in ağırlığı ve referans kültürü. Brüt teklif ile net maaş farkını hatırlat. MAAŞ RAKAMI VE SEKTÖR ORTALAMASI VERME. ÇALIŞMA İZNİ / VİZE KONUSUNA GİRME — kapsam dışıdır, sadece 'çalışma yetkinizin durumunu ilgili uzmanla netleştirin' düzeyinde geç.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-08"
     },
     {
       "id": "cocukla-tasinma",
