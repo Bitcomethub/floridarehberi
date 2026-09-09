@@ -546,7 +546,8 @@
         "florida yerleşim adımları"
       ],
       "angle": "Sıralı bir ilk-ay planı kur: geçici konaklama, adres, okul kaydı, sağlık sigortası, banka hesabı, ehliyet, faturalar. Hangi adımın hangisini beklettiğini göster (adres olmadan okul kaydı ve ehliyet ilerlemez). Çocuğun uyum sürecine kısa ve gerçekçi bir bölüm ayır. TAKVİM GÜNÜ SAYISI UYDURMA; ehliyet için 30 günlük kural gibi RESMÎ olanlar yazılabilir. Vize/statü konusuna girme.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-09"
     }
   ]
 }
