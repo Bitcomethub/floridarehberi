@@ -229,7 +229,8 @@
         "sağlık sigortası kapsamı"
       ],
       "angle": "Sağlık, diş ve göz poliçelerinin ayrı ürünler olduğunu; diş poliçelerinde yıllık üst limit ve bekleme süresi bulunduğunu açıkla. İşveren paketlerinde bunların opsiyonel eklenti olabildiğini yaz. TUTAR VE ORAN VERME. Poliçe koşullarının kendi belgelerinden okunması gerektiğini vurgula.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-12"
     },
     {
       "id": "homestead-basvurusu",
