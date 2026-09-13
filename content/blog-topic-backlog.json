@@ -283,7 +283,8 @@
         "vergiden muaf ürünler"
       ],
       "angle": "Eyalet oranı üstüne ilçe ek oranı (discretionary sales surtax) mantığını, etiket fiyatının vergisiz gösterildiğini ve hangi ürün gruplarının muaf olabildiğini anlat. İLÇE ORANLARINI TEK TEK LİSTELEME — değişir, Florida Department of Revenue'ya yönlendir. Eyalet oranı olan %6 sabit bir olgudur, o yazılabilir.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-13"
     },
     {
       "id": "kredi-puani-hizli",
