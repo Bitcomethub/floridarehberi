@@ -337,7 +337,8 @@
         "amerika emeklilik sistemi"
       ],
       "angle": "İşveren üzerinden emeklilik birikiminin mantığı, işveren eşleştirmesi (match), hak ediş (vesting) takvimi ve erken çekimin cezalı olması. IRA ile farkına kısaca değin. KATKI LİMİTİ VE ORAN VERME — yıllık güncellenir, IRS'e yönlendir. Yatırım tavsiyesi değildir notu zorunlu.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-14"
     },
     {
       "id": "sel-sigortasi",

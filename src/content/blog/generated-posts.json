@@ -2593,5 +2593,100 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "amerikada-401k-nedir-nasil-calisir",
+    "title": "Amerika'da 401(k) Nedir, Nasıl Çalışır?",
+    "question": "İşverenimin sunduğu 401(k) planı nasıl işliyor?",
+    "excerpt": "401(k), işvereninizin maaşınızdan kestiği tutarı vergi avantajlı bir emeklilik hesabına yatırdığı plandır; işveren eşleştirmesi, hak ediş (vesting) takvimi ve erken çekim cezası bu sistemin temel işleyiş kurallarıdır. Katkı limitleri IRS tarafından yıllık belirlenir.",
+    "keywords": [
+      "401k nedir",
+      "işveren katkısı emeklilik",
+      "vesting nedir",
+      "amerika emeklilik sistemi",
+      "401k erken çekim cezası",
+      "401k ile ira farkı",
+      "işveren eşleştirmesi match"
+    ],
+    "publishedAt": "2026-09-14",
+    "updatedAt": "2026-09-14",
+    "intro": [
+      "İşverenin sunduğu 401(k) planı, çalışanın maaşından her dönem otomatik olarak kesilen bir tutarın, vergi avantajlı bir yatırım hesabına yönlendirilmesiyle işler; çalışan bu hesapta sunulan yatırım fonlarından seçim yapar ve para emeklilik yaşına kadar büyümeye devam eder. Kesinti oranını çalışan belirler, işveren de genellikle belirli bir orana kadar ek katkı (match) yaparak bu birikime katkıda bulunur.",
+      "Bu sistemin işleyişini anlamak için üç kavramı bilmek gerekir: işveren eşleştirmesi, hak ediş (vesting) takvimi ve erken çekimin getirdiği vergi/ceza yükü. Bu yazı, 401(k)'ın Amerika'daki işveren temelli emeklilik sisteminde nasıl konumlandığını, IRA ile temel farkını ve işten ayrılma durumunda hesaba ne olduğunu açıklar; yatırım tavsiyesi niteliği taşımaz."
+    ],
+    "sections": [
+      {
+        "heading": "401(k) Planı Tam Olarak Nasıl Çalışır?",
+        "body": [
+          "401(k), işvereninizin çalışanlarına sunduğu, maaşınızdan otomatik kesinti yapılan bir emeklilik yatırım hesabıdır. İşe başladığınızda ya da yıllık açık kayıt döneminde (open enrollment) bir yüzde ya da tutar belirlersiniz; bu miktar her maaş döneminde otomatik olarak hesaba yatırılır, siz elinize almadan.",
+          "Çoğu plan 'geleneksel' (traditional) ve 'Roth' seçeneği sunar. Geleneksel katkı vergi öncesi gelirden kesilir, para büyürken vergilendirilmez, ancak emeklilikte çekim yaparken gelir vergisine tabi olursunuz. Roth 401(k)'ta katkı vergi sonrası yapılır, uygun koşullarda emeklilikte çekim vergisiz olur.",
+          "İşveren, planı bir aracı kurum (plan provider) üzerinden yönetir; siz de sunulan yatırım fonları (genellikle endeks fonları, hedef tarih fonları) arasından seçim yaparsınız. Yıllık katkı limiti IRS tarafından her yıl güncellenir; güncel rakamı IRS'in resmi sayfasından kontrol etmek gerekir çünkü limit yıldan yıla değişir. Ayrıca 50 yaş ve üzeri çalışanlar için 'catch-up' katkı imkanı sunulabilir; bu ek katkı da IRS tarafından belirlenen ayrı bir limite tabidir ve standart limitten farklıdır. Planın sunduğu yatırım seçenekleri işverenden işverene değişir; bazı planlar sadece birkaç fon sunarken bazıları geniş bir yelpaze sağlar."
+        ]
+      },
+      {
+        "heading": "İşveren Eşleştirmesi (Match) Nedir, Nasıl Hesaplanır?",
+        "body": [
+          "İşveren eşleştirmesi (match), çalışanın kendi katkısına karşılık işverenin de belirli bir oranda ek para yatırmasıdır. Örneğin bazı şirketler 'katkınızın belirli bir yüzdesine kadar eşleştiririz' formülünü kullanır; bu formül şirketten şirkete, plana plana değişir ve İK (insan kaynakları) departmanından ya da plan belgesinden öğrenilmelidir.",
+          "Eşleştirme genellikle 'bedava para' olarak tanımlanır çünkü çalışan hiçbir ek maliyet ödemeden işverenin katkısından yararlanır. Ancak eşleştirmeden tam faydalanmak için çalışanın kendi katkısını en azından eşleştirme eşiğine kadar yükseltmesi gerekir; eşiğin altında katkı yapan çalışan, işverenin sunduğu katkının bir kısmını kaybeder.",
+          "Eşleştirme formülleri ve üst sınırları her işverenin kendi plan belgesinde (plan document) veya yıllık özet açıklamada (summary plan description) yazılıdır. Bu belgeyi İK'dan istemek, hem eşleştirme oranını hem de hangi gelir diliminin eşleştirmeye dahil olduğunu netleştirir. Bazı işverenler eşleştirmeyi her maaş döneminde, bazıları ise yıl sonunda tek seferde yatırır; bu zamanlama farkı da plan belgesinde belirtilir. Yatırım tavsiyesi değildir; katkı düzeyi kişisel bütçeye göre belirlenmelidir."
+        ]
+      },
+      {
+        "heading": "Vesting (Hak Ediş) Takvimi Nedir, Paramın Tümü Bana Ait Mi?",
+        "body": [
+          "Vesting (hak ediş), işverenin yaptığı katkıların ne zaman tamamen çalışana ait hale geldiğini belirleyen bir takvimdir. Çalışanın kendi maaşından yaptığı katkılar her zaman %100 kendisine aittir; asıl soru işverenin eşleştirme veya kâr paylaşımı katkılarının ne zaman 'kilitten çıktığı'dır.",
+          "Vesting takvimleri genellikle iki şekilde işler: 'kademeli hak ediş' (graded vesting), belirli yıllar boyunca hak edilen yüzdenin aşamalı arttığı model; 'kliff vesting' ise belirli bir hizmet süresi tamamlanana kadar hiçbir hak edişin olmadığı, o eşik geçildiğinde ise bir anda %100'e ulaşan model. Hangi modelin uygulandığı yine plan belgesinde yazılıdır. Örneğin bazı planlarda kademeli takvim beş yıla yayılır ve her yıl belirli bir yüzde eklenir; kliff modelinde ise belirli bir hizmet süresi tamamlanmadan hiç hak ediş oluşmaz. Bu süreler işverenden işverene değişir, kesin bilgi plan belgesinde yer alır.",
+          "Bir çalışan vesting tamamlanmadan işten ayrılırsa, henüz hak edilmemiş işveren katkıları hesaptan geri alınır; bu, çalışanın kendi katkılarını etkilemez. İşe yeni başlayanlar için vesting takvimini öğrenmek, iş değiştirme kararı verirken önemli bir finansal ayrıntıdır çünkü ayrılma zamanlaması kaybedilecek tutarı belirler."
+        ]
+      },
+      {
+        "heading": "401(k)'dan Erken Para Çekersem Ne Olur?",
+        "body": [
+          "Emeklilik yaşından önce (genellikle 59.5 yaş sınırı referans alınır) 401(k) hesabından para çekmek, çekilen tutarın gelir vergisine tabi olmasının yanında ayrıca bir erken çekim cezası (early withdrawal penalty) doğurur. Bu ceza, hesaptaki paranın emeklilik amacına hizmet etmesi için caydırıcı olarak tasarlanmıştır.",
+          "Bazı istisnai durumlarda (ciddi maddi zorluk, sakatlık, belirli tıbbi giderler gibi) ceza uygulanmayabilir, ancak bu istisnaların koşulları katıdır ve her plan aynı istisnaları sunmayabilir. Ceza ve vergi kesin oranları yıldan yıla ve duruma göre değişebildiği için, güncel oranları IRS'in resmi kaynaklarından ya da bir mali müşavirden teyit etmek gerekir.",
+          "Bir alternatif olarak bazı planlar 'plan kredisi' (loan) seçeneği sunar; çalışan kendi hesabından belirli bir tavana kadar borç alıp zaman içinde geri öder, bu erken çekim cezasına tabi değildir ama geri ödenmezse ceza doğabilir. Bu yazı yatırım ya da vergi tavsiyesi niteliği taşımaz; kişisel durum için lisanslı bir mali müşavire veya vergi uzmanına danışılmalıdır."
+        ]
+      },
+      {
+        "heading": "401(k) ile IRA Arasındaki Fark Nedir?",
+        "body": [
+          "401(k), işveren aracılığıyla açılan ve maaştan otomatik kesinti yapılan bir plandır; IRA (Individual Retirement Account - Bireysel Emeklilik Hesabı) ise kişinin kendi adına, bir banka veya yatırım kurumunda bağımsız olarak açtığı bir hesaptır ve işveren katılımı gerektirmez.",
+          "401(k)'ın en büyük avantajı işveren eşleştirmesi olasılığıdır; IRA'da böyle bir eşleştirme yoktur ama yatırım seçenekleri genellikle 401(k)'a kıyasla daha geniştir çünkü hesap sahibi istediği kurumu seçebilir. Ayrıca IRA'ya katkı yapabilmek bazı durumlarda gelir düzeyine bağlı sınırlamalara tabi olabilir; bu sınırlar da yıllık güncellenir ve kişinin diğer emeklilik planlarına katılıp katılmadığına göre değişebilir. Her iki hesap türünün de kendi yıllık katkı limitleri, vergi kuralları ve çekim koşulları vardır; bu limitler ayrı ayrı ve her yıl güncellenir.",
+          "Çoğu finansal planlamacı, işveren eşleştirmesi varsa önce eşleştirmeyi tam almak için 401(k)'a katkı yapılmasını, ardından ek birikim için IRA'nın değerlendirilmesini önerir; ancak bu genel bir çerçevedir, kişisel gelir durumu ve hedeflere göre değişir. Güncel katkı limitlerini ve uygunluk kurallarını IRS'in resmi sayfasından kontrol etmek gerekir."
+        ]
+      },
+      {
+        "heading": "İşten Ayrılırsam 401(k) Hesabıma Ne Olur?",
+        "body": [
+          "İşten ayrılan bir çalışanın 401(k) hesabı otomatik olarak kapanmaz; hak edilmiş (vested) bakiye çalışana ait kalır ve genellikle birkaç seçenek sunulur: hesabı eski işverenin planında bırakmak, yeni işverenin planına aktarmak (rollover) veya bağımsız bir IRA'ya devretmek.",
+          "Doğrudan rollover (direct rollover) yapıldığında para bir hesaptan diğerine doğrudan transfer edilir ve bu işlem vergiye tabi bir olay sayılmaz. Çalışan parayı önce kendi eline alıp sonra yeniden yatırmayı seçerse (indirect rollover), belirli bir süre içinde yeniden yatırılmazsa vergi ve olası ceza doğabilir; bu nedenle doğrudan transfer genellikle daha güvenli kabul edilir. Rollover işlemi sırasında hangi yatırım fonlarının yeni hesapta karşılığının olduğunu kontrol etmek de önemlidir, çünkü her kurum aynı fon seçeneklerini sunmayabilir.",
+          "Küçük bakiyeli hesaplar bazı işverenler tarafından belirli bir eşik altında otomatik olarak kapatılıp çalışana gönderilebilir; bu eşik ve süreç plana göre değişir. İşten ayrılmadan önce İK ile bu detayları netleştirmek, hesabın nereye ve nasıl aktarılacağı konusunda sürpriz yaşamamak için önemlidir."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "401(k)'a katkı yapmak zorunlu mu?",
+        "a": "Hayır, 401(k)'a katılım genellikle isteğe bağlıdır; bazı işverenler 'otomatik kayıt' (auto-enrollment) uygulayıp çalışanı varsayılan bir oranla plana dahil edebilir, ancak çalışan bu katılımı istediği zaman durdurabilir veya oranını değiştirebilir. Kesin kurallar işverenin plan belgesinde yazılıdır."
+      },
+      {
+        "q": "İşveren eşleştirmesi her zaman anında bana ait olur mu?",
+        "a": "Hayır, işveren eşleştirmesi genellikle bir vesting (hak ediş) takvimine tabidir; kendi katkılarınız her zaman %100 sizindir ama işverenin eşleştirmesi belirli bir hizmet süresi tamamlanana kadar kısmen veya tamamen kilitli kalabilir."
+      },
+      {
+        "q": "401(k) yerine sadece IRA açsam yeterli olur mu?",
+        "a": "Bu, kişisel duruma bağlıdır ve yatırım tavsiyesi değildir. IRA bağımsız açılabilir ama işveren eşleştirmesi sunmaz; işvereniniz eşleştirme sunuyorsa bu fırsatı değerlendirmemek genellikle bir kazancı gözden çıkarmak anlamına gelir. Kişisel plan için mali müşavire danışılması önerilir."
+      },
+      {
+        "q": "401(k)'tan erken çekim yaparsam ne kadar ceza öderim?",
+        "a": "Ceza oranı ve koşullar zamanla değişebildiği ve duruma göre farklılaştığı için burada sabit bir rakam verilmiyor; güncel oranları ve istisnaları IRS'in resmi kaynaklarından veya bir vergi uzmanından teyit etmek gerekir."
+      },
+      {
+        "q": "Yıllık katkı limitini nereden öğrenebilirim?",
+        "a": "Yıllık katkı limiti IRS tarafından belirlenir ve her yıl güncellenebilir; güncel ve kesin rakamı IRS'in resmi web sitesinden veya işvereninizin plan yöneticisinden kontrol etmek en güvenilir yoldur."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
