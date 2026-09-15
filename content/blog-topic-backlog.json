@@ -409,7 +409,8 @@
         "taşınabilir jeneratör"
       ],
       "angle": "En kritik mesaj karbon monoksit zehirlenmesidir: taşınabilir jeneratör asla kapalı alanda, garajda ya da pencere yakınında çalıştırılmaz. Yakıt depolama, uzatma kablosu kapasitesi ve buzdolabı/tıbbi cihaz önceliklendirmesi. Sabit jeneratör kurulumunun lisanslı elektrikçi işi olduğunu yaz. MARKA/MODEL ÖNERME, GÜÇ HESABI İÇİN RAKAM UYDURMA.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-15"
     },
     {
       "id": "miami-orlando-tampa-secim",

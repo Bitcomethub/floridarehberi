@@ -2688,5 +2688,132 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "elektrik-kesintisinde-jenerator-kullanimi",
+    "title": "Elektrik Kesintisinde Jeneratör Güvenli Nasıl Kullanılır?",
+    "question": "Kasırga sonrası jeneratör kullanırken nelere dikkat edilmeli?",
+    "excerpt": "Kasırga sonrası jeneratör kullanırken en önemli kural, cihazı asla kapalı alanda çalıştırmamaktır: karbon monoksit birikimi ölümcül olabilir. Yakıt depolama, uzatma kablosu seçimi ve öncelikli cihaz belirleme de güvenliğin ayrılmaz parçalarıdır; sabit kurulum ise lisanslı elektrikçi işidir.",
+    "keywords": [
+      "jeneratör güvenliği",
+      "karbon monoksit",
+      "elektrik kesintisi florida",
+      "taşınabilir jeneratör",
+      "sabit jeneratör kurulumu",
+      "kasırga sonrası jeneratör",
+      "uzatma kablosu güvenliği"
+    ],
+    "publishedAt": "2026-09-15",
+    "updatedAt": "2026-09-15",
+    "intro": [
+      "Kasırga sonrası jeneratör kullanırken en kritik kural, cihazı asla kapalı bir alanda çalıştırmamaktır; taşınabilir jeneratörler karbon monoksit üretir ve bu gaz garaj, bodrum ya da pencere kenarı gibi yarı kapalı alanlarda hızla öldürücü yoğunluğa ulaşabilir. Bunun yanında yakıtın güvenli depolanması, doğru kapasitede ve dışarıda kullanıma uygun uzatma kabloları kullanılması, buzdolabı ve tıbbi cihaz gibi öncelikli yüklerin belirlenmesi de kesinti dönemini güvenli geçirmenin ayrılmaz parçalarıdır.",
+      "Florida'da kasırga sezonunda günler süren elektrik kesintileri sık görülür ve bu dönemde jeneratör kullanan haneler, kurulum ya da kullanım hatasından kaynaklanan risklerle -yangın, karbon monoksit zehirlenmesi, ekipman hasarı- karşı karşıya kalabilir. Bu yazı, taşınabilir jeneratörün güvenli konumlandırılmasından yakıt yönetimine, kablo seçiminden sabit jeneratör kurulumunun neden bir elektrikçi işi olduğuna kadar pratik bir çerçeve sunar."
+    ],
+    "sections": [
+      {
+        "heading": "Jeneratörü Nerede Çalıştırmak Güvenlidir?",
+        "body": [
+          "Taşınabilir jeneratörler yalnızca açık havada ve evden, garajdan, verandadan yeterince uzakta çalıştırılmalıdır; kapalı hiçbir alanda —ne garaj, ne bodrum, ne de kapı veya pencere kenarı— jeneratör asla çalıştırılmamalıdır.",
+          "Bunun nedeni karbon monoksit gazıdır: bu gaz renksiz, kokusuz ve tatsızdır, bu yüzden fark edilmeden hızla birikir ve kapalı ya da yarı kapalı bir alanda kısa sürede öldürücü yoğunluğa ulaşabilir. Garaj kapısını açık bırakmak, pencereyi aralık tutmak ya da vantilatör çalıştırmak bu riski ortadan kaldırmaz; hava akışı yeterli seyrelmeyi sağlamaz ve gaz yine iç mekânda birikebilir.",
+          "Jeneratörü evin dışında, pencerelerden ve kapılardan yeterince uzağa, rüzgarın egzoz gazını evden uzaklaştıracağı bir yöne yerleştirin. Kesinti başlamadan önce evin içine pilli bir karbon monoksit dedektörü kurmak, gaz birikimini erken fark etmenin en pratik yoludur."
+        ],
+        "list": [
+          "Jeneratörü açık havada, evden yeterli uzaklıkta çalıştırın",
+          "Egzoz çıkışını pencere, kapı ve havalandırma girişlerinden uzak tutun",
+          "Garaj, bodrum, kapalı veranda gibi alanlarda asla çalıştırmayın",
+          "Kesinti süresince çalışır durumda bir karbon monoksit dedektörü bulundurun"
+        ]
+      },
+      {
+        "heading": "Jeneratör Yakıtı Nasıl Depolanmalı ve Doldurulmalı?",
+        "body": [
+          "Jeneratör yakıtını her zaman onaylı, kapalı metal ya da plastik yakıt bidonlarında, evin dışında, doğrudan güneş almayan ve ısı kaynağından uzak bir yerde saklayın; bidonları yaşam alanlarının içine, garaja ya da güneşin sürekli vurduğu bir depoya koymayın.",
+          "Yakıt doldurma işlemini jeneratör tamamen soğuduktan sonra yapın; çalışır ya da sıcak durumdaki bir motora yakıt eklemek, dökülen yakıtın sıcak yüzeyle temas edip alev alma riskini doğurur. Doldurma sırasında yakın çevrede açık ateş, sigara ya da kıvılcım çıkarabilecek elektrikli alet bulundurmayın, dökülen yakıtı hemen silin.",
+          "Kasırga sezonu öncesinde stoklayacağınız yakıt miktarını, ilçenizin yakıt satışı ve taşıma kurallarına göre sınırlı tutun; bazı belediyeler evde saklanabilecek yanıcı sıvı miktarına üst sınır getirir. Güncel sınırı öğrenmek için yerel itfaiye teşkilatının ya da ilçe yönetiminin sayfasına bakmak en güvenilir yoldur."
+        ],
+        "list": [
+          "Yakıtı sadece onaylı kapalı bidonlarda ve serin, dışarıda bir yerde saklayın",
+          "Motor tamamen soğumadan yakıt eklemeyin",
+          "Dökülen yakıtı hemen silin, yakın çevrede kıvılcım kaynağı bulundurmayın",
+          "Depolayabileceğiniz azami yakıt miktarını yerel itfaiye kurallarından doğrulayın"
+        ]
+      },
+      {
+        "heading": "Uzatma Kablosu ve Bağlantılarda Nelere Dikkat Edilmeli?",
+        "body": [
+          "Jeneratörü doğrudan evin elektrik tesisatına bağlamayın ve cihazları yalnızca dışarıda kullanıma uygun, kalın çaplı, ağır hizmet tipi uzatma kablolarıyla besleyin; ince ya da iç mekân tipi kablolar aşırı ısınıp yangın riski oluşturabilir.",
+          "Kabloyu su birikintisinden, halı altından ve keskin kenarlardan uzak tutun, hasarlı ya da yıpranmış kabloyu kesinlikle kullanmayın. Jeneratörün toplam çıkış gücünü aşacak sayıda cihazı aynı anda bağlamak hem jeneratöre hem de bağlı cihazlara zarar verebilir; bu yüzden hangi cihazın ne kadar güç çektiğini kontrol edip öncelik sırasına göre bağlamak gerekir.",
+          "Evin şebeke sistemine geri besleme (back-feeding) yapmak, hem kendi evinizdeki hem de hat üzerinde çalışan teknisyenler için ölümcül olabilecek bir elektrik riski taşır; bu yüzden jeneratörü hiçbir zaman priz ya da kablo üzerinden doğrudan sigorta panosuna bağlamayın. Bu tür bir bağlantı yalnızca doğru şekilde kurulmuş bir transfer anahtarı üzerinden yapılabilir."
+        ],
+        "list": [
+          "Yalnızca dışarıda kullanıma uygun, ağır hizmet tipi uzatma kabloları kullanın",
+          "Kabloyu ıslak yüzeylerden ve keskin kenarlardan uzak tutun",
+          "Jeneratörü şebekeye doğrudan bağlamayın, back-feeding yapmayın"
+        ]
+      },
+      {
+        "heading": "Buzdolabı ve Tıbbi Cihazlar Nasıl Önceliklendirilir?",
+        "body": [
+          "Uzun süreli kesintide sınırlı jeneratör gücünü önce hayati ihtiyaçlara ayırın: soğuk zincir gerektiren ilaçlar ve gıdalar için buzdolabı/dondurucu, oksijen konsantratörü, CPAP cihazı ya da diğer elektrikli tıbbi ekipmanlar öncelik listesinin başında olmalıdır.",
+          "Buzdolabını gün boyunca sürekli çalıştırmak zorunda değilsiniz; kapıyı sık açmadan belirli aralıklarla çalıştırıp soğutmayı korumak, yakıtı daha verimli kullanmanızı sağlar. Kritik bir tıbbi cihaza bağımlı bir aile üyesi varsa, bu ihtiyacı önceden yerel sağlık yetkilisine ya da cihaz sağlayıcınıza bildirmek, kesinti planlaması açısından faydalıdır.",
+          "Bir cihazın gerçekte ne kadar güç çektiğini ve jeneratörün bunu kaldırıp kaldıramayacağını anlamak için cihazın kendi etiketindeki değerlere ve jeneratörün kullanım kılavuzuna bakmak gerekir; bu konuda tahmine dayalı bağlantı yapmak yerine, belirsiz kaldığınız durumlarda bir elektrikçiye ya da cihaz üreticisine danışmak daha güvenlidir. Bu, tıbbi bir tavsiye değildir; sağlık durumunuzla ilgili kararları her zaman hekiminizle görüşün."
+        ],
+        "list": [
+          "Soğuk zincir gerektiren ilaç ve gıda için buzdolabını öncelik listesine koyun",
+          "Oksijen konsantratörü, CPAP gibi tıbbi cihazları en yüksek önceliğe alın",
+          "Cihazın güç ihtiyacını etikette ve jeneratör kılavuzunda kontrol edin"
+        ]
+      },
+      {
+        "heading": "Sabit Jeneratör Kurulumu Kendi Başına Yapılabilir mi?",
+        "body": [
+          "Sabit (standby) jeneratör kurulumu, evin sigorta panosuna bağlanan bir transfer anahtarı gerektirdiği için lisanslı bir elektrikçi tarafından yapılması gereken bir iştir; bu işi kendi başınıza yapmak ya da lisanssız birine yaptırmak hem güvenlik hem de yasal açıdan risklidir.",
+          "Doğru kurulmuş bir transfer anahtarı, jeneratör devreye girdiğinde evi şebekeden otomatik olarak ayırır ve şebeke geldiğinde geri bağlar; bu, hem back-feeding riskini ortadan kaldırır hem de jeneratörünüzün belirlenen devrelere düzgün güç vermesini sağlar. Kurulum genellikle ilçenin bina/elektrik izin sürecinden geçer ve tesisatın yerel elektrik kodlarına uygunluğu denetlenir.",
+          "Sabit jeneratör satın almayı düşünüyorsanız hangi devrelerin (ör. buzdolabı, birkaç priz, klima kompresörü) beslenmesini istediğinizi elektrikçiyle birlikte belirlemek, doğru kapasiteyi seçmenin tek güvenilir yoludur; internetten bulunan genel tablolarla kendi kendinize kapasite hesaplamak, evinizin gerçek yükünü yansıtmayabilir. Kurulumdan sonra jeneratörün düzenli bakımını da genellikle aynı yetkili teknisyen ya da servis üstlenir."
+        ],
+        "list": [
+          "Transfer anahtarı kurulumunu her zaman lisanslı bir elektrikçiye yaptırın",
+          "İlçenin elektrik izin sürecinin gerekip gerekmediğini önceden öğrenin",
+          "Kapasite seçimini evinizin gerçek yüküne göre elektrikçiyle birlikte belirleyin"
+        ]
+      },
+      {
+        "heading": "Jeneratör Kullanırken Hangi Uyarı Belirtileri Ciddiye Alınmalı?",
+        "body": [
+          "Baş dönmesi, baş ağrısı, bulantı, kusma, göğüste sıkışma, kafa karışıklığı ya da bilinç bulanıklığı gibi belirtiler, jeneratör çalışırken karbon monoksit zehirlenmesinin ilk işaretleri olabilir; bu belirtiler fark edildiği anda hemen açık havaya çıkılmalı ve gerekiyorsa acil tıbbi yardım çağrılmalıdır.",
+          "Bu belirtiler uykuya benzeyebildiği için özellikle gece uyurken fark edilmesi zordur; bu yüzden pilli bir karbon monoksit dedektörü, jeneratör çalışırken alarm verecek en güvenilir erken uyarı sistemidir. Dedektörün pilini kasırga sezonu başlamadan önce kontrol etmek ve alarm çaldığında evi hemen boşaltmak, tartışmasız uygulanması gereken bir kural olmalıdır.",
+          "Jeneratör gürültüsü ya da motor sesindeki anormal değişiklikler de göz ardı edilmemesi gereken uyarılardır; alışılmadık titreşim ya da yağ kokusu, cihazın kapatılıp kontrol edilmesi gerektiğinin işaretidir. Belirsizlik durumunda cihazı durdurup kullanım kılavuzuna ya da yetkili servise başvurmak en güvenli yoldur."
+        ],
+        "list": [
+          "Baş dönmesi, bulantı ya da göğüste sıkışma hissedince hemen açık havaya çıkın",
+          "Karbon monoksit dedektörünün pilini kesinti öncesi kontrol edin",
+          "Motor sesinde anormal değişiklik ya da aşırı ısınma fark ederseniz cihazı durdurun"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Jeneratörü evin penceresine yakın ama dışarıda çalıştırmak güvenli mi?",
+        "a": "Hayır, güvenli değildir. Jeneratör dışarıda olsa bile pencere, kapı ya da havalandırma girişine yakınsa, egzozdan çıkan karbon monoksit içeri sızabilir ve kısa sürede tehlikeli yoğunluğa ulaşabilir. Cihazı pencerelerden ve kapılardan yeterince uzağa, egzozun evden uzağa baktığı bir yöne yerleştirmek gerekir."
+      },
+      {
+        "q": "Jeneratörü yağmur sırasında çalıştırmak güvenli mi?",
+        "a": "Jeneratörü doğrudan yağmura ya da su birikintisine maruz bırakmak, elektrik çarpması ve kısa devre riskini artırır; bu yüzden cihaz her koşulda kuru tutulmalı, üstü açık ama havalandırmalı bir koruma altında ya da kapatma sistemine sahip bir muhafazada çalıştırılmalıdır. Kapalı bir kutu içine tamamen hapsetmek ise karbon monoksitin birikmesine yol açabileceğinden tehlikelidir."
+      },
+      {
+        "q": "Jeneratörü sürekli çalışır halde bırakmak sorun yaratır mı?",
+        "a": "Evet, uzun süre kesintisiz çalıştırmak jeneratörün aşırı ısınmasına, yağ seviyesinin düşmesine ve motor ömrünün kısalmasına yol açabilir. Üreticinin belirttiği bakım aralıklarına uyarak, yağ ve yakıt seviyesini düzenli kontrol etmek, cihazı belirli aralıklarla dinlendirmek ve gerektiğinde soğumaya bırakmak, uzun kesinti dönemlerinde sağlıklı çalışmasını sürdürmesine yardımcı olur."
+      },
+      {
+        "q": "Sabit jeneratör kurulumunu kendim yapabilir miyim, yoksa elektrikçi gerekir mi?",
+        "a": "Sabit jeneratör kurulumu, evin sigorta panosuna bağlanan bir transfer anahtarı gerektirdiği için lisanslı bir elektrikçi tarafından yapılmalıdır. Bu bağlantı hatalı yapılırsa hem back-feeding riski hem de yasal sorunlar ortaya çıkabilir; ayrıca kurulum genellikle ilçenin elektrik izin sürecinden geçmesi gereken bir iştir."
+      },
+      {
+        "q": "Jeneratörle hangi cihazlar öncelikli olarak çalıştırılmalı?",
+        "a": "Öncelik genellikle soğuk zincir gerektiren ilaç ve gıdaları koruyan buzdolabı/dondurucu ile oksijen konsantratörü, CPAP gibi tıbbi cihazlara verilmelidir. Kalan kapasiteye göre birkaç aydınlatma noktası, telefon şarjı ya da iletişim cihazı eklenebilir; hangi cihazın ne kadar güç çektiği etikette ve jeneratör kılavuzunda belirtilir."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
