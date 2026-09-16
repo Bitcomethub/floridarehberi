@@ -481,7 +481,8 @@
         "gıda vergisi muafiyeti"
       ],
       "angle": "Market zinciri türlerinin farkını (indirim marketi, toptan üyelik, mahalle marketi, etnik market), mağaza kartı ve dijital kupon mantığını, birim fiyat okumayı anlat. Temel gıdanın satış vergisinden muaf, hazır tüketime sunulan gıdanın vergili olduğunu belirt. FİYAT VE MARKA ÖNERİSİ VERME. Türk mutfağı malzemesinin nerelerde bulunabileceğine genel çerçeveyle değin.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-16"
     },
     {
       "id": "telefon-hatti",
