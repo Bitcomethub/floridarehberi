@@ -517,7 +517,8 @@
         "posta yönlendirme"
       ],
       "angle": "Kontrol listesi çıkar: posta yönlendirme, ehliyet ve araç kaydı, banka ve kredi kartları, sigorta poliçeleri, işveren, okul, abonelikler. Ehliyet ve araç kaydında adres güncellemesinin yasal bir yükümlülük olduğunu ve süresi bulunduğunu belirt — SÜREYİ RAKAMLA VERME, FLHSMV'ye yönlendir. Adres kanıtının birçok işlemde istendiğini hatırlat.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-09-17"
     },
     {
       "id": "is-aramak",
