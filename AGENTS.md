@@ -7,3 +7,11 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Hosting (güncel)
+
+**Hosting: Railway** — bu proje 2026-09-28'de Vercel'den Railway'e taşındı.
+Vercel projeleri/alan adları kapatıldı ve Git bağlantıları kesildi.
+- Uygulama: Railway (bkz. "floridarehberi" servisi)
+- Zamanlanmış işler: Railway cron servisi (scripts/railway-cron.mjs)
+- Yeni servis/deploy: Railway üzerinden; Vercel'e deploy etmeye çalışmayın.
