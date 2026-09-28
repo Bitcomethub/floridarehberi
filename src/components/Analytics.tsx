@@ -27,6 +27,10 @@ import Script from 'next/script';
 const STORAGE_KEY = 'fr-consent-v1';
 const GA_ID = process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID;
 
+// Cloudflare Web Analytics (çerezsiz). Token herkese açık — istemciye gider.
+// Kapı GA ile AYNI: yalnızca `consent === 'granted'` iken ağaca girer.
+const CF_TOKEN = '5f982398ef4b40408fcc0e3aaff842d1';
+
 type Consent = 'unknown' | 'granted' | 'denied';
 
 const listeners = new Set<() => void>();
@@ -116,6 +120,16 @@ gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personali
 gtag('config','${GA_ID}',{anonymize_ip:true});`}
           </Script>
         </>
+      ) : null}
+
+      {/* Cloudflare beacon GA'dan bağımsız: GA_ID tanımsız olsa da onay
+          verilmişse ölçüm çalışır. Kapı yine RENDER'ı kontrol eder. */}
+      {consent === 'granted' ? (
+        <Script
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={`{"token": "${CF_TOKEN}"}`}
+          strategy="afterInteractive"
+        />
       ) : null}
 
       {showBanner ? (
