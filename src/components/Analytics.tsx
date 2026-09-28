@@ -103,7 +103,7 @@ export function Analytics() {
     emit();
   }
 
-  const showBanner = hydrated && consent === 'unknown' && Boolean(GA_ID);
+  const showBanner = hydrated && consent === 'unknown';
 
   return (
     <>
@@ -143,12 +143,12 @@ gtag('config','${GA_ID}',{anonymize_ip:true});`}
             id="consent-title"
             className="font-display text-small font-semibold tracking-tight text-ink"
           >
-            Ölçümleme çerezleri
+            Ziyaret ölçümü
           </h2>
           <p id="consent-desc" className="mt-1.5 text-[0.8125rem] leading-relaxed text-mute">
-            Hangi rehberlerin işe yaradığını görmek için Google Analytics
-            kullanmak istiyoruz. Reklam çerezi yok. Reddederseniz site aynı
-            şekilde çalışır.
+            Hangi rehberlerin işe yaradığını görmek için ziyaretleri
+            çerezsiz ve anonim olarak ölçmek istiyoruz. Kişisel veri toplanmaz,
+            reklam çerezi yok. Reddederseniz site aynı şekilde çalışır.
           </p>
           <div className="mt-4 flex gap-2">
             <button

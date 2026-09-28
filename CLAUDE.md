@@ -60,7 +60,7 @@ konuşan hanelere yönelik, ticari olmayan bir referans yayını. Yayıncı:
 | Hosting | Vercel |
 | İçerik | Kod içinde veri: `src/content/guides/*.ts` + `src/content/blog/` |
 | Görsel | `src/content/images/` kayıt defteri + `public/gorseller/*.webp` (Unsplash) |
-| Ölçüm | GA4, kendi onay kapımızın arkasında (`components/Analytics.tsx`) |
+| Ölçüm | Cloudflare Web Analytics beacon onay-kapılı: yalnızca `fr-consent-v1 === 'granted'` iken render edilir. Onay banner'ı consent `unknown` olduğunda her zaman render edilir ve GA4 measurement id'sine KASITLI OLARAK bağlı değildir. GA4 prod'da KAPALI; yalnızca `NEXT_PUBLIC_GA4_MEASUREMENT_ID` tanımlıysa devreye girer (NEXT_PUBLIC = build-time, rebuild gerekir). |
 | Hat | GitHub Actions cron → OpenRouter → kalite kapısı → commit |
 
 ### İçerik = veri, sayfa = türev
