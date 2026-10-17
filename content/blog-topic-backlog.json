@@ -555,6 +555,261 @@
       "angle": "Sıralı bir ilk-ay planı kur: geçici konaklama, adres, okul kaydı, sağlık sigortası, banka hesabı, ehliyet, faturalar. Hangi adımın hangisini beklettiğini göster (adres olmadan okul kaydı ve ehliyet ilerlemez). Çocuğun uyum sürecine kısa ve gerçekçi bir bölüm ayır. TAKVİM GÜNÜ SAYISI UYDURMA; ehliyet için 30 günlük kural gibi RESMÎ olanlar yazılabilir. Vize/statü konusuna girme.",
       "status": "published",
       "publishedAt": "2026-09-09"
+    },
+    {
+      "id": "kiralik-ilan-dolandiriciligi",
+      "slug": "floridada-kiralik-ev-ilan-dolandiriciligi-nasil-anlasilir",
+      "title": "Florida'da Kiralık Ev İlanında Dolandırıcılık Nasıl Anlaşılır?",
+      "question": "Florida'da kiralık ev ararken dolandırıcılık nasıl anlaşılır?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 1,
+      "keywords": [
+        "florida kiralık ev dolandırıcılık",
+        "sahte kiralık ilan",
+        "depozito dolandırıcılığı",
+        "ev sahibi doğrulama"
+      ],
+      "angle": "İlan dolandırıcılığının tipik işaretlerini sırala: ilanla uyuşmayan fiyat, yurt dışında olduğunu söyleyen 'ev sahibi', evi göstermeden depozito isteme, yalnız mesajla iletişim, acele ettirme. Doğrulama adımlarını anlat: adresi haritada kontrol et, mülkün gerçek sahibini/kaydını sorgula, siteyi gidip gör, ödeme yöntemini değerlendir (hediye kartı/havale talebi uyarı işaretidir). SPESİFİK FİYAT veya İSTATİSTİK VERME — 'piyasa dışı ucuzluk başlı başına bir uyarıdır' çerçevesini kur. Uyuşmazlıkta tüketiciyi koruyan kurumlara, yerel yetkililere ve avukata yönlendir.",
+      "status": "pending"
+    },
+    {
+      "id": "kefil-guarantor-kiralama",
+      "slug": "florida-kiralikta-kefil-guarantor-istenirse-ne-yapilir",
+      "title": "Florida'da Kiralamada Kefil (Guarantor) İstenirse Ne Yapılır?",
+      "question": "Florida'da ev kiralarken kefil (guarantor) istenirse süreç nasıl işler?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 2,
+      "keywords": [
+        "kira kefil guarantor",
+        "guarantor nedir kiralama",
+        "kredi geçmişi olmadan kiralama",
+        "kira başvurusu onay"
+      ],
+      "angle": "Guarantor kavramını açıkla (kiracının ödemesini üstlenen üçüncü kişi) ve neden istendiğini anlat: kredi geçmişi yoksa veya gelir belgesi zayıfsa ev sahibi kefil ister. Seçenekleri anlat: kefil bulmak, daha yüksek depozito/peşin kira, ücretli kefil şirketleri. DEPOZİTO KATI, PRİM veya GELİR ÇARPANI gibi RAKAM VERME. Kefil olmanın yükümlülüğünün ciddi olduğunu ve koşulların ilandan ilana değiştiğini, sözleşmede netleştirilmesi gerektiğini yaz.",
+      "status": "pending"
+    },
+    {
+      "id": "kiraci-sigortasi",
+      "slug": "florida-kiraci-sigortasi-nedir-ne-kapsar",
+      "title": "Florida'da Kiracı Sigortası (Renter's Insurance) Nedir, Neyi Kapsar?",
+      "question": "Florida'da kiracı sigortası ne işe yarar ve ev sahibi bunu isteyebilir mi?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 2,
+      "keywords": [
+        "renter's insurance nedir",
+        "kiracı sigortası florida",
+        "kiracı eşya sigortası",
+        "sorumluluk teminatı"
+      ],
+      "angle": "Kiracı sigortasının neyi kapsadığını anlat: kiracının eşyaları, üçüncü kişi sorumluluğu, ev sahibi sigortasının bıraktığı boşluk, geçici barınma. Ev sahibinin bunu sözleşmede neden şart koşabileceğini anlat (bina sigortası kiracının eşyasını karşılamaz). PRİM ve İÇERİK LİMİTİ rakamı VERME. Sel hasarının ayrı bir teminat olduğunu belirt. Poliçeyi taşınmadan önce veya sözleşme gereği belirli bir süre içinde almak gerektiğini yaz.",
+      "status": "pending"
+    },
+    {
+      "id": "abonelik-kurulum",
+      "slug": "floridada-elektrik-su-internet-aboneligi-nasil-acilir",
+      "title": "Florida'da Elektrik, Su ve İnternet Aboneliği Nasıl Açılır?",
+      "question": "Florida'da taşındıktan sonra elektrik, su ve internet aboneliği nasıl açılır?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 3,
+      "keywords": [
+        "elektrik aboneliği amerika",
+        "su aboneliği florida",
+        "internet sağlayıcı seçimi",
+        "utility kaydı"
+      ],
+      "angle": "Taşınmadan önce hangi hizmetlerin açılması gerektiğini ve sırayı anlat: sağlayıcı seçimi, depozito istenebileceği, kimlikle başvuru, online/randevulu kurulum. TARİFE veya DEPOZİTO TUTARI VERME — 'sağlayıcı ve adres bazında değişir, güncel tutarı sağlayıcıdan teyit et' çerçevesi. Bölgede hangi sağlayıcıların hizmet verdiğinin adrese göre sınırlı olabileceğini ve taşınma gününden önce başvurulması gerektiğini söyle.",
+      "status": "pending"
+    },
+    {
+      "id": "arac-kayit-yenileme",
+      "slug": "florida-arac-kayit-yenileme-nasil-yapilir",
+      "title": "Florida'da Araç Kayıt Yenileme (Registration) Nasıl Yapılır?",
+      "question": "Florida'da araç kayıt yenileme işlemi nasıl ve nereden yapılır?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 1,
+      "keywords": [
+        "florida araç kayıt yenileme",
+        "registration renewal florida",
+        "araç etiketi sticker",
+        "flhsmv yenileme"
+      ],
+      "angle": "Kayıt yenilemenin ne zaman gerektiğini (yıllık/iki yıllık döngü) ve nereden yapıldığını (FLHSMV, online/yetkili şube) anlat. Sigortanın geçerli olması şartını vurgula: sigorta yoksa yenileme yapılamaz ve plaka askıya alınabilir. HARÇ/MASRAF TUTARI VERME — 'güncel ücreti resmî kurumdan teyit et'. Süresi geçmiş kayıtla araç kullanmanın sonuçlarına kısaca değin.",
+      "status": "pending"
+    },
+    {
+      "id": "trafik-kazasi-adimlari",
+      "slug": "floridada-trafik-kazasi-sonrasi-ne-yapilir",
+      "title": "Florida'da Trafik Kazası Sonrası Ne Yapılır?",
+      "question": "Florida'da trafik kazası olursa hangi adımlar izlenmeli?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 1,
+      "keywords": [
+        "trafik kazası sonrası adımlar",
+        "kaza raporu florida",
+        "no-fault sigorta",
+        "polis raporu"
+      ],
+      "angle": "Kaza sonrası sırayı anlat: güvenliğe alma, yaralı varsa 911, bilgi/belge değişimi, fotoğraf, polis raporu, sigorta şirketine bildirim. Florida'nın no-fault (bedensel zararın öncelikle kendi sigortandan karşılanması) sistemini kavramsal anlat ama TEMİNAT LİMİTİ veya ÖDEME RAKAMI VERME. Suç isnadı/hukuki uyuşmazlık olan durumda avukata ve resmî mercilere yönlendir.",
+      "status": "pending"
+    },
+    {
+      "id": "trafik-cezasi-odeme",
+      "slug": "florida-trafik-cezasi-nasil-odenir",
+      "title": "Florida'da Trafik Cezası (Ticket) Nasıl Ödenir, İtiraz Edilir?",
+      "question": "Florida'da trafik cezası nasıl ödenir veya itiraz edilir?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 2,
+      "keywords": [
+        "florida trafik cezası ödeme",
+        "traffic ticket itiraz",
+        "ehliyet puan sistemi",
+        "ceza ödeme süresi"
+      ],
+      "angle": "Cezanın nereden geldiğini (ilçe mahkemesi) ve ödeme/itiraz yolunu anlat: bildirimde yazan son ödeme tarihi, ehliyet puanı (points) kavramı, trafik okulu seçeneği. CEZA TUTARI ve PUAN SAYISI VERME — 'tutar ihlale ve ilçeye göre değişir, mahkeme bildirimi esastır' çerçevesi. Süresinde ödenmeyen cezanın ek yaptırımlara yol açabileceğini belirt.",
+      "status": "pending"
+    },
+    {
+      "id": "ucretli-yol-sunpass",
+      "slug": "florida-ucretli-yol-ve-sunpass-nasil-calisir",
+      "title": "Florida'da Ücretli Yollar (Toll) ve SunPass Nasıl Çalışır?",
+      "question": "Florida'da ücretli yollarda geçiş nasıl ödenir, SunPass ne işe yarar?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 3,
+      "keywords": [
+        "sunpass nedir",
+        "florida toll",
+        "ücretli yol geçişi",
+        "plaka ile geçiş toll by plate"
+      ],
+      "angle": "Ücretli yollarda geçişin nasıl ücretlendirildiğini ve transponder (SunPass gibi) ile plaka okuma yöntemi arasındaki farkı anlat. CİHAZ ÜCRETİ veya GEÇİŞ TUTARI VERME. Kiralık araçla geçişte ücretin plakaya yansıyıp sonradan gelebileceğini ve kiracının bu konuda önceden bilgilendirilmesi gerektiğini yaz.",
+      "status": "pending"
+    },
+    {
+      "id": "in-network-out-of-network",
+      "slug": "saglik-sigortasinda-ag-ici-ve-ag-disi-ne-demek",
+      "title": "Sağlık Sigortasında Ağ İçi (In-Network) ve Ağ Dışı Ne Demek?",
+      "question": "Sağlık sigortasında in-network ve out-of-network farkı nedir, neden önemli?",
+      "category": "Sağlık",
+      "cluster": "saglik",
+      "priority": 1,
+      "keywords": [
+        "in-network nedir",
+        "ağ dışı hekim",
+        "sağlık sigortası ağı",
+        "provider doğrulama"
+      ],
+      "angle": "Sigorta ağının ne olduğunu (anlaşmalı sağlayıcı listesi) ve ağ içi/ağ dışı maliyet farkını kavramsal anlat. Muayene öncesi sağlayıcının ağ içinde olup olmadığını nasıl kontrol edeceğini söyle. ORAN/YÜZDE VERME ('ağ dışı daha pahalıya gelebilir' çerçevesi). Acil durumda ağ kurallarının farklı işleyebileceğini ve yönlendirme (referral) gerekip gerekmediğini belirt.",
+      "status": "pending"
+    },
+    {
+      "id": "cocuk-doktoru-secimi",
+      "slug": "floridada-cocuk-doktoru-nasil-secilir",
+      "title": "Florida'da Çocuk Doktoru (Pediatrician) Nasıl Seçilir?",
+      "question": "Florida'da çocuklar için doktor nasıl seçilir ve ilk muayene nasıl işler?",
+      "category": "Sağlık",
+      "cluster": "saglik",
+      "priority": 2,
+      "keywords": [
+        "pediatrician seçimi",
+        "çocuk doktoru amerika",
+        "aşı kaydı okul",
+        "patient portal"
+      ],
+      "angle": "Pediatrician seçerken bakılacakları anlat: sigorta ağı içinde olması, konum/ulaşım, randevu erişimi, hastane bağlantısı, dil. İlk ziyarette götürülecekleri (aşı ve önceki sağlık kayıtları) ve okulun isteyebileceği aşı/sağlık formlarını anlat. MUAYENE ÜCRETİ veya SPESİFİK TUTAR VERME. Bir doktorun yeni hasta kabul edip etmediğini önceden teyit etmeyi söyle.",
+      "status": "pending"
+    },
+    {
+      "id": "okul-servisi-ve-sonrasi-bakim",
+      "slug": "florida-okul-servisi-ve-okul-sonrasi-bakim-nasil-isler",
+      "title": "Florida'da Okul Servisi ve Okul Sonrası Bakım Nasıl İşler?",
+      "question": "Florida'da okul servisi ve okul sonrası bakım (after-school care) nasıl işliyor?",
+      "category": "Eğitim",
+      "cluster": "egitim",
+      "priority": 2,
+      "keywords": [
+        "okul servisi amerika",
+        "school bus florida",
+        "after school care",
+        "okul sonrası program"
+      ],
+      "angle": "Okul servisinin (school bus) nasıl çalıştığını (bölgeye göre değişen durak/kayıt gereksinimi) ve okul sonrası bakım seçeneklerini (okul bünyesindeki program, dış merkez) anlat. SERVİS/PROGRAM ÜCRETİ RAKAMI VERME — 'ücret ve kayıt ilçeye/kuruma göre değişir' çerçevesi. Kayıt ve bekleme listesinin erken kapanabileceğini, çalışma saatleriyle uyumu önceden planlamayı söyle.",
+      "status": "pending"
+    },
+    {
+      "id": "kasirga-uyari-seviyeleri",
+      "slug": "kasirga-uyarisi-watch-ile-warning-farki",
+      "title": "Kasırga Uyarıları: Watch ile Warning Arasındaki Fark Nedir?",
+      "question": "Kasırgada watch ve warning uyarıları ne anlama gelir?",
+      "category": "Kasırga",
+      "cluster": "kasirga",
+      "priority": 1,
+      "keywords": [
+        "hurricane watch warning",
+        "kasırga uyarı seviyeleri",
+        "tropik fırtına uyarısı",
+        "resmî uyarı kaynağı"
+      ],
+      "angle": "Watch ile warning arasındaki farkı net kavramlarla anlat (olasılık/hazırlık vs. gerçekleşen tehlike). Tropik fırtına ile kasırga uyarılarını ayrı anlat. Resmî kaynağın National Hurricane Center (nhc.noaa.gov) ve yerel acil durum yönetimi olduğunu; uyarının sosyal medyadan değil resmî kanaldan doğrulanması gerektiğini yaz. RÜZGÂR HIZI/KATEGORİ EŞİĞİ gibi RAKAM VERME.",
+      "status": "pending"
+    },
+    {
+      "id": "ev-sigortasi-yenilenmezse",
+      "slug": "ev-sigortasi-yenilenmezse-ne-yapilir",
+      "title": "Ev Sigortası Yenilenmezse (Non-Renewal) Ne Yapılır?",
+      "question": "Ev sahibi sigortam yenilenmiyor ya da iptal ediliyorsa ne yapmalıyım?",
+      "category": "Kasırga",
+      "cluster": "kasirga",
+      "priority": 2,
+      "keywords": [
+        "home insurance non-renewal",
+        "florida ev sigortası iptali",
+        "sigorta teklifi bulma",
+        "hazard sigortası eyalet"
+      ],
+      "angle": "Sigorta şirketinin poliçeyi yenilememe veya iptal etme durumunu ve bunun nasıl (yazılı) bildirileceğini anlat. Alternatif kapsam arayışını ve bölgesel çözümleri (eyaletin sigorta havuzu kavramını) anlat. PRİM, ZAM ORANI veya YÜZDE VERME. Yenilenmeme hâlinde alternatif bulmak için sürenin kısıtlı olduğunu ve ipotek varsa bankanın zorunlu sigorta (force-placed) isteyebileceğini yaz.",
+      "status": "pending"
+    },
+    {
+      "id": "geri-donusum-ve-cop",
+      "slug": "floridada-geri-donusum-ve-cop-kurallari",
+      "title": "Florida'da Geri Dönüşüm ve Çöp Kuralları Nasıl İşler?",
+      "question": "Florida'da çöp toplama ve geri dönüşüm kuralları nasıl işliyor?",
+      "category": "Günlük Hayat",
+      "cluster": "gunluk-hayat",
+      "priority": 3,
+      "keywords": [
+        "geri dönüşüm florida",
+        "çöp toplama günü",
+        "recycling kuralları",
+        "büyük eşya toplama"
+      ],
+      "angle": "Çöp ve geri dönüşüm toplamanın belediye/ilçe düzeyinde düzenlendiğini, günlerin ve kuralların adrese göre değiştiğini anlat. Ayrıştırma kuralları, bahçe atığı ve büyük eşya (bulky waste) toplama gibi tipik başlıkları anlat. Belirli bir belediye/işletme adı verip ücret söyleme — 'oturduğun belediyenin atık yönetimi sayfasına bak' çerçevesi. AŞIRI İADE/İHLAL ÜCRETİ gibi RAKAM VERME.",
+      "status": "pending"
+    },
+    {
+      "id": "kutuphane-ve-ucretsiz-hizmetler",
+      "slug": "florida-kutuphane-karti-ve-ucretsiz-hizmetler",
+      "title": "Florida'da Kütüphane Kartıyla Hangi Ücretsiz Hizmetlerden Yararlanılır?",
+      "question": "Florida'da kütüphane kartı nasıl alınır, hangi ücretsiz hizmetler sunulur?",
+      "category": "Günlük Hayat",
+      "cluster": "gunluk-hayat",
+      "priority": 3,
+      "keywords": [
+        "kütüphane kartı amerika",
+        "library card florida",
+        "ücretsiz kurslar",
+        "e-kitap ödünç"
+      ],
+      "angle": "Kütüphane kartının ikamet/ID belgesiyle nasıl alındığını ve sunulan hizmetleri anlat: basılı/e-kitap/sesli kitap ödünç, çocuk programları, İngilizce öğrenme kaynakları, bilgisayar ve internet erişimi, çevrimiçi kurslar, topluluk etkinlikleri. SPESİFİK ÜYELİK ÜCRETİ VERME (genellikle ücretsizdir ama kuruma göre değişir) — 'şubene göre teyit et' çerçevesi. Yeni gelenler için dil pratiği ve yerel toplulukla bağlantı kurma faydasını vurgula.",
+      "status": "pending"
     }
   ]
 }
