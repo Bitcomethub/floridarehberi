@@ -571,7 +571,8 @@
         "ev sahibi doğrulama"
       ],
       "angle": "İlan dolandırıcılığının tipik işaretlerini sırala: ilanla uyuşmayan fiyat, yurt dışında olduğunu söyleyen 'ev sahibi', evi göstermeden depozito isteme, yalnız mesajla iletişim, acele ettirme. Doğrulama adımlarını anlat: adresi haritada kontrol et, mülkün gerçek sahibini/kaydını sorgula, siteyi gidip gör, ödeme yöntemini değerlendir (hediye kartı/havale talebi uyarı işaretidir). SPESİFİK FİYAT veya İSTATİSTİK VERME — 'piyasa dışı ucuzluk başlı başına bir uyarıdır' çerçevesini kur. Uyuşmazlıkta tüketiciyi koruyan kurumlara, yerel yetkililere ve avukata yönlendir.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-17"
     },
     {
       "id": "kefil-guarantor-kiralama",
