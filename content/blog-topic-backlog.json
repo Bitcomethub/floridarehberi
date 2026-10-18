@@ -640,7 +640,8 @@
         "flhsmv yenileme"
       ],
       "angle": "Kayıt yenilemenin ne zaman gerektiğini (yıllık/iki yıllık döngü) ve nereden yapıldığını (FLHSMV, online/yetkili şube) anlat. Sigortanın geçerli olması şartını vurgula: sigorta yoksa yenileme yapılamaz ve plaka askıya alınabilir. HARÇ/MASRAF TUTARI VERME — 'güncel ücreti resmî kurumdan teyit et'. Süresi geçmiş kayıtla araç kullanmanın sonuçlarına kısaca değin.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-18"
     },
     {
       "id": "trafik-kazasi-adimlari",
