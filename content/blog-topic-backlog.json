@@ -658,7 +658,8 @@
         "polis raporu"
       ],
       "angle": "Kaza sonrası sırayı anlat: güvenliğe alma, yaralı varsa 911, bilgi/belge değişimi, fotoğraf, polis raporu, sigorta şirketine bildirim. Florida'nın no-fault (bedensel zararın öncelikle kendi sigortandan karşılanması) sistemini kavramsal anlat ama TEMİNAT LİMİTİ veya ÖDEME RAKAMI VERME. Suç isnadı/hukuki uyuşmazlık olan durumda avukata ve resmî mercilere yönlendir.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-19"
     },
     {
       "id": "trafik-cezasi-odeme",
