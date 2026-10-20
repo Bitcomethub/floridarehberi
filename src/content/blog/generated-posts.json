@@ -3313,5 +3313,110 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "saglik-sigortasinda-ag-ici-ve-ag-disi-ne-demek",
+    "title": "Sağlık Sigortasında Ağ İçi (In-Network) ve Ağ Dışı Ne Demek?",
+    "question": "Sağlık sigortasında in-network ve out-of-network farkı nedir, neden önemli?",
+    "excerpt": "In-network, sigorta şirketiyle fiyat anlaşması olan sağlayıcılardır; out-of-network ise anlaşması olmayanlardır. Fark cebinizden çıkan tutarı etkiler. Sağlayıcıyı muayeneden önce nasıl doğrulayacağınızı, yönlendirme ve acil durum kurallarını öğrenin.",
+    "keywords": [
+      "in-network nedir",
+      "ağ dışı hekim",
+      "sağlık sigortası ağı",
+      "provider doğrulama",
+      "out-of-network fatura itirazı",
+      "HMO PPO farkı",
+      "sağlık sigortası yönlendirme referral nedir"
+    ],
+    "publishedAt": "2026-10-20",
+    "updatedAt": "2026-10-20",
+    "intro": [
+      "In-network (ağ içi), sigorta şirketinizle önceden fiyat anlaşması yapmış hekim, hastane ve laboratuvarları; out-of-network (ağ dışı) ise böyle bir anlaşması olmayanları ifade eder ve bu fark genellikle cebinizden çıkan tutarda hissedilir.",
+      "Florida'da sağlık sigortası kullanan biri için bu ayrım, aynı muayenenin makul bir katkı payıyla mı yoksa beklenmedik bir faturayla mı sonuçlanacağını belirleyebilir. Aşağıda ağın ne olduğu, maliyet farkının nereden doğduğu, sağlayıcının nasıl doğrulanacağı ve acil durum ile yönlendirme kuralları anlatılıyor. Bu içerik genel bilgidir; sağlık ya da sigorta tavsiyesi değildir."
+    ],
+    "sections": [
+      {
+        "heading": "Sağlık sigortası ağı (network) tam olarak nedir?",
+        "body": [
+          "Sağlık sigortası ağı (network), sigorta şirketinin hizmet vermek için sözleşme yaptığı hekimlerin, hastanelerin, laboratuvarların, görüntüleme merkezlerinin ve eczanelerin listesidir. Bu sağlayıcılar (provider) sigortacıyla belirli bir hizmet için kabul edecekleri tutar üzerinde önceden anlaşmıştır.",
+          "Ağ içi (in-network) sağlayıcı bu listede yer alan kişi ya da kuruluştur. Ağ dışı (out-of-network) sağlayıcı ise listede olmayandır; hekim çok iyi olabilir, ancak sigortacıyla fiyat anlaşması yoktur. Bir klinikte çalışan bütün hekimlerin ya da aynı binadaki laboratuvarın ağ durumu aynı olmak zorunda değildir. Ağ, kalite yargısı değil, sözleşme ilişkisi demektir.",
+          "Aynı sigorta şirketinin farklı planlarının ağları birbirinden farklı olabilir. Bu yüzden 'sigortam bu şirketten' demek yetmez; hekimin sizin planınızın ağında yer alıp almadığına bakmanız gerekir. Ağlar yıl içinde de değişebilir, hekimler listeye girip çıkabilir."
+        ],
+        "list": [
+          "Birinci basamak hekimi (primary care) ve uzman hekimler",
+          "Hastaneler, ameliyat merkezleri ve acil olmayan ivedi bakım (urgent care) merkezleri",
+          "Laboratuvar, radyoloji ve eczaneler; her birinin ağ durumu ayrı kontrol edilmelidir."
+        ]
+      },
+      {
+        "heading": "Ağ içi ile ağ dışı arasındaki maliyet farkı nasıl oluşur?",
+        "body": [
+          "Ağ içi sağlayıcıda sigorta şirketi, önceden kararlaştırılmış bir fiyat listesi üzerinden ödeme yapar ve sağlayıcı bu tutarın üzerinde sizden ek fatura çıkarmamayı kabul eder. Bu karşılıklı anlaşma, ağ içi hizmeti çoğu durumda öngörülebilir kılar. Siz yalnızca planınızdaki payları ödersiniz: copay (muayene başına sabit katkı), coinsurance (masrafın sizin üstlendiğiniz kısmı) ve deductible (sigorta ödemeye başlamadan önce kendi cebinizden karşıladığınız tutar).",
+          "Ağ dışında ise anlaşmalı fiyat yoktur. Plan türüne göre sigorta ya hiç ödemez ya da daha düşük bir pay öder; sağlayıcı da kendi belirlediği ücreti faturalayabilir. Aradaki fark çoğu zaman size kalır ve ağ dışı hizmet ağ içine göre daha pahalıya gelebilir.",
+          "Ağ dışı harcamalar birçok planda ayrı bir deductible'a ve ayrı bir yıllık üst sınıra (out-of-pocket maximum, cebinizden çıkabilecek yıllık azami tutar) tabidir; bazı planlarda ağ dışı masraflar bu sınıra hiç sayılmaz. Gerçek rakamlar plandan plana değiştiği için Summary of Benefits and Coverage (SBC, plan özet belgesi) üzerinden kendi planınızın şartlarını okuyun."
+        ]
+      },
+      {
+        "heading": "Muayeneden önce sağlayıcının ağ içinde olduğunu nasıl doğrularım?",
+        "body": [
+          "Randevu almadan önce, planınızın kartında yazan üye numarasıyla sigorta şirketinin üye portalındaki ya da uygulamasındaki sağlayıcı arama (provider directory) aracına girin. Plan adını doğru seçmek önemlidir, çünkü aynı şirketin farklı planlarının ağı farklıdır.",
+          "Online liste güncel olmayabilir. Bu yüzden ikinci adım olarak hem muayenehaneyi hem de kartınızın arkasındaki üye hizmetleri numarasını arayın. Muayenehaneye 'Hangi sigorta şirketini kabul ediyorsunuz?' yerine 'Şu plan adıyla ağ içinde misiniz?' diye sorun; ilk soru yanıltıcı bir 'evet' getirebilir. Cevabı yazılı hale getirmek isterseniz üye portalındaki mesaj bölümünü kullanabilirsiniz.",
+          "Hekimin yanı sıra, işlemin yapılacağı hastane, laboratuvar ve görüntüleme merkezinin de ağ durumunu ayrı sorun. Görüşmenin tarihini, konuştuğunuz görevlinin adını ve verilen bilgiyi not edin. Özellikle ameliyat ya da ileri görüntüleme gibi pahalı işlemlerde bu adımı atlamamak en çok işe yarar."
+        ],
+        "list": [
+          "Hekim ve tesis ayrı ayrı ağ içinde mi?",
+          "Planlanan işlem için ön onay (prior authorization) gerekiyor mu?",
+          "Laboratuvar ve anestezi hekimi de ağ içinde mi?"
+        ]
+      },
+      {
+        "heading": "HMO ve PPO gibi plan türleri ağ ve yönlendirme kurallarını nasıl değiştirir?",
+        "body": [
+          "Ağ kuralları plan türüne göre değişir. HMO (sağlık bakım kuruluşu planı) genellikle yalnızca ağ içindeki hizmetleri karşılar ve bir birincil bakım hekimi (primary care physician, PCP) seçmenizi ister. Uzmana gitmek için bu hekimden yönlendirme (referral) almanız gerekebilir.",
+          "PPO (tercihli sağlayıcı planı) ise yönlendirme zorunluluğu olmadan uzmana gitmenize izin verme eğilimindedir ve ağ dışı hekimi bir miktar karşılayabilir; ancak ağ dışında payınız genellikle daha yüksektir. EPO (yalnızca ağ içini kapsayan plan) çoğunlukla ağ dışını karşılamaz ama yönlendirme istemeyebilir. Daha geniş ağ ya da ağ dışı esneklik sunan planların aylık primi farklı olabilir; plan seçerken primi ve payları birlikte değerlendirin.",
+          "Bunlar genel eğilimlerdir; her şirketin planı kendi kurallarını koyar. Planınızın türü kartınızda ya da SBC (plan özet belgesi) içinde yazar. Bazı planlar belirli uzmanlıklarda doğrudan erişime izin verebilir; ayrıntı plan belgesinde yazar. Yönlendirme gerekiyorsa ve almadan uzmana giderseniz, hekim ağ içinde olsa bile talep reddedilebilir. Bu nedenle ilk randevudan önce yönlendirme kuralını üye hizmetlerine sorun."
+        ]
+      },
+      {
+        "heading": "Acil durumda ağ kuralları farklı mı işler?",
+        "body": [
+          "Acil durumda ağ kuralları farklı işleyebilir. Hayati tehlike olduğunu düşündüğünüzde 911'i arayın ya da en yakın acil servise gidin; önce hastanenin ağ içinde olup olmadığını araştırmak zorunda değilsiniz. Birçok planda acil servis ağ dışı olsa bile ön onay aranmaz; ancak ayrıntı plana göre değişir.",
+          "Asıl karışıklık acil sonrası başlar. Aynı hastanede sizi tedavi eden hekimler, örneğin anestezi, radyoloji ya da acil hekimi, ayrı bir grup olarak çalışıp ağ dışı olabilir ve ayrı fatura gönderebilir. Hastane ağ içindeyken bile böyle bir fatura gelebilir. Federal düzenlemeler bazı acil ve ağ içi tesislerdeki ağ dışı hekim faturalarına sınır koyar; kapsamı sigorta şirketinizden ve Centers for Medicare & Medicaid Services (CMS) sayfasından teyit edin.",
+          "Beklenmedik bir fatura aldıysanız, ödemeden önce sigortanın açıklamalı ödeme belgesini (Explanation of Benefits, EOB) isteyin ve itiraz yollarını sorun. Acil olmayan ama hızlı gereken durumlarda urgent care (acil olmayan ivedi bakım) merkezlerinin ağ durumunu yine önceden kontrol edin; bunlara acil servis kuralları aynen uygulanmayabilir."
+        ]
+      },
+      {
+        "heading": "Ağ dışı bir hekimle devam etmem gerekirse ne yapabilirim?",
+        "body": [
+          "Sevdiğiniz ya da ihtiyaç duyduğunuz hekim ağ dışındaysa önce üye hizmetlerine ağ içinde benzer bir uzmanın bulunup bulunmadığını sorun. Bölgenizde uygun ağ içi uzman yoksa bazı şirketler ağ istisnası (network exception) tanır; bu, ağ dışı hekime ağ içi şartlarla gitmenize izin veren bir onaydır. Bu onay otomatik değildir; başvuru yapılmalı ve çoğu zaman hekimin yazılı tıbbi gerekçesi istenir.",
+          "Tedavi sırasında hekiminiz ağdan çıkarsa, devam eden tedavi için geçiş süresi (continuity of care) tanınıp tanınmadığını da sorun. Böyle bir hak planınıza ve eyalet kurallarına bağlıdır; mutlaka yazılı teyit isteyin. Başvurunun sonucunu e-posta ya da portal mesajı gibi yazılı bir kanalla alın.",
+          "Ağ dışına bilerek gidecekseniz, işlemden önce hekimin ofisinden tahmini ücret bilgisi isteyin ve sigorta şirketinden bu işlem için ne kadar ödeme yapılacağını yazılı sorun. Anlaşmazlık olursa Florida Department of Financial Services'in tüketici yardım hattına başvurulabilir. Bu yazı sağlık ya da sigorta tavsiyesi değildir; kararınızdan önce sigorta şirketinize veya lisanslı bir sigorta danışmanına danışın."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Ağ içi hekime gitmek her zaman daha ucuz mu?",
+        "a": "Genellikle ağ içi daha avantajlıdır; çünkü anlaşmalı fiyat uygulanır, ağ dışında ise sigorta ya daha az öder ya da hiç ödemez. Ancak yıllık deductible'ınızı henüz doldurmadıysanız ağ içinde de masrafın büyük kısmını siz karşılayabilirsiniz. Kendi planınızın şartlarını plan özet belgesinden (SBC) kontrol edin."
+      },
+      {
+        "q": "Hekimin ofisi 'sigortanızı kabul ediyoruz' derse ağ içi demek midir?",
+        "a": "Hayır, bu her zaman ağ içi anlamına gelmez. Ofis sigorta şirketinize fatura gönderebiliyor olabilir, ama planınızın ağında yer almıyor olabilir. Doğru soru 'Şu plan adıyla ağ içinde misiniz?' sorusudur. Cevabı sigorta şirketinin üye hizmetlerinden de teyit edin."
+      },
+      {
+        "q": "Sigortanın online sağlayıcı listesi güncel midir?",
+        "a": "Her zaman değil. Hekimler ağa girip çıkabilir ve listeler gecikmeli güncellenebilir. Bu yüzden listeye bakmak ilk adımdır; randevudan önce hem muayenehaneyi hem de sigorta şirketinin üye hizmetlerini arayıp ağ durumunu doğrulamak ve konuşmayı not etmek daha güvenlidir."
+      },
+      {
+        "q": "Yönlendirme (referral) ile gittiğim ağ dışı hekim ağ içi sayılır mı?",
+        "a": "Hayır, yönlendirme ve ağ durumu ayrı kavramlardır. Yönlendirme, planın uzmana gitmeniz için aradığı bir izindir; ağ dışı hekimi otomatik olarak ağ içi yapmaz. Ağ dışı bir uzmana yönlendirildiyseniz, hangi şartlarla karşılanacağını sigorta şirketinden yazılı olarak öğrenin."
+      },
+      {
+        "q": "Acil serviste tedavi görüp ağ dışı fatura alırsam ne yapmalıyım?",
+        "a": "Hemen ödeme yapmadan önce sigortanızdan açıklamalı ödeme belgesini (EOB) isteyin ve faturayla karşılaştırın. Hastane ya da hekimin ağ durumunu ve federal düzenlemelerin bu faturaya uygulanıp uygulanmadığını sorun. Çözülmezse itiraz başlatın ve Florida Department of Financial Services'in tüketici yardım hattına başvurmayı düşünün."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]

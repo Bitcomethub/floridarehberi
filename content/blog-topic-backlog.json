@@ -710,7 +710,8 @@
         "provider doğrulama"
       ],
       "angle": "Sigorta ağının ne olduğunu (anlaşmalı sağlayıcı listesi) ve ağ içi/ağ dışı maliyet farkını kavramsal anlat. Muayene öncesi sağlayıcının ağ içinde olup olmadığını nasıl kontrol edeceğini söyle. ORAN/YÜZDE VERME ('ağ dışı daha pahalıya gelebilir' çerçevesi). Acil durumda ağ kurallarının farklı işleyebileceğini ve yönlendirme (referral) gerekip gerekmediğini belirt.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-20"
     },
     {
       "id": "cocuk-doktoru-secimi",
