@@ -814,6 +814,346 @@
       ],
       "angle": "Kütüphane kartının ikamet/ID belgesiyle nasıl alındığını ve sunulan hizmetleri anlat: basılı/e-kitap/sesli kitap ödünç, çocuk programları, İngilizce öğrenme kaynakları, bilgisayar ve internet erişimi, çevrimiçi kurslar, topluluk etkinlikleri. SPESİFİK ÜYELİK ÜCRETİ VERME (genellikle ücretsizdir ama kuruma göre değişir) — 'şubene göre teyit et' çerçevesi. Yeni gelenler için dil pratiği ve yerel toplulukla bağlantı kurma faydasını vurgula.",
       "status": "pending"
+    },
+    {
+      "id": "kiralik-ev-gezme-kontrol-listesi",
+      "slug": "florida-kiralik-ev-gezerken-neler-kontrol-edilir",
+      "title": "Florida'da Kiralık Ev Gezerken Neleri Kontrol Etmeli?",
+      "question": "Florida'da kiralık evi gezerken hangi pratik kontroller yapılmalı?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 2,
+      "keywords": [
+        "kiralık ev gezmek",
+        "ev kontrol listesi",
+        "florida kiralık ev",
+        "kiralık ev görme"
+      ],
+      "angle": "Evi yerinde gezerken bakılacaklar: klima ve havalandırma, su basıncı, musluk ve tavan lekeleri, pencere ve kapı kilitleri, mahalle ve otopark. Sözleşme maddelerine, dolandırıcılık işaretlerine ve depozito konusuna GİRME; onlar ayrı yazılar. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "eve-giris-teslim-tutanagi",
+      "slug": "florida-eve-girerken-teslim-tutanagi-move-in-inspection",
+      "title": "Florida'da Eve Girerken Teslim Tutanağı Nasıl Hazırlanır?",
+      "question": "Kiralık eve girerken mevcut hasarlar nasıl belgelenir?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 2,
+      "keywords": [
+        "move-in inspection",
+        "teslim tutanağı",
+        "kiralık ev fotoğraf",
+        "ev durumu belgeleme"
+      ],
+      "angle": "Eve girişte durumu fotoğraf ve yazılı listeyle belgeleme, tarihli kopyayı ev sahibine/yönetime iletme alışkanlığı. Depozito iade süreleri ve kanun ayrıntısına GİRME; yalnızca belgeleme yöntemi. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "evde-nem-ve-kuf-sorunu",
+      "slug": "florida-evde-nem-ve-kuf-sorunuyla-nasil-basa-cikilir",
+      "title": "Florida'da Evde Nem ve Küf Sorunuyla Nasıl Başa Çıkılır?",
+      "question": "Florida'daki nemli iklimde evde küf nasıl önlenir?",
+      "category": "Konut",
+      "cluster": "konut",
+      "priority": 3,
+      "keywords": [
+        "florida nem",
+        "ev küf",
+        "nem alma cihazı",
+        "klima nem"
+      ],
+      "angle": "Nemli iklimde havalandırma, klima ayarı, nem alma cihazı kullanımı ve erken belirtileri fark etme. Küfün sağlığa etkisi hakkında tıbbi iddiada bulunma. Sorumluluk kimde sorusuna GİRME; ev sahibine yazılı bildirim ve gerekirse uzmana/yerel kuruma başvurma yönlendirmesi yap. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "arac-satarken-title-devri",
+      "slug": "florida-arac-satarken-title-devri-nasil-yapilir",
+      "title": "Florida'da Araç Satarken Title Devri Nasıl Yapılır?",
+      "question": "Florida'da aracı satarken title (mülkiyet belgesi) devri nasıl yapılır?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 2,
+      "keywords": [
+        "araç satmak florida",
+        "title devri",
+        "bill of sale",
+        "araç mülkiyeti"
+      ],
+      "angle": "Satıcı gözüyle devir adımları: title belgesi, satış belgesi, plaka ve bildirim mantığı. Araç kaydı yenileme, ikinci el araç alırken kontrol ve sigorta konularına GİRME. Ücret ve süre yazma; FLHSMV'ye yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "saganak-yagmurda-surus",
+      "slug": "florida-ani-saganakta-guvenli-surus",
+      "title": "Florida'da Ani Sağanak Yağmurda Güvenli Sürüş",
+      "question": "Florida'da ani sağanak yağmurda araç nasıl güvenli kullanılır?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 3,
+      "keywords": [
+        "florida yağmurda sürüş",
+        "aquaplaning",
+        "sağanak sürüş",
+        "şimşek sürüş"
+      ],
+      "angle": "Ani ve yoğun yağışta görüş, takip mesafesi, hız ayarı, sular altındaki yola girmeme ve güvenli yere çekilme. Kasırga tahliyesi ve trafik cezaları konusuna GİRME. Kesin mesafe veya hız değeri verme; Florida sürücü el kitabına yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "sicakta-arac-bakimi",
+      "slug": "florida-sicaginda-arac-bakimi-aku-lastik-klima",
+      "title": "Florida Sıcağında Araç Bakımı: Akü, Lastik ve Klima",
+      "question": "Florida'nın sıcağı araç akü, lastik ve klimasını nasıl etkiler?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 3,
+      "keywords": [
+        "florida araç bakımı",
+        "akü sıcak",
+        "lastik basıncı",
+        "araç klima"
+      ],
+      "angle": "Sıcak ve nemin akü, lastik ve klima üzerindeki genel etkisi, bakım rutini, aracı içinde çocuk ya da hayvan bırakmama uyarısı. Bakım aralığı ve maliyet rakamı verme; üretici kılavuzuna ve servise yönlendir. Araç muayenesine GİRME. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "park-kurallari-ve-towing",
+      "slug": "florida-park-kurallari-ve-arac-cekilmesi-towing",
+      "title": "Florida'da Park Kuralları ve Aracın Çekilmesi (Towing)",
+      "question": "Florida'da aracım çekilirse ne yapmalıyım, nasıl önlenir?",
+      "category": "Ehliyet ve Araç",
+      "cluster": "ehliyet-arac",
+      "priority": 2,
+      "keywords": [
+        "towing florida",
+        "araç çekildi",
+        "park yasağı",
+        "apartman otopark"
+      ],
+      "angle": "Apartman/site otoparkı ve ticari alanda park işaretlerini okuma, misafir izni, aracın çekilmesi hâlinde genel adımlar. Ceza tutarı ve yasal süre YAZMA; yerel yönetime ve avukata yönlendir. Trafik cezası ödeme yazısına GİRME. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "pre-k-ve-cocuk-bakimi",
+      "slug": "florida-okul-oncesi-pre-k-ve-cocuk-bakimi-secenekleri",
+      "title": "Florida'da Okul Öncesi ve Çocuk Bakımı Seçenekleri",
+      "question": "Florida'da okul öncesi çocuklar için hangi bakım seçenekleri var?",
+      "category": "Eğitim",
+      "cluster": "egitim",
+      "priority": 2,
+      "keywords": [
+        "florida pre-k",
+        "daycare",
+        "okul öncesi",
+        "çocuk bakımı"
+      ],
+      "angle": "Daycare, preschool, Pre-K ve ev tipi bakım arasındaki genel fark, lisans/denetim bilgisini sorma ve ziyaret edip gözleme. Okul kaydı belgeleri ve okul sonrası bakım yazılarına GİRME. Ücret ve uygunluk kriteri verme; ilgili eyalet birimine yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "yaz-kampi-ve-yaz-programlari",
+      "slug": "florida-cocuklar-icin-yaz-kampi-ve-yaz-programlari",
+      "title": "Florida'da Çocuklar İçin Yaz Kampı ve Programlar",
+      "question": "Florida'da çocuklar yaz tatilinde hangi programlara katılabilir?",
+      "category": "Eğitim",
+      "cluster": "egitim",
+      "priority": 3,
+      "keywords": [
+        "florida yaz kampı",
+        "çocuk yaz programı",
+        "summer camp",
+        "yaz okulu"
+      ],
+      "angle": "Gün kampı, spor, sanat ve belediye/kütüphane programları türleri, kayıt öncesi sorulacak sorular. Kampın güvenlik denetimi hakkında iddia yazma. Fiyat ve tarih VERME; okul bölgesi ve belediyenin güncel duyurusuna yönlendir. Kütüphane ücretsiz hizmetler yazısını TEKRARLAMA. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "doktor-randevusu-ve-ilk-muayene",
+      "slug": "amerikada-doktor-randevusu-nasil-alinir-ilk-muayene",
+      "title": "Amerika'da Doktor Randevusu ve İlk Muayene Nasıl İşler?",
+      "question": "Amerika'da aile doktorundan randevu nasıl alınır, ilk muayenede ne beklenir?",
+      "category": "Sağlık",
+      "cluster": "saglik",
+      "priority": 1,
+      "keywords": [
+        "doktor randevusu",
+        "primary care",
+        "ilk muayene",
+        "amerika aile doktoru"
+      ],
+      "angle": "Birincil bakım doktoru (PCP) kavramı, randevu alma, ilk ziyarette istenen bilgiler ve sorulacak sorular. Çocuk doktoru seçimi ve ağ içi/dışı farkına GİRME; onlar ayrı yazılar. Tıbbi tavsiye verme; tanı ve tedavi için hekime yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "saglik-faturasi-eob-okuma",
+      "slug": "amerikada-saglik-faturasi-ve-eob-nasil-okunur",
+      "title": "Amerika'da Sağlık Faturası ve EOB Nasıl Okunur?",
+      "question": "Amerika'da sigorta EOB belgesi ile hastane faturası nasıl karşılaştırılır?",
+      "category": "Sağlık",
+      "cluster": "saglik",
+      "priority": 1,
+      "keywords": [
+        "eob nedir",
+        "sağlık faturası",
+        "hastane faturası",
+        "sigorta açıklama belgesi"
+      ],
+      "angle": "EOB'un fatura olmadığını, fatura ile eşleştirmeyi, hatalı kalem şüphesinde sigorta ve hastaneyle yazılı iletişim. Tutar, yüzde ya da muafiyet rakamı VERME. Ağ içi/dışı yazısını TEKRARLAMA; sigorta şirketine ve eyalet sigorta kurumuna yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "asiri-sicaktan-korunma",
+      "slug": "florida-asiri-sicak-ve-guneste-korunma",
+      "title": "Florida'da Aşırı Sıcak ve Güneşten Nasıl Korunulur?",
+      "question": "Florida'nın yaz sıcağında sıcak çarpmasından nasıl korunulur?",
+      "category": "Sağlık",
+      "cluster": "saglik",
+      "priority": 2,
+      "keywords": [
+        "florida sıcak",
+        "sıcak çarpması",
+        "güneş koruması",
+        "yaz sağlık"
+      ],
+      "angle": "Gün içi planlama, bol sıvı, gölge ve serin ortam, çocuk ve yaşlıların daha hassas olduğu, belirtilerde yardım isteme. Tıbbi doz ya da tedavi tavsiyesi verme; acil durumda 911'e ve hekime yönlendir. Sıcaklık değeri veya istatistik yazma. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "w2-ve-1099-formlari",
+      "slug": "amerikada-w2-ve-1099-formlari-nedir",
+      "title": "Amerika'da W-2 ve 1099 Formları Nedir?",
+      "question": "Amerika'da W-2 ve 1099 formları ne işe yarar, farkı nedir?",
+      "category": "Vergi",
+      "cluster": "vergi",
+      "priority": 1,
+      "keywords": [
+        "w-2 nedir",
+        "1099 formu",
+        "vergi formları",
+        "çalışan ve bağımsız"
+      ],
+      "angle": "W-2 (çalışan) ile 1099 (bağımsız/diğer gelir) formlarının genel anlamı, hangi formun beyanname hazırlarken gerektiği. İlk beyanname adımları ve vergi dilimi/oran konusuna GİRME. Oran, tarih ya da eşik rakamı verme; IRS'e ve vergi uzmanına yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "emlak-vergisi-faturasi-okuma",
+      "slug": "florida-emlak-vergisi-property-tax-faturasi-nasil-okunur",
+      "title": "Florida'da Emlak Vergisi Faturası Nasıl Okunur?",
+      "question": "Florida'da emlak vergisi (property tax) faturasında hangi kalemler var?",
+      "category": "Vergi",
+      "cluster": "vergi",
+      "priority": 2,
+      "keywords": [
+        "florida emlak vergisi",
+        "property tax",
+        "millage",
+        "vergi faturası"
+      ],
+      "angle": "Faturadaki kalemleri genel mantıkla açıklama: değerleme, vergi oranı birimi, ilçe ve yerel kuruluş payları. Homestead muafiyeti başvurusuna GİRME; o ayrı yazı. Oran, tutar ve son ödeme tarihi YAZMA; ilgili county Property Appraiser ve Tax Collector sitesine yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "zelle-venmo-dijital-odeme",
+      "slug": "amerikada-zelle-venmo-ve-dijital-odemeler-nasil-calisir",
+      "title": "Amerika'da Zelle, Venmo ve Dijital Ödemeler Nasıl Çalışır?",
+      "question": "Amerika'da Zelle ve Venmo gibi uygulamalarla ödeme güvenli mi?",
+      "category": "Finans",
+      "cluster": "finans",
+      "priority": 2,
+      "keywords": [
+        "zelle nedir",
+        "venmo",
+        "dijital ödeme",
+        "para gönderme uygulaması"
+      ],
+      "angle": "Bu uygulamaların genel işleyişi, tanımadığın kişiye ödeme riski, dolandırıcılık işaretleri, ödemeyi geri almanın zor olabileceği. Türkiye'den para transferi konusuna GİRME. Limit ve ücret rakamı verme; banka ve uygulamanın resmî sayfasına yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "kredi-karti-ekstresi-okuma",
+      "slug": "amerikada-kredi-karti-ekstresi-ve-odeme-tarihi-nasil-okunur",
+      "title": "Amerika'da Kredi Kartı Ekstresi Nasıl Okunur?",
+      "question": "Amerika'da kredi kartı ekstresindeki kalemler ne anlama gelir?",
+      "category": "Finans",
+      "cluster": "finans",
+      "priority": 2,
+      "keywords": [
+        "kredi kartı ekstresi",
+        "statement balance",
+        "minimum ödeme",
+        "kredi kartı faizi"
+      ],
+      "angle": "Statement balance, minimum ödeme, ödeme tarihi kavramları ve ekstreyi okurken sık yapılan hata. Kredi puanı yükseltme yazısını TEKRARLAMA. Faiz oranı, ücret ve puan etkisi için sayı VERME; kart sağlayıcısına ve CFPB'ye yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "kasirga-oncesi-ev-hazirligi",
+      "slug": "kasirga-oncesi-evi-hazirlama-pencere-bahce-esya",
+      "title": "Kasırga Öncesi Evi Hazırlama: Pencere, Bahçe ve Eşyalar",
+      "question": "Kasırga yaklaşırken ev ve bahçe nasıl hazırlanır?",
+      "category": "Kasırga",
+      "cluster": "kasirga",
+      "priority": 1,
+      "keywords": [
+        "kasırga hazırlık",
+        "ev koruma",
+        "bahçe eşyaları",
+        "pencere koruma"
+      ],
+      "angle": "Dışarıdaki eşyaları sabitleme/içeri alma, pencere ve kapı korumasına genel bakış, belgeleri ve fotoğrafları yedekleme. Tahliye çantası, uyarı seviyeleri ve sigorta konularına GİRME. Hazırlık zamanı için sayı yazma; yerel acil durum yönetimine yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "kasirga-ve-evcil-hayvan",
+      "slug": "kasirga-sezonunda-evcil-hayvan-hazirligi",
+      "title": "Kasırga Sezonunda Evcil Hayvan Hazırlığı",
+      "question": "Kasırga sırasında evcil hayvanlar için ne hazırlanmalı?",
+      "category": "Kasırga",
+      "cluster": "kasirga",
+      "priority": 2,
+      "keywords": [
+        "kasırga evcil hayvan",
+        "tahliye hayvan",
+        "pet shelter",
+        "hayvan acil çanta"
+      ],
+      "angle": "Hayvan için kimlik/aşı kayıtları, taşıma kutusu, mama ve ilaç, evcil hayvan kabul eden barınak sorgulama. Genel tahliye çantası yazısını TEKRARLAMA. Barınak kuralları için kesin bilgi yazma; yerel county acil durum sayfasına yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "tahliye-bolgesi-nasil-ogrenilir",
+      "slug": "florida-tahliye-bolgesi-evacuation-zone-nasil-ogrenilir",
+      "title": "Florida'da Tahliye Bölgenizi Nasıl Öğrenirsiniz?",
+      "question": "Florida'da evimin kasırga tahliye bölgesi hangisi, nasıl öğrenilir?",
+      "category": "Kasırga",
+      "cluster": "kasirga",
+      "priority": 1,
+      "keywords": [
+        "evacuation zone",
+        "tahliye bölgesi",
+        "florida kasırga bölge",
+        "tahliye emri"
+      ],
+      "angle": "Tahliye bölgesi kavramı, adresten sorgulama mantığı, bölge harfi/numarasının ne anlama gelebileceği ve emir geldiğinde izlenecek genel akış. Uyarı seviyeleri ve tahliye çantası yazılarına GİRME. Bölge sınıflandırmasını uydurma; county acil durum yönetimi sitesine yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
+    },
+    {
+      "id": "plajda-guvenlik-ve-bayrak-renkleri",
+      "slug": "florida-plajda-guvenlik-ve-bayrak-renkleri",
+      "title": "Florida'da Plajda Güvenlik ve Bayrak Renkleri",
+      "question": "Florida plajlarında bayrak renkleri ne anlama gelir, nelere dikkat edilmeli?",
+      "category": "Günlük Hayat",
+      "cluster": "gunluk-hayat",
+      "priority": 3,
+      "keywords": [
+        "plaj bayrak renkleri",
+        "rip current",
+        "florida plaj güvenliği",
+        "cankurtaran"
+      ],
+      "angle": "Cankurtaran direğindeki bayrakların genel mantığı, akıntıya kapılma durumunda sakin kalma ve kıyıya paralel yüzme, çocuklarla plajda dikkat. Bayrak anlamlarını kendinden uydurma; emin değilsen yerel cankurtaran ve belediye sitesine yönlendir. Tıbbi tavsiye verme. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
+      "status": "pending"
     }
   ]
 }
