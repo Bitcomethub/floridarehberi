@@ -762,7 +762,8 @@
         "resmî uyarı kaynağı"
       ],
       "angle": "Watch ile warning arasındaki farkı net kavramlarla anlat (olasılık/hazırlık vs. gerçekleşen tehlike). Tropik fırtına ile kasırga uyarılarını ayrı anlat. Resmî kaynağın National Hurricane Center (nhc.noaa.gov) ve yerel acil durum yönetimi olduğunu; uyarının sosyal medyadan değil resmî kanaldan doğrulanması gerektiğini yaz. RÜZGÂR HIZI/KATEGORİ EŞİĞİ gibi RAKAM VERME.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-21"
     },
     {
       "id": "ev-sigortasi-yenilenmezse",
