@@ -577,7 +577,7 @@
     {
       "id": "kefil-guarantor-kiralama",
       "slug": "florida-kiralikta-kefil-guarantor-istenirse-ne-yapilir",
-      "title": "Florida'da Kiralamada Kefil (Guarantor) İstenirse Ne Yapılır?",
+      "title": "Florida'da Kefil (Guarantor) İstenirse Ne Yapılır?",
       "question": "Florida'da ev kiralarken kefil (guarantor) istenirse süreç nasıl işler?",
       "category": "Konut",
       "cluster": "konut",
@@ -594,7 +594,7 @@
     {
       "id": "kiraci-sigortasi",
       "slug": "florida-kiraci-sigortasi-nedir-ne-kapsar",
-      "title": "Florida'da Kiracı Sigortası (Renter's Insurance) Nedir, Neyi Kapsar?",
+      "title": "Florida'da Kiracı Sigortası (Renter's Insurance) Nedir?",
       "question": "Florida'da kiracı sigortası ne işe yarar ve ev sahibi bunu isteyebilir mi?",
       "category": "Konut",
       "cluster": "konut",
@@ -664,7 +664,7 @@
     {
       "id": "trafik-cezasi-odeme",
       "slug": "florida-trafik-cezasi-nasil-odenir",
-      "title": "Florida'da Trafik Cezası (Ticket) Nasıl Ödenir, İtiraz Edilir?",
+      "title": "Florida'da Trafik Cezası (Ticket) Nasıl Ödenir?",
       "question": "Florida'da trafik cezası nasıl ödenir veya itiraz edilir?",
       "category": "Ehliyet ve Araç",
       "cluster": "ehliyet-arac",
@@ -801,7 +801,7 @@
     {
       "id": "kutuphane-ve-ucretsiz-hizmetler",
       "slug": "florida-kutuphane-karti-ve-ucretsiz-hizmetler",
-      "title": "Florida'da Kütüphane Kartıyla Hangi Ücretsiz Hizmetlerden Yararlanılır?",
+      "title": "Florida'da Kütüphane Kartıyla Hangi Hizmetler Ücretsiz?",
       "question": "Florida'da kütüphane kartı nasıl alınır, hangi ücretsiz hizmetler sunulur?",
       "category": "Günlük Hayat",
       "cluster": "gunluk-hayat",
