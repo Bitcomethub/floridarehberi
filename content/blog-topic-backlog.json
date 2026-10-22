@@ -984,7 +984,8 @@
         "amerika aile doktoru"
       ],
       "angle": "Birincil bakım doktoru (PCP) kavramı, randevu alma, ilk ziyarette istenen bilgiler ve sorulacak sorular. Çocuk doktoru seçimi ve ağ içi/dışı farkına GİRME; onlar ayrı yazılar. Tıbbi tavsiye verme; tanı ve tedavi için hekime yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-22"
     },
     {
       "id": "saglik-faturasi-eob-okuma",
