@@ -1002,7 +1002,8 @@
         "sigorta açıklama belgesi"
       ],
       "angle": "EOB'un fatura olmadığını, fatura ile eşleştirmeyi, hatalı kalem şüphesinde sigorta ve hastaneyle yazılı iletişim. Tutar, yüzde ya da muafiyet rakamı VERME. Ağ içi/dışı yazısını TEKRARLAMA; sigorta şirketine ve eyalet sigorta kurumuna yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-23"
     },
     {
       "id": "asiri-sicaktan-korunma",

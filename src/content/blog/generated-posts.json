@@ -3617,5 +3617,98 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "amerikada-saglik-faturasi-ve-eob-nasil-okunur",
+    "title": "Amerika'da Sağlık Faturası ve EOB Nasıl Okunur?",
+    "question": "Amerika'da sigorta EOB belgesi ile hastane faturası nasıl karşılaştırılır?",
+    "excerpt": "EOB bir fatura değildir; sigortanın talebi nasıl işlediğini gösterir. Hastane faturasını hizmet tarihi, işlem kodu ve hasta payı üzerinden EOB ile satır satır karşılaştırın; fark varsa sigorta ve hastaneyle yazılı iletişime geçin.",
+    "keywords": [
+      "eob nedir",
+      "sağlık faturası",
+      "hastane faturası",
+      "sigorta açıklama belgesi",
+      "itemized bill nedir",
+      "eob ile fatura karşılaştırma",
+      "hatalı hastane faturasına itiraz"
+    ],
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "intro": [
+      "Sigorta EOB belgesi ile hastane faturası; hizmet tarihi, sağlayıcı adı, işlem kodu ve hasta payı üzerinden satır satır karşılaştırılır. Faturadaki ödenecek tutar, EOB'daki patient responsibility (hasta payı) satırıyla uyuşmalıdır. EOB (Explanation of Benefits, sigorta açıklama belgesi) fatura değil, sigortanın talebi nasıl işlediğini anlatan bilgi belgesidir.",
+      "Amerika'da tek bir hastane ziyareti için birden fazla belge ve birden fazla fatura gelebilir. Bu kafa karıştırıcıdır ama düzenli bir eşleştirmeyle çözülür. Kontrol sırası, hatalı kalem şüphesinde yazılı iletişim ve başvurulabilecek resmî kurumlar aşağıda sırayla ele alınıyor. İçerik genel bilgidir; hukuki, mali ya da tıbbi tavsiye değildir. Güncel tutarlar ve süreler için sigorta şirketinizi ve ilgili kurumun kendi sayfasını esas alın."
+    ],
+    "sections": [
+      {
+        "heading": "EOB nedir ve neden fatura değildir?",
+        "body": [
+          "EOB (Explanation of Benefits, sigorta açıklama belgesi), sigorta şirketinin bir sağlık hizmeti talebini nasıl işleme aldığını anlatan bilgi belgesidir. Genellikle posta ya da çevrimiçi hesap üzerinden gelir ve üzerinde 'This is not a bill' (bu bir fatura değildir) ifadesi bulunur.",
+          "Ödeme talebi taşımaz; sigortanın sağlayıcıya (doktor, hastane, laboratuvar) ne kadarını karşıladığını, hangi kısmın size bırakıldığını ve talebin onaylanıp reddedilmediğini gösterir. Yani EOB, hastane faturasının doğruluğunu sınamak için kullanacağınız bir kontrol listesidir, ödeyeceğiniz belge değil. Üzerindeki rakamlar, o talep için sigortanın verdiği karardır; ancak itiraz edilirse değişebilir. Belgeyi saklamak, sonradan eşleştirme yapmak için gerekir.",
+          "Faturayı ise sağlayıcı keser ve doğrudan sizden ödeme ister. İki belge farklı kaynaktan, farklı zamanlarda gelir; çoğu zaman EOB önce, bazen fatura önce ulaşır. Fatura EOB'dan önce geldiyse ödeme yapmadan EOB'un gelmesini beklemek makul bir yaklaşımdır, çünkü sigorta işlemi bitmeden kesin hasta payı belli olmaz. Sağlayıcıya talebin sigortaya iletildiğini ve işlemin sürdüğünü sorabilirsiniz."
+        ]
+      },
+      {
+        "heading": "EOB üzerinde hangi alanlara bakmalıyım?",
+        "body": [
+          "EOB'u okurken önce kimlik bilgilerini doğrulayın: hasta adı, hizmet tarihi, sağlayıcı adı ve talep numarası (claim number). Bunlar yanlışsa geri kalan tutarların hiçbir anlamı kalmaz; yanlış kişiye ya da yanlış ziyarete ait bir kayıt olabilir.",
+          "Belgede ayrıca 'not covered' (kapsam dışı) ya da 'denied' (reddedildi) gibi açıklama kodlarına dikkat edin. Her kodun anlamı belgenin alt kısmında ya da arka sayfasında yazar. Bu kodlar, bir kalemin neden sizin payınıza düştüğünü açıklar ve itiraz gerekip gerekmediğini anlamanızı sağlar. Kodları yanına not edin.",
+          "Tutar sütunlarında genellikle şu kalemler yer alır, adlar şirkete göre biraz değişebilir:"
+        ],
+        "list": [
+          "Billed amount (faturalanan tutar): sağlayıcının sigortaya bildirdiği liste fiyatı.",
+          "Allowed amount (izin verilen tutar): sigortanın o hizmet için kabul ettiği üst sınır.",
+          "Plan paid (sigortanın ödediği): sigortanın sağlayıcıya yaptığı ya da yapacağı ödeme.",
+          "Patient responsibility (hasta payı): copay (sabit ödeme), coinsurance (yüzde payı) ve deductible (yıllık muafiyet) kaynaklı kısım dahil, sizden beklenen toplam."
+        ]
+      },
+      {
+        "heading": "Hastane faturasını EOB ile adım adım nasıl eşleştiririm?",
+        "body": [
+          "Önce sağlayıcıdan itemized bill (kalem kalem döküm fatura) isteyin; özet bir ekstre yeterli değildir. Dökümde her hizmetin tarihi, açıklaması ve işlem kodu (CPT ya da HCPCS kodu) görünmelidir. Bu kodlar EOB'daki satırlarla birebir karşılaştırma yapmanızı sağlar.",
+          "Sonra satır satır ilerleyin: hizmet tarihi, sağlayıcı adı ve işlem kodu iki belgede aynı mı? Faturadaki 'ödenecek tutar' EOB'daki hasta payına eşit mi? Sigortayla sözleşmesi olan bir hastane genellikle faturalanan tutarı değil, EOB'daki hasta payını talep eder; aradaki fark indirim ya da sigorta ödemesidir.",
+          "Birden fazla fatura gelmesi normaldir: hastane, acil servis hekimi, radyolog ve laboratuvar çoğunlukla ayrı ayrı fatura keser. Her faturayı kendi EOB'siyle eşleştirin, eşleşmeyen faturaları ayrı bir listeye alın ve tarihleri, kodları, tutarları bir tabloya not edin. Bu tablo, telefonda ya da yazılı itirazda elinizdeki en güçlü dayanak olur. Her ziyaret için ayrı bir klasör (dijital ya da kâğıt) tutmak işi kolaylaştırır. Eşleştirme yapılmadan ödeme yapmayın."
+        ]
+      },
+      {
+        "heading": "Faturada hatalı kalem görürsem ne yapmalıyım?",
+        "body": [
+          "Hatalı kalem şüphesinde ilk adım ödeme yapmak değil, şüpheyi belgelemektir. Sık görülen sorunlar şunlardır: aynı hizmetin iki kez yazılması, alınmayan bir hizmetin faturada olması, yanlış tarih ya da işlem kodu, sigortaya hiç gönderilmemiş bir talep ve EOB'daki hasta payından yüksek tutar.",
+          "Ardından sağlayıcının fatura (billing) ofisine yazılı başvurun; e-posta, hasta portalı mesajı ya da posta kullanın. Mesajda hesap numarasını, hizmet tarihini, sorunlu kalemi ve EOB'daki karşılığını belirtin; düzeltilmiş ya da açıklamalı bir fatura isteyin. Gönderdiğiniz mesajın kopyasını ve varsa gönderim onayını saklayın; kısa, tarafsız ve olgulara dayalı bir dil kullanmak yanıt almayı kolaylaştırır. Suçlayıcı ifadelerden kaçının. Talebinizi tek ve net bir cümleyle açıkça yazın.",
+          "Sorun sigortanın işlem kararıyla ilgiliyse sigorta şirketinin üye hizmetleri hattını arayın, ardından kararı yazılı olarak sorgulayın. Her görüşmede tarih, kişi adı ve referans numarasını kaydedin. Yazılı yazışmalar ve görüşme notları, çözüm gecikirse en önemli kayıtlarınız olur. Bu bilgi genel bilgidir; hukuki tavsiye değildir."
+        ]
+      },
+      {
+        "heading": "Sigorta şirketi ve eyalet kurumuyla yazılı iletişim nasıl yürütülür?",
+        "body": [
+          "Sigorta şirketiyle yazılı iletişimde amaç, kararın gerekçesini ve itiraz yolunu netleştirmektir. Şirkete talep numarasını ve EOB'daki satırı belirterek bir 'appeal' (itiraz) ya da 'grievance' (şikâyet) başvurusu yapabilirsiniz. İtiraz hakkı ve başvuru süresi EOB'da ya da eşlik eden yazıda belirtilir; güncel süreyi mutlaka bu belgeden doğrulayın.",
+          "Şirketten yanıt alamazsanız ya da yanıt yetersizse, Florida'da sigorta tüketici şikâyetlerini ele alan Florida Department of Financial Services'in (Eyalet Mali Hizmetler Dairesi) tüketici hizmetleri birimine şikâyet iletebilirsiniz. Planınız işvereniniz aracılığıyla ve kendi kendini sigortalayan bir plansa yetkili kurum farklı olabilir; bunu sigorta kartınızdaki ve plan belgelerindeki bilgilerle ya da şirkete sorarak netleştirin.",
+          "Hastane tarafında ise faturalama ofisinin yanı sıra birçok hastanede hasta hizmetleri ya da mali yardım birimi vardır. Yazılı başvurunuzda hesap numarasını, EOB'u ve eşleştirme notlarınızı ekleyin. Güncel haklar ve yardım yolları için Florida ve federal resmî sitelerine, örneğin CMS'in (Medicare ve Medicaid Hizmetleri Merkezleri) tüketici sayfalarına bakın. Bu içerik hukuki ya da tıbbi tavsiye değildir."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "EOB nedir, fatura mıdır?",
+        "a": "EOB (Explanation of Benefits, sigorta açıklama belgesi), sigorta şirketinin bir sağlık talebini nasıl değerlendirdiğini gösteren bilgi belgesidir ve fatura değildir. Ödeme istemez; sigortanın neyi karşıladığını, neyin hasta payı olarak size kaldığını ve talebin onaylanıp onaylanmadığını gösterir."
+      },
+      {
+        "q": "Faturadaki tutar EOB'daki hasta payından farklıysa ne yapmalıyım?",
+        "a": "Önce hizmet tarihi, sağlayıcı ve işlem kodlarının iki belgede aynı olduğunu doğrulayın. Fark sürüyorsa kalem kalem döküm isteyin ve hastanenin faturalama ofisine farkı gösteren yazılı bir mesaj gönderin. Sigortanın kararından şüphe ediyorsanız şirkete de yazılı başvurun. Yanıt gelene kadar durumu yazılı olarak takip edin."
+      },
+      {
+        "q": "Fatura EOB'dan önce geldiyse hemen ödemeli miyim?",
+        "a": "Fatura EOB'dan önce geldiyse sigorta işlemi henüz bitmemiş olabilir ve kesin hasta payı belli olmayabilir. Sağlayıcıya talebin sigortaya gönderilip gönderilmediğini sorun, EOB'u bekleyip eşleştirme yapın. Faturadaki ödeme koşullarını ve güncel durumu faturalama ofisiyle yazılı olarak teyit edin."
+      },
+      {
+        "q": "Kalem kalem hastane faturası (itemized bill) nasıl istenir?",
+        "a": "Hastanenin faturalama ya da hasta hesapları ofisine itemized bill (kalem kalem döküm fatura) talep ettiğinizi yazılı olarak bildirin. Hesap numaranızı, hizmet tarihini ve hasta adını ekleyin. Dökümde işlem kodlarının yer almasını isteyin; böylece EOB satırlarıyla doğrudan karşılaştırabilirsiniz."
+      },
+      {
+        "q": "Sigorta ve hastane sorunu çözmezse nereye başvurulur?",
+        "a": "Önce sigorta şirketinin yazılı itiraz sürecini kullanın. Sonuç alamazsanız Florida Department of Financial Services'in tüketici hizmetlerine başvurabilirsiniz. İşveren planlarında yetkili kurum farklı olabilir; güncel yönlendirme için kurumların resmî sitelerine bakın. Bu bilgi hukuki tavsiye değildir."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
