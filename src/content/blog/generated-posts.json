@@ -3710,5 +3710,97 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "amerikada-w2-ve-1099-formlari-nedir",
+    "title": "Amerika'da W-2 ve 1099 Formları Nedir?",
+    "question": "Amerika'da W-2 ve 1099 formları ne işe yarar, farkı nedir?",
+    "excerpt": "W-2, çalışanın işverenden aldığı ücreti ve vergi kesintisini gösterir; 1099 ise bağımsız çalışma, faiz gibi diğer gelirleri bildirir. Farkı ve beyanname hazırlarken hangi formların gerektiğini genel hatlarıyla anlatıyoruz.",
+    "keywords": [
+      "w-2 nedir",
+      "1099 formu",
+      "vergi formları",
+      "çalışan ve bağımsız",
+      "w-2 ve 1099 farkı",
+      "1099-NEC nedir",
+      "beyanname için gerekli formlar"
+    ],
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "intro": [
+      "Amerika'da W-2 ve 1099 formları, kazandığınız gelirin IRS'e (ABD federal vergi idaresi) bildirilmesine yarar; fark ise W-2'nin işverenin çalışana, 1099'un ise ödemeyi yapanın bağımsız ya da diğer gelir alan kişiye düzenlediği form olmasıdır. İkisi de beyanname hazırlarken gelirinizi belgeleyen temel kâğıtlardır.",
+      "Bu içerik genel bilgi amaçlıdır; vergi, hukuk ya da muhasebe tavsiyesi değildir. Oranlar, eşikler ve tarihler her yıl değişebildiği için burada rakam verilmiyor. Güncel bilgiyi IRS'in resmî sayfasından doğrulayın, kişisel durumunuz için lisanslı bir vergi uzmanına danışın."
+    ],
+    "sections": [
+      {
+        "heading": "W-2 formu nedir ve kim düzenler?",
+        "body": [
+          "W-2 (Wage and Tax Statement, yani ücret ve vergi bildirimi), işverenin çalışanına ve IRS'e düzenlediği yıllık formdur. Form, o yıl işverenden aldığınız maaşı, bordro kesintisi olarak ödenen vergileri ve diğer bazı kalemleri tek sayfada toplar.",
+          "Çalışan olarak işe girdiğinizde işveren size W-4 formu doldurtur; bu form vergi kesintisinin nasıl hesaplanacağına yardımcı olur. Her maaş döneminde kesintiler otomatik yapılır, yıl sonunda ise sonucu W-2 özetler. İşverenler formu genellikle yıl başında gönderir; kesin teslim tarihini IRS'in sayfasından doğrulayın.",
+          "Formda işveren bilgileri, sizin adınız ve sosyal güvenlik numaranız, ücret tutarı ile federal, eyalet ve Medicare (federal sağlık sigortası vergisi) gibi kesinti kutuları bulunur. Florida'da eyalet gelir vergisi olmadığı için eyalet kutusu çoğu zaman boş kalır; ancak başka eyalette çalıştıysanız dolu olabilir. Kutulardaki tutarlar maaş bordronuzla uyuşmalıdır; fark görürseniz işverenin bordro birimine sorun. Aynı yıl birden fazla işverende çalıştıysanız her işverenden ayrı bir W-2 alırsınız ve hepsini beyannameye eklersiniz."
+        ]
+      },
+      {
+        "heading": "1099 formu nedir ve hangi gelirler için düzenlenir?",
+        "body": [
+          "1099, tek bir form değil, bir form ailesidir. Bağımsız çalışanlara (freelancer, sözleşmeli, kendi işini yapan kişi) yapılan ödemeler için genellikle 1099-NEC, banka faizi için 1099-INT, temettü için 1099-DIV, bazı ödeme platformları ve satışlar için 1099-K gibi türler düzenlenir. Hangi türün gönderileceğini gelirin kaynağı belirler.",
+          "Ödemeyi yapan kişi ya da kurum formu size ve IRS'e gönderir. Formdaki tutar, o yıl size ödenen toplam geliri gösterir. Burada işveren-çalışan ilişkisi yoktur; ödeme yapan taraf vergi kesintisi yapmamış olabilir. Bu yüzden vergiyi çoğu durumda kendiniz hesaplayıp ödemeniz gerekir. Form genellikle yıl başında gönderilir; kesin tarihi IRS'in sayfasından doğrulayın.",
+          "Formun gelmesi, o gelirin vergilendirilebilir olduğu anlamına gelir; ama bir 1099 hiç gelmediyse bile geliriniz beyana tabi olabilir. Bağımsız çalışanlar ayrıca gider düşümü ve kendi sosyal güvenlik-Medicare katkısı gibi konularda özel kurallara tabidir. Hangi gelirin hangi türde sayılacağı duruma göre değişir; ayrıntı için IRS'in 1099 açıklamalarına bakın ve bir vergi uzmanına danışın."
+        ]
+      },
+      {
+        "heading": "W-2 ile 1099 arasındaki temel fark nedir?",
+        "body": [
+          "Temel fark, ilişkinin türüdür. W-2'de ücret ödeyen taraf işverendir ve vergi kesintisini sizin adınıza maaştan keserek IRS'e yatırır. 1099'da ise ödeme yapan taraf müşteri ya da kurumdur; vergi sorumluluğu çoğunlukla gelir sahibindedir. Aynı kişi aynı yıl hem W-2 hem 1099 alabilir; ikisi de beyannameye girer.",
+          "Aşağıdaki karşılaştırma, iki formun günlük hayattaki farkını özetler. İş ilişkisinin hukuki sınıflandırması ise kurallara göre belirlenir, sadece formun adına bakılarak anlaşılmaz. Şüphe varsa IRS'in rehberlerine başvurun."
+        ],
+        "list": [
+          "Vergi kesintisi: W-2'de kesinti bordroda otomatik yapılır; 1099 gelirinde çoğu zaman kesinti olmaz ve ödeme sizden beklenir.",
+          "Tahmini ödeme: Bağımsız gelirde yıl içinde IRS'e dönemsel (estimated tax, yani tahmini vergi) ödeme yapmak gerekebilir; dönemleri IRS'ten kontrol edin.",
+          "Giderler: 1099 geliri olanlar iş giderlerini belirli kurallar dahilinde düşebilir; W-2 çalışanlar için bu imkân genellikle çok daha dardır.",
+          "Yan haklar: Sağlık sigortası ve emeklilik katkısı gibi yan haklar çoğunlukla W-2 çalışanlara işveren üzerinden sunulur; 1099'da bunları kendiniz ayarlarsınız."
+        ]
+      },
+      {
+        "heading": "Beyanname hazırlarken hangi form gerekir?",
+        "body": [
+          "Federal vergi beyannamesi hazırlarken eldeki bütün W-2 ve 1099 formları gerekir. Çalışan olarak aldığınız her W-2, beyannamede ücret gelirini ve zaten kesilmiş vergiyi gösterir. 1099 formları ise bağımsız, faiz, temettü ya da benzeri gelirinizi beyana taşır.",
+          "Kural basittir: gelirin kaynağı hangisiyse formu ona göre toplayın. Aynı yıl içinde işveren değiştirdiyseniz birden fazla W-2, bankadan faiz aldıysanız bir 1099-INT, serbest iş yaptıysanız bir ya da daha fazla 1099-NEC olabilir. Hepsini yıl sonu klasöründe tutmak işi kolaylaştırır. Formlar posta ya da elektronik ortamda gelebilir; hangi yolla geleceğini işverene ya da ödeme yapana sorun.",
+          "Formlar beyannameyi hazırlayan kişiye ya da yazılıma girilir ve IRS aynı bilgiyi kendi kayıtlarıyla karşılaştırır. Bu yüzden bir form eksikse ya da tutar uyuşmuyorsa sonradan yazışma çıkabilir. Hangi formun hangi satıra gireceği ve beyanname süreci bu yazının konusu değildir; bunun için IRS'in resmî sayfasına bakın ve yetkili bir vergi uzmanına (CPA ya da enrolled agent) danışın. Bu içerik vergi tavsiyesi değildir."
+        ]
+      },
+      {
+        "heading": "W-2 ya da 1099 formu gelmezse veya hatalıysa ne yapılır?",
+        "body": [
+          "Beklediğiniz W-2 ya da 1099 gelmediyse önce adresinizin ve e-posta kaydınızın güncel olup olmadığını kontrol edin, sonra işverene ya da ödemeyi yapan tarafa doğrudan yazın. Çoğu durumda form yanlış adrese gitmiş ya da elektronik kutuya düşmüş olur. Taşındıysanız eski adrese gönderilmiş olabilir; posta yönlendirmesi ve işverendeki adres kaydı bunu etkiler. Spam klasörünü de kontrol edin.",
+          "Formda ad, sosyal güvenlik numarası ya da tutar hatalıysa düzeltilmiş form (corrected form) talep edin. Elinizdeki bordro ve ödeme kayıtları, doğru tutarı kanıtlamak için işe yarar. Hata sizden değil gönderenden kaynaklansa bile düzeltmeyi başlatmak gönderenin işidir. Düzeltilmiş form gelmeden önce ne yapılacağını IRS'in rehberlerinden ve uzmanınızdan netleştirin.",
+          "Form hiç gelmese bile geliriniz beyana tabi olabilir; bu nedenle kayıtlarınızı (banka dökümü, fatura, bordro) saklayın. Süreler, eşikler ve gerekli adımlar değiştiği için güncel bilgiyi IRS'in resmî sayfasından doğrulayın. Bu yazı genel bilgidir; hukuki ya da vergisel tavsiye değildir ve kişisel durumunuz için bir vergi uzmanına danışmalısınız."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Aynı yıl hem W-2 hem 1099 alabilir miyim?",
+        "a": "Evet. Aynı yıl içinde bir işverende maaşla çalışıp ayrıca serbest iş yaptıysanız hem W-2 hem 1099 alabilirsiniz. Banka faizi gibi gelirler için de ayrı 1099 türleri gelebilir. Hepsi beyanname hazırlarken birlikte değerlendirilir; ayrıntıyı IRS'in sayfasından ve bir vergi uzmanından doğrulayın."
+      },
+      {
+        "q": "Florida'da eyalet gelir vergisi olmadığına göre bu formlar gerekli mi?",
+        "a": "Florida'da eyalet gelir vergisi bulunmaması, federal vergi yükümlülüğünü ortadan kaldırmaz. W-2 ve 1099 formları federal beyanname için IRS'e bildirilen gelirin belgesidir. Başka eyalette çalıştıysanız o eyaletin kuralları ayrıca devreye girebilir. Güncel durum için Florida Department of Revenue ve IRS sayfalarına bakın."
+      },
+      {
+        "q": "1099 almak bağımsız çalışan sayılmak demek midir?",
+        "a": "Hayır. 1099 formu yalnızca bağımsız çalışmayı değil, faiz, temettü ve bazı ödeme platformu gelirlerini de bildirebilir. Bağımsız çalışan sayılıp sayılmadığınız formun adından değil, işin fiilî niteliğinden anlaşılır. Şüpheniz varsa bir vergi uzmanına danışın; bu yazı vergi tavsiyesi değildir."
+      },
+      {
+        "q": "W-2 ya da 1099 formunu IRS'e kim gönderir?",
+        "a": "Formu düzenleme ve IRS'e bildirme yükümlülüğü ödemeyi yapan tarafa aittir: W-2'de işveren, 1099'da ödeme yapan kişi, kurum ya da platform. Sizin göreviniz formu almak, bilgilerin doğruluğunu kontrol etmek ve beyannameyi hazırlarken kullanmaktır."
+      },
+      {
+        "q": "Form gelmediyse geliri beyan etmem gerekmez mi?",
+        "a": "Gelirin beyana tabi olup olmadığı formun gelmesine bağlı değildir. Form gelmese de banka kayıtları, fatura ve bordro gibi belgeleri saklayın ve gelirinizi belgelerle takip edin. Nasıl ilerleyeceğiniz için IRS'in resmî sayfasına bakın ve bir vergi uzmanına danışın."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
