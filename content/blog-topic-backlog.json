@@ -1106,7 +1106,8 @@
         "pencere koruma"
       ],
       "angle": "Dışarıdaki eşyaları sabitleme/içeri alma, pencere ve kapı korumasına genel bakış, belgeleri ve fotoğrafları yedekleme. Tahliye çantası, uyarı seviyeleri ve sigorta konularına GİRME. Hazırlık zamanı için sayı yazma; yerel acil durum yönetimine yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-25"
     },
     {
       "id": "kasirga-ve-evcil-hayvan",
