@@ -3897,5 +3897,98 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "florida-tahliye-bolgesi-evacuation-zone-nasil-ogrenilir",
+    "title": "Florida'da Tahliye Bölgenizi Nasıl Öğrenirsiniz?",
+    "question": "Florida'da evimin kasırga tahliye bölgesi hangisi, nasıl öğrenilir?",
+    "excerpt": "Florida'da kasırga tahliye bölgenizi öğrenmenin yolu, ilçenizin (county) acil durum yönetimi sitesinde adresinizi sorgulamaktır. Bölge harfi veya numarası ilçeden ilçeye değişir; tahliye emri geldiğinde bölgenizin kapsanıp kapsanmadığına bakılır.",
+    "keywords": [
+      "evacuation zone",
+      "tahliye bölgesi",
+      "florida kasırga bölge",
+      "tahliye emri",
+      "florida adresten tahliye bölgesi sorgulama",
+      "county emergency management",
+      "kasırga sezonu hazırlık"
+    ],
+    "publishedAt": "2026-10-26",
+    "updatedAt": "2026-10-26",
+    "intro": [
+      "Evinizin kasırga tahliye bölgesini öğrenmenin en güvenilir yolu, bulunduğunuz ilçenin (county) acil durum yönetimi biriminin sitesinde adresinizi sorgulamaktır; eyalet düzeyinde Florida Division of Emergency Management'ın sayfaları da sizi bu sorguya yönlendirir. Sonuç bir harf, numara ya da isim olarak görünür ve tahliye emri geldiğinde ilk bakacağınız bilgi budur.",
+      "Tahliye bölgesi sistemi her ilçede aynı biçimde işlemez; harf, numara ya da isim kullanımı ve harita ayrıntıları ilçeye göre değişir. Bu yazı genel bir çerçeve sunar; hukuki ya da tıbbi tavsiye değildir. Güncel bölge bilgisi için ilçenizin acil durum yönetimine ve Florida'nın resmî sitelerine başvurun."
+    ],
+    "sections": [
+      {
+        "heading": "Tahliye bölgesi (evacuation zone) tam olarak nedir?",
+        "body": [
+          "Tahliye bölgesi (evacuation zone), kasırga sırasında oluşabilecek deniz suyu yükselmesi (storm surge) riskine göre ilçelerin haritaladığı coğrafi alanlardır. Amaç, tahliye emri çıktığında kimin evden ayrılması gerektiğini adres bazında belirlemek ve herkesi aynı anda yola dökmemektir. Bölgeler genellikle kıyıya, körfeze ve su yollarına yakınlığa göre ayrılır; kıyıdan uzak görünen bir mahalle de yakınında geniş bir su kütlesi varsa listeye girebilir.",
+          "Önemli bir ayrım var: tahliye bölgesi ile sel sigortasında kullanılan FEMA sel bölgesi (flood zone) aynı şey değildir. Biri çıkış kararı için, diğeri sigorta ve yapılaşma kuralları için hazırlanır; evinizin birindeki durumu diğerini kesin biçimde söylemez.",
+          "Bölgeler zamanla güncellenebilir. Yeni haritalar yayımlandığında eskiden öğrendiğiniz bölge adı ya da sınırı değişmiş olabilir. Bu yüzden önceki yıldan hatırladığınız bilgiye güvenmek yerine, her kasırga sezonu başında adresinizi yeniden sorgulamak ve sonucu not etmek daha sağlıklıdır. Taşındıysanız yeni adresinizin bölgesi öncekinden farklı olabilir. Kiracıysanız, bölgenizi sözleşme imzalamadan önce de sorgulayabilirsiniz; ev sahibinin söylediği bilgiyi resmî sorguyla doğrulamak iyi bir alışkanlıktır."
+        ]
+      },
+      {
+        "heading": "Adresimin tahliye bölgesini nasıl sorgularım?",
+        "body": [
+          "En doğru yol, ilçenizin (county) acil durum yönetimi biriminin web sitesine gitmek ve ev adresinizi sorgulama aracına yazmaktır. Arama motoruna ilçe adınızla birlikte “emergency management” ve “evacuation zone” yazarak resmî sayfayı bulabilirsiniz; sitenin .gov uzantılı olduğunu doğrulayın.",
+          "Eyalet düzeyinde Florida Division of Emergency Management'ın kasırga hazırlığı sayfaları da bölge sorgusu için ilçelerin araçlarına yönlendirebilir. Sorgulama genellikle sokak numarası, cadde adı ve şehir bilgisiyle yapılır; sonuç bir harf, numara ya da isim olarak görünebilir.",
+          "Sonucu bulduktan sonra ekran görüntüsü alın, bölgenizi telefonunuza ve evdeki herkesin göreceği bir yere yazın. Adresiniz sistemde bulunmuyorsa, yeni inşa edilmiş bir konutsa ya da posta adresiniz fiziksel adresinizden farklıysa ilçe acil durum yönetimine doğrudan sorun; tahmin yürütmeyin."
+        ],
+        "list": [
+          "Adresi posta kodu ve şehir adıyla eksiksiz yazın.",
+          "Sonucu veren sayfanın resmî ilçe sitesi olduğunu kontrol edin.",
+          "İlçenin telefon desteği varsa sonucu onaylatın.",
+          "Sonucu haritada evinizin yerini görerek de doğrulayın."
+        ]
+      },
+      {
+        "heading": "Bölge harfi, numarası ya da rengi ne anlama gelir?",
+        "body": [
+          "Bölge adlandırması ilçeden ilçeye değişebilir; harf, numara, renk ya da başka bir isim kullanılabilir. Bu yüzden başka bir ilçede oturan birinin “bölgem A” demesi, sizin ilçenizde aynı anlama gelmeyebilir. Genel mantık şudur: bölge etiketi, evinizin hangi risk grubunda olduğunu ve emir çıkarsa hangi aşamada ayrılmanız beklenebileceğini gösterir. Ancak hangi harfin ya da numaranın daha riskli olduğu, hangi bölgenin önce çağrıldığı ilçenin kendi tanımına bağlıdır; bunu sorgu sayfasındaki açıklama kısmından okuyun.",
+          "İlçeler bölge bilgisini çoğu zaman haritayla ve kısa açıklamalarla birlikte sunar. Sonucu görünce durmayın; haritada bölgenizin sınırını, komşu bölgeleri ve açıklama metnini de okuyun. Sınır hattında oturuyorsanız, sokağınızın hangi tarafta kaldığını harita üzerinde ayrıca kontrol edin; şüphede kalırsanız ilçeyi arayın.",
+          "Sonuç “bölge yok” ya da benzeri çıkarsa bu, kasırga riskinizin hiç olmadığı anlamına gelmez; yalnızca tahliye emrinin adresinizi kapsamayabileceğini gösterir. Bunu varsaymak yerine ilçenin açıklamasını okuyun. Rüzgâr ve sel gibi diğer riskler için kendi hazırlığınızı sürdürmek gerekir."
+        ]
+      },
+      {
+        "heading": "Tahliye emri geldiğinde genel akış nasıl işler?",
+        "body": [
+          "Tahliye emri (evacuation order), ilçe ya da eyalet yetkililerinin belirli bölgelerdeki kişilerden evlerini terk etmesini istediği resmî duyurudur. Emir çoğu zaman bölge adıyla yapılır; yani “şu bölgeler ayrılsın” denir. Kendi bölgeniz anons edilmediyse emir sizi kapsamıyor olabilir, ama ilçenin açıklamasını yine de dikkatle okuyun.",
+          "Genel akış şöyledir: ilçe acil durum yönetimi duyuruyu kendi sitesinde, sosyal medya hesaplarında, yerel haberlerde ve kayıtlı uyarı sistemlerinde yayımlar. Siz bölgenizi duyuruda arar, kapsamdaysanız ilçenin belirttiği güzergâh ve sığınak bilgilerine bakar, evden çıkış planınızı uygularsınız. Yerel yönetimin talimatı, sosyal medyadaki paylaşımlardan önce gelir.",
+          "Çıkarken ilçenin açıkladığı güzergâhları izleyin. Evcil hayvanı, yaşlı ya da engelli yakını olan haneler, ilçenin özel ihtiyaç kayıt programlarını ve kabul eden sığınakları önceden sorabilir. Dönüş için de aynı kaynağı izleyin; ilçe dönüşe izin vermeden geri gitmeyin. Bu metin genel bilgidir; hukuki ya da tıbbi tavsiye değildir. Kararlarınızda her zaman yerel yetkililerin güncel talimatı esastır."
+        ]
+      },
+      {
+        "heading": "Bölgemi öğrendikten sonra neyi yazılı olarak kaydetmeliyim?",
+        "body": [
+          "Bölgenizi öğrendiğinizde işin yarısı bitti; geri kalanı bu bilgiyi kullanılabilir hale getirmektir. Bölge adını, adresinizi, ilçe acil durum yönetiminin sayfasını ve kayıt olduğunuz uyarı hizmetini tek bir yerde, hem kâğıtta hem telefonda saklayın. İnternet ya da elektrik kesildiğinde kâğıt not elinizde olur. Bölgenizde bir değişiklik duyurulursa notu güncelleyin ve evdeki herkese haber verin. Her sezon başında bu notu yeniden kontrol edin.",
+          "İkinci adım, nereye gideceğinizi önceden düşünmektir. Tahliye, her zaman kamu sığınağı anlamına gelmez; tahliye bölgesi dışında kalan bir akrabanın evi, bir konaklama tesisi ya da ilçenin açtığı sığınak olabilir. Güzergâhı ve bir yedek seçeneği önceden harita üzerinde inceleyin.",
+          "Kiracıysanız ev sahibiyle ya da yönetim şirketiyle fırtına öncesi sorumlulukları konuşun; apartman sakini iseniz bina yönetiminin kendi prosedürü olabilir. Ev sigortanızın ya da kira sözleşmenizin tahliye ile ilgili hükümleri varsa, bunları bir uzmana ya da ilgili kuruma danışarak netleştirin; bu yazı hukuki veya sigorta tavsiyesi değildir."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Tahliye bölgesi ile sel bölgesi (flood zone) aynı şey mi?",
+        "a": "Hayır. Tahliye bölgesi, deniz suyu yükselmesi gibi riskler için çıkış kararında kullanılır; FEMA sel bölgesi ise sel sigortası ve yapılaşma kuralları için kullanılır. İki haritanın amacı ve sınırları farklıdır, bu nedenle birinin sonucu diğerini kesin olarak göstermez. Her ikisini de kendi resmî kaynağından kontrol edin."
+      },
+      {
+        "q": "Evim kıyıdan uzaksa yine de tahliye bölgesinde olabilir miyim?",
+        "a": "Evet, olabilir. Bölgeler yalnızca kıyıya uzaklığa değil, su yollarına, körfezlere ve arazinin yüksekliğine de bağlı olabilir; bu nedenle kıyıdan uzak görünen bir mahalle de listeye girebilir. Tahmin yürütmek yerine adresinizi ilçenizin acil durum yönetimi sayfasında sorgulayın."
+      },
+      {
+        "q": "Tahliye bölgemi hangi resmî kaynaktan öğrenmeliyim?",
+        "a": "Sorgulama genellikle ilçenin acil durum yönetimi sitesindeki adres araçlarıyla yapılır. Eyalet düzeyinde Florida Division of Emergency Management'ın sayfaları da bilgi verir. Bölge harfi, numarası ya da adı ilçeden ilçeye değiştiği için sonucu mutlaka o ilçenin kendi açıklamasıyla birlikte okuyun."
+      },
+      {
+        "q": "Bir kez öğrendiğim bölge sonradan değişir mi?",
+        "a": "Evet, değişebilir. İlçeler haritalarını yeni verilerle güncelleyebilir; bu durumda bölge adınız ya da sınırınız farklılaşabilir. Her kasırga sezonu başında ve taşındığınızda adresinizi yeniden sorgulayın, güncel durumu ilçenin resmî sayfasından doğrulayın."
+      },
+      {
+        "q": "Tahliye emrini nereden takip etmeliyim?",
+        "a": "Duyurular genellikle ilçenin acil durum yönetimi sitesinde, resmî sosyal medya hesaplarında, yerel haberlerde ve ilçenin uyarı kayıt hizmetinde yayımlanır. Bu kanallara kasırga sezonundan önce abone olun. Bu bilgi hukuki ya da tıbbi tavsiye değildir; kararlarınızda yerel yetkililerin güncel talimatı esastır."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
