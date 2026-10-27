@@ -589,7 +589,8 @@
         "kira başvurusu onay"
       ],
       "angle": "Guarantor kavramını açıkla (kiracının ödemesini üstlenen üçüncü kişi) ve neden istendiğini anlat: kredi geçmişi yoksa veya gelir belgesi zayıfsa ev sahibi kefil ister. Seçenekleri anlat: kefil bulmak, daha yüksek depozito/peşin kira, ücretli kefil şirketleri. DEPOZİTO KATI, PRİM veya GELİR ÇARPANI gibi RAKAM VERME. Kefil olmanın yükümlülüğünün ciddi olduğunu ve koşulların ilandan ilana değiştiğini, sözleşmede netleştirilmesi gerektiğini yaz.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-27"
     },
     {
       "id": "kiraci-sigortasi",
