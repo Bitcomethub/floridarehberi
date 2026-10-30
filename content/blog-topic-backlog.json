@@ -607,7 +607,8 @@
         "sorumluluk teminatı"
       ],
       "angle": "Kiracı sigortasının neyi kapsadığını anlat: kiracının eşyaları, üçüncü kişi sorumluluğu, ev sahibi sigortasının bıraktığı boşluk, geçici barınma. Ev sahibinin bunu sözleşmede neden şart koşabileceğini anlat (bina sigortası kiracının eşyasını karşılamaz). PRİM ve İÇERİK LİMİTİ rakamı VERME. Sel hasarının ayrı bir teminat olduğunu belirt. Poliçeyi taşınmadan önce veya sözleşme gereği belirli bir süre içinde almak gerektiğini yaz.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-30"
     },
     {
       "id": "abonelik-kurulum",
