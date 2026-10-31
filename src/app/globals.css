@@ -212,7 +212,9 @@ body {
   text-decoration-color: color-mix(in oklch, var(--color-palm-deep) 42%, transparent);
   transition: text-decoration-color 160ms var(--ease-out-quint);
 }
-.prose-fr a:hover { text-decoration-color: var(--color-palm-deep); }
+@media (hover: hover) and (pointer: fine) {
+  .prose-fr a:hover { text-decoration-color: var(--color-palm-deep); }
+}
 
 /* Başlıklarda satır sonu dengesi */
 h1, h2, h3 { text-wrap: balance; }
@@ -230,4 +232,35 @@ h1, h2, h3 { text-wrap: balance; }
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+/* ---- Dokunmatik temel ------------------------------------------------
+   Tek düz :hover kuralı yukarıda medya içine alındı; Tailwind v4 hover:
+   varyantı da yalnız hover destekleyen cihazda çalışır. Dokunuş geri
+   bildirimi :active; gri dokunma kutusu ve çift dokunma zoom gecikmesi
+   kapatılır. */
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a[href],
+[role="button"],
+input[type="submit"],
+input[type="button"],
+select,
+summary {
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+button:active,
+a[href]:active,
+[role="button"]:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+select:active,
+summary:active {
+  opacity: 0.85;
 }
