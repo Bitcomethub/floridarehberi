@@ -57,6 +57,8 @@ export type Guide = {
   /** El kitabı bölüm numarası — sıralama ve görsel imza. */
   number: number;
   title: string;
+  /** <title> etiketi için kısa başlık (<=43 kr, şablon 17 kr ekliyor). H1 her zaman title. */
+  seoTitle?: string;
   /** Navigasyon ve footer için kısa etiket. */
   navLabel: string;
   /** Sayfanın cevapladığı ana soru — answer-first girişin hedefi. */

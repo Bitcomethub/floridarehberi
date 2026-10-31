@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'ev-kiralamak',
   number: 3,
   title: 'Florida’da ev kiralamak: süreç, sözleşme ve kiracı hakları',
+  seoTitle: 'Florida’da ev kiralamak: süreç ve haklar',
   navLabel: 'Ev kiralamak',
   question: 'Florida’da ev kiralamak için hangi adımlar ve belgeler gerekiyor?',
   excerpt:

@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'arac-sahibi-olmak',
   number: 5,
   title: 'Florida’da araç sahibi olmak: kayıt, sigorta ve no-fault sistemi',
+  seoTitle: 'Florida’da araç sahibi olmak: kayıt ve sigorta',
   navLabel: 'Araç ve sigorta',
   question: 'Florida’da araç almak, kaydettirmek ve sigortalamak nasıl işliyor?',
   excerpt:

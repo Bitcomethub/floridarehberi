@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'yasam-maliyeti',
   number: 2,
   title: 'Florida’da yaşam maliyeti: Miami, Orlando ve Tampa karşılaştırması',
+  seoTitle: 'Florida yaşam maliyeti: şehir kıyaslaması',
   navLabel: 'Yaşam maliyeti',
   question: 'Florida’da aylık yaşam maliyeti neyden oluşur ve şehirler arasında nasıl değişir?',
   excerpt:

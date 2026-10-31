@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'saglik-sistemi',
   number: 7,
   title: 'Florida’da sağlık sistemi ve sigorta: nasıl çalışır?',
+  seoTitle: 'Florida’da sağlık sistemi ve sigorta',
   navLabel: 'Sağlık ve sigorta',
   question: 'Florida’da sağlık sigortası nasıl alınır ve sistem nasıl işler?',
   excerpt:

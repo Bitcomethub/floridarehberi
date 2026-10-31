@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'nerede-yasanir',
   number: 1,
   title: 'Florida’da nerede yaşanır? Bölge bölge karşılaştırma',
+  seoTitle: 'Florida’da nerede yaşanır? Bölge rehberi',
   navLabel: 'Nerede yaşanır',
   question: 'Florida’da Türkler için en uygun yaşam bölgesi hangisi?',
   excerpt:

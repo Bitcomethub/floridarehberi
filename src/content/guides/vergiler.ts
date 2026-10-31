@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'vergiler',
   number: 8,
   title: 'Florida’da vergiler: gelir vergisi yok, peki ne var?',
+  seoTitle: 'Florida’da vergiler: ne var, ne yok?',
   navLabel: 'Vergiler',
   question: 'Florida’da hangi vergiler ödenir ve gelir vergisi gerçekten yok mu?',
   excerpt:

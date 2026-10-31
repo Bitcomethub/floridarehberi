@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'okul-sistemi',
   number: 6,
   title: 'Florida’da okul sistemi: kayıt, seçenekler ve okul bölgeleri',
+  seoTitle: 'Florida’da okul sistemi: kayıt ve seçenek',
   navLabel: 'Okul sistemi',
   question: 'Florida’da çocuğumu okula nasıl kaydettiririm ve okul seçenekleri neler?',
   excerpt:

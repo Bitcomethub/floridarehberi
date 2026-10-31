@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'banka-ve-kredi',
   number: 9,
   title: 'Banka hesabı açmak ve kredi geçmişi kurmak',
+  seoTitle: 'Banka hesabı açmak ve kredi geçmişi',
   navLabel: 'Banka ve kredi',
   question: 'Amerika’da banka hesabı nasıl açılır ve kredi puanı sıfırdan nasıl kurulur?',
   excerpt:

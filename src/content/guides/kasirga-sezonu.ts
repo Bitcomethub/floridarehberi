@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'kasirga-sezonu',
   number: 10,
   title: 'Kasırga sezonu: hazırlık, tahliye ve sigorta',
+  seoTitle: 'Kasırga sezonu: hazırlık ve tahliye',
   navLabel: 'Kasırga sezonu',
   question: 'Florida’da kasırga sezonu ne zaman ve nasıl hazırlanılır?',
   excerpt:

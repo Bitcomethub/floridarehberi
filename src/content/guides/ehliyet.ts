@@ -4,6 +4,7 @@ export const guide: Guide = {
   slug: 'ehliyet',
   number: 4,
   title: 'Florida’da ehliyet almak: belgeler, sınavlar ve süreler',
+  seoTitle: 'Florida’da ehliyet almak: belgeler ve sınavlar',
   navLabel: 'Ehliyet',
   question: 'Florida’da sürücü belgesi nasıl alınır ve Türk ehliyeti geçerli midir?',
   excerpt:

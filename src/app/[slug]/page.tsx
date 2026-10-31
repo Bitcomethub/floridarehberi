@@ -39,14 +39,14 @@ export async function generateMetadata({
 
   const url = abs(`/${guide.slug}`);
   return {
-    title: guide.title,
+    title: guide.seoTitle ?? guide.title,
     description: guide.excerpt,
     keywords: guide.keywords,
     alternates: { canonical: `/${guide.slug}` },
     openGraph: {
       type: 'article',
       url,
-      title: guide.title,
+      title: guide.seoTitle ?? guide.title,
       description: guide.excerpt,
       locale: SITE.locale,
       siteName: SITE.name,
