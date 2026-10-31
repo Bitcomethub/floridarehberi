@@ -678,7 +678,8 @@
         "ceza ödeme süresi"
       ],
       "angle": "Cezanın nereden geldiğini (ilçe mahkemesi) ve ödeme/itiraz yolunu anlat: bildirimde yazan son ödeme tarihi, ehliyet puanı (points) kavramı, trafik okulu seçeneği. CEZA TUTARI ve PUAN SAYISI VERME — 'tutar ihlale ve ilçeye göre değişir, mahkeme bildirimi esastır' çerçevesi. Süresinde ödenmeyen cezanın ek yaptırımlara yol açabileceğini belirt.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-10-31"
     },
     {
       "id": "ucretli-yol-sunpass",
