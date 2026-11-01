@@ -731,7 +731,8 @@
         "patient portal"
       ],
       "angle": "Pediatrician seçerken bakılacakları anlat: sigorta ağı içinde olması, konum/ulaşım, randevu erişimi, hastane bağlantısı, dil. İlk ziyarette götürülecekleri (aşı ve önceki sağlık kayıtları) ve okulun isteyebileceği aşı/sağlık formlarını anlat. MUAYENE ÜCRETİ veya SPESİFİK TUTAR VERME. Bir doktorun yeni hasta kabul edip etmediğini önceden teyit etmeyi söyle.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-11-01"
     },
     {
       "id": "okul-servisi-ve-sonrasi-bakim",
