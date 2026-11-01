@@ -28,6 +28,17 @@ export function organizationSchema() {
       name: PUBLISHER.name,
       url: PUBLISHER.site,
     },
+    // Sitenin GERÇEKTEN yayınladığı konular — rehber listesinden türetildi.
+    knowsAbout: [
+      'Florida’ya taşınmak',
+      'Florida’da ev kiralama',
+      'Florida’da ehliyet ve araç sigortası',
+      'Florida’da sağlık sigortası',
+      'Florida’da okul sistemi',
+      'Florida’da vergiler',
+      'Kasırga sezonu hazırlığı',
+      'Florida’da yaşam maliyeti',
+    ],
   };
 }
 
@@ -51,18 +62,6 @@ export function breadcrumbSchema(trail: { name: string; path: string }[]) {
       position: i + 1,
       name: item.name,
       item: abs(item.path),
-    })),
-  };
-}
-
-export function faqSchema(faqs: { q: string; a: string }[], id: string) {
-  return {
-    '@type': 'FAQPage',
-    '@id': id,
-    mainEntity: faqs.map((f) => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
   };
 }

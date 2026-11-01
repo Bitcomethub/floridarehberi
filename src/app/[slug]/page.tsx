@@ -9,7 +9,6 @@ import { getImage, ogImage } from '@/content/images';
 import { formatDate } from '@/lib/format';
 import {
   breadcrumbSchema,
-  faqSchema,
   graph,
   guideArticleSchema,
 } from '@/lib/schema';
@@ -66,13 +65,11 @@ export default async function GuidePage({
   const guide = getGuide(slug);
   if (!guide) notFound();
 
-  const url = abs(`/${guide.slug}`);
   const related = relatedGuides(guide);
   const image = getImage(guide.slug);
 
   const jsonLd = graph([
     guideArticleSchema(guide),
-    faqSchema(guide.faqs, `${url}#faq`),
     breadcrumbSchema([
       { name: 'Ana sayfa', path: '/' },
       { name: guide.navLabel, path: `/${guide.slug}` },

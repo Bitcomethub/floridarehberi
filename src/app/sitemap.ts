@@ -19,7 +19,11 @@ function latestContentDate(): string {
   return dates[dates.length - 1] ?? '2026-08-08';
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+/**
+ * `/sitemap.xml` ve `/site-haritasi` AYNI listeyi kullanır: iki indeks
+ * ayrışamaz. Yeni rehber/yazı zaten GUIDES + ALL_POSTS'tan geliyor.
+ */
+export function sitemapEntries(): MetadataRoute.Sitemap {
   const latest = latestContentDate();
 
   const staticPages: MetadataRoute.Sitemap = [
@@ -39,6 +43,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'yearly' as const,
       priority: 0.2,
     },
+    {
+      url: abs('/site-haritasi'),
+      lastModified: latest,
+      changeFrequency: 'monthly',
+      priority: 0.3,
+    },
   ];
 
   const guidePages: MetadataRoute.Sitemap = GUIDES.map((guide) => ({
@@ -56,4 +66,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   return [...staticPages, ...guidePages, ...postPages];
+}
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return sitemapEntries();
 }

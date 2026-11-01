@@ -82,6 +82,14 @@ export function SiteFooter() {
                   Kullanım Şartları
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/site-haritasi"
+                  className="text-small text-ink-soft no-underline transition-colors hover:text-palm-deep"
+                >
+                  Site Haritası
+                </Link>
+              </li>
             </ul>
 
             <p className="mt-7 text-small text-mute">

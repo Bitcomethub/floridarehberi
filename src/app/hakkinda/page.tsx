@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { GUIDES } from '@/content/guides';
-import { breadcrumbSchema, faqSchema, graph } from '@/lib/schema';
+import { breadcrumbSchema, graph } from '@/lib/schema';
 import { ogImage } from '@/content/images';
 import { PUBLISHER, SITE, abs, miamiliUrl } from '@/lib/site';
 
@@ -58,7 +58,6 @@ const jsonLd = graph([
     isPartOf: { '@id': `${SITE.url}/#website` },
     about: { '@id': `${SITE.url}/#publisher` },
   },
-  faqSchema(FAQS, `${abs('/hakkinda')}#faq`),
   breadcrumbSchema([
     { name: 'Ana sayfa', path: '/' },
     { name: 'Hakkında', path: '/hakkinda' },

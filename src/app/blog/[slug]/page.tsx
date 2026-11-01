@@ -10,7 +10,6 @@ import { formatDate } from '@/lib/format';
 import {
   blogPostingSchema,
   breadcrumbSchema,
-  faqSchema,
   graph,
 } from '@/lib/schema';
 import { SITE, abs } from '@/lib/site';
@@ -67,7 +66,6 @@ export default async function BlogPostPage({
   const post = getPost(slug);
   if (!post) notFound();
 
-  const url = abs(`/blog/${post.slug}`);
   const others = ALL_POSTS.filter((p) => p.slug !== post.slug).slice(0, 3);
   // Görselsiz yazı normaldir: günlük hattın ürettiği yazıların küratörlük
   // yapılmış görseli olmaz. Bant o zaman hiç render edilmez.
@@ -75,7 +73,6 @@ export default async function BlogPostPage({
 
   const jsonLd = graph([
     blogPostingSchema(post),
-    faqSchema(post.faqs, `${url}#faq`),
     breadcrumbSchema([
       { name: 'Ana sayfa', path: '/' },
       { name: 'Blog', path: '/blog' },
