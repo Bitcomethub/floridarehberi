@@ -27,6 +27,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: abs('/hakkinda'), lastModified: latest, changeFrequency: 'yearly', priority: 0.4 },
     { url: abs('/blog'), lastModified: ALL_POSTS[0]?.publishedAt ?? latest, changeFrequency: 'daily', priority: 0.7 },
     { url: abs('/gorseller'), lastModified: latest, changeFrequency: 'yearly', priority: 0.2 },
+    {
+      url: abs('/gizlilik'),
+      lastModified: '2026-10-31',
+      changeFrequency: 'yearly' as const,
+      priority: 0.2,
+    },
+    {
+      url: abs('/kullanim-sartlari'),
+      lastModified: '2026-10-31',
+      changeFrequency: 'yearly' as const,
+      priority: 0.2,
+    },
   ];
 
   const guidePages: MetadataRoute.Sitemap = GUIDES.map((guide) => ({

@@ -66,6 +66,22 @@ export function SiteFooter() {
                   Görsel kaynakları
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/gizlilik"
+                  className="text-small text-ink-soft no-underline transition-colors hover:text-palm-deep"
+                >
+                  Gizlilik
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/kullanim-sartlari"
+                  className="text-small text-ink-soft no-underline transition-colors hover:text-palm-deep"
+                >
+                  Kullanım Şartları
+                </Link>
+              </li>
             </ul>
 
             <p className="mt-7 text-small text-mute">
