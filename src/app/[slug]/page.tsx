@@ -66,6 +66,9 @@ export default async function GuidePage({
   if (!guide) notFound();
 
   const related = relatedGuides(guide);
+  // Tek eylem: sayfanın tek butonu sıradaki rehbere götürür. Aynı rehber
+  // yandaki listede ikinci kez görünmesin diye ilki listeden çıkarılır.
+  const [next, ...others] = related;
   const image = getImage(guide.slug);
 
   const jsonLd = graph([
@@ -188,6 +191,16 @@ export default async function GuidePage({
                 </p>
               </section>
             ) : null}
+            {next ? (
+              <div className="mt-stack">
+                <Link
+                  href={`/${next.slug}`}
+                  className="inline-flex bg-palm-deep px-6 py-3 font-display text-small font-semibold text-page no-underline transition-colors hover:bg-ink"
+                >
+                  İlgili rehbere geç: {next.navLabel}
+                </Link>
+              </div>
+            ) : null}
           </div>
 
           {/* ── Künye. Yapışkan DEĞİL: uzun sayfada takip eden bir kutu
@@ -209,7 +222,7 @@ export default async function GuidePage({
               </dl>
             </div>
 
-            {related.length > 0 ? (
+            {others.length > 0 ? (
               <nav aria-labelledby="ilgili" className="mt-8">
                 <h2
                   id="ilgili"
@@ -218,7 +231,7 @@ export default async function GuidePage({
                   İlgili bölümler
                 </h2>
                 <ul className="mt-4">
-                  {related.map((item) => (
+                  {others.map((item) => (
                     <li key={item.slug} className="border-t border-line first:border-t-0">
                       <Link
                         href={`/${item.slug}`}
