@@ -749,7 +749,8 @@
         "okul sonrası program"
       ],
       "angle": "Okul servisinin (school bus) nasıl çalıştığını (bölgeye göre değişen durak/kayıt gereksinimi) ve okul sonrası bakım seçeneklerini (okul bünyesindeki program, dış merkez) anlat. SERVİS/PROGRAM ÜCRETİ RAKAMI VERME — 'ücret ve kayıt ilçeye/kuruma göre değişir' çerçevesi. Kayıt ve bekleme listesinin erken kapanabileceğini, çalışma saatleriyle uyumu önceden planlamayı söyle.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-11-02"
     },
     {
       "id": "kasirga-uyari-seviyeleri",
