@@ -960,7 +960,8 @@
         "çocuk bakımı"
       ],
       "angle": "Daycare, preschool, Pre-K ve ev tipi bakım arasındaki genel fark, lisans/denetim bilgisini sorma ve ziyaret edip gözleme. Okul kaydı belgeleri ve okul sonrası bakım yazılarına GİRME. Ücret ve uygunluk kriteri verme; ilgili eyalet birimine yönlendir. Fiyat, oran, ücret, süre, tarih, istatistik ve kanun/madde numarası UYDURMA; rakam verme, güncel bilgi için ilgili resmî kuruma (Florida/ABD resmî siteleri) yönlendir. Hukuki ya da tıbbi tavsiye olmadığını belirt; vize/göçmenlik/oturum izni konusuna HİÇ girme.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-11-12"
     },
     {
       "id": "yaz-kampi-ve-yaz-programlari",
