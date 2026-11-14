@@ -5237,5 +5237,97 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "florida-emlak-vergisi-property-tax-faturasi-nasil-okunur",
+    "title": "Florida'da Emlak Vergisi Faturası Nasıl Okunur?",
+    "question": "Florida'da emlak vergisi (property tax) faturasında hangi kalemler var?",
+    "excerpt": "Florida emlak vergisi faturasında mülk tanımı, üç ayrı değer satırı, kuruluş bazlı millage oranları ve payları ile varsa değere bağlı olmayan ücretler bulunur. Kalemleri genel mantıkla okumayı anlatır; güncel oran ve tarihler için county sitelerine yönlendirir.",
+    "keywords": [
+      "florida emlak vergisi",
+      "property tax",
+      "millage",
+      "vergi faturası",
+      "just value taxable value farkı",
+      "non-ad valorem ücretler",
+      "property appraiser tax collector farkı"
+    ],
+    "publishedAt": "2026-11-14",
+    "updatedAt": "2026-11-14",
+    "intro": [
+      "Florida'da emlak vergisi (property tax) faturasında temel olarak mülk tanımı, üç değer satırı (piyasa, değerlendirilen ve vergilenebilir değer), vergi uygulayan kuruluşların millage oranları ve payları ile varsa değere bağlı olmayan ücretler bulunur. Düzen ilçeye göre biraz değişir, ancak bu iskelet hemen her faturada aynıdır.",
+      "Bu yazı, faturadaki kalemlerin genel mantığını açıklar. Oran, tutar ve son ödeme tarihi vermez; çünkü bunlar her yıl ve her ilçede değişir ve doğru kaynak ilgili county'nin Property Appraiser ile Tax Collector sitesidir. Muafiyet başvuruları ayrı bir konudur. Metin genel bilgidir, vergi veya hukuki tavsiye sayılmaz."
+    ],
+    "sections": [
+      {
+        "heading": "Florida'da emlak vergisi faturasında hangi kalemler yer alır?",
+        "body": [
+          "Florida'da emlak vergisi (property tax) faturası genellikle üç ana blok içerir: mülkün tanımı ve değerleri, vergi uygulayan kuruluşların listesi ve her kuruluşun oranı ile payı. Bazı ilçelerde buna değere bağlı olmayan ücretler de eklenir. Fatura düzeni ilçeden ilçeye değişir, ama mantık aynıdır.",
+          "Üst kısımda genellikle parsel numarası (parcel ID), mülk adresi, kısa yasal tanım ve sahip adı bulunur. Parsel numarası, mülkü ilçe kayıtlarında tek başına tanımlayan koddur; ödeme yaparken ve itiraz ararken ilk baktığınız bilgi odur."
+        ],
+        "list": [
+          "Değerler: piyasa değeri (just value), değerlendirilen değer (assessed value) ve vergilenebilir değer (taxable value) ayrı satırlarda görünür; fark muafiyetlerden ve değer artış sınırlarından doğabilir.",
+          "Kuruluşlar: ilçe yönetimi, okul bölgesi, şehir ve özel amaçlı bölgeler tek tek sıralanır.",
+          "Oranlar: her kuruluşun millage değeri ve bu orana karşılık gelen vergi tutarı yan yana verilir.",
+          "Ek ücretler: çöp toplama, yangın hizmeti veya su akış yönetimi gibi değere bağlı olmayan kalemler ayrı bölümde yer alabilir."
+        ]
+      },
+      {
+        "heading": "Just value, assessed value ve taxable value arasındaki fark nedir?",
+        "body": [
+          "Just value, Property Appraiser'ın (ilçe mülk değerleme ofisi) mülk için belirlediği piyasa değeri tahminidir. Bu rakam satış fiyatınızla aynı olmak zorunda değildir; ofis, benzer mülklerin satışlarını ve mülkün özelliklerini toplu değerleme yöntemleriyle inceler. Değerleme, belirli bir tarihteki mülk durumunu esas alır; sonraki tadilatlar veya piyasa dalgalanmaları bir sonraki döneme yansır.",
+          "Assessed value, just value'ya bazı durumlarda uygulanan yıllık artış sınırlamalarından sonra ortaya çıkan değerdir. Sınırlama her mülk türü için aynı işlemez; bu yüzden iki komşunun assessed value'su, just value'ları benzer olsa bile farklı çıkabilir. Bu fark, faturada değer sütunları arasında görünen boşluğun ana kaynağıdır ve yeni alıcılar için şaşırtıcı olabilir.",
+          "Taxable value, muafiyetler düşüldükten sonra kalan ve millage ile çarpılan değerdir. Faturada vergiyi doğrudan belirleyen rakam budur. Üç değeri alt alta karşılaştırmak, hesabın nerede küçüldüğünü gösterir; hangi muafiyetin uygulandığı mülk sahibinin durumuna göre değişir. Rakamlardan biri size yanlış görünüyorsa, bunu ilgili county Property Appraiser sitesindeki mülk kaydıyla karşılaştırın."
+        ]
+      },
+      {
+        "heading": "Millage (mill oranı) nedir ve faturada nasıl okunur?",
+        "body": [
+          "Millage, vergilenebilir değere uygulanan vergi oranının Florida'da kullanılan birimidir; yüzde yerine mill cinsinden ifade edilir. Faturadaki her kuruluşun yanında kendi millage değeri yazar ve vergi tutarı, bu oranın taxable value'ya uygulanmasıyla bulunur. Yani aynı değerdeki iki mülk, bulundukları bölgelerin oranları farklıysa farklı miktarda vergi öder.",
+          "Faturada tek bir toplam millage satırı da görürsünüz; bu, mülkünüz için geçerli tüm kuruluş oranlarının toplamıdır. Toplam oran, mülkün hangi okul bölgesi, şehir veya özel bölge sınırları içinde olduğuna göre değiştiği için aynı ilçedeki iki mülkte farklı olabilir. Faturanızdaki toplam satırını, tek tek kuruluş satırlarının toplamıyla karşılaştırarak okumayı kontrol edebilirsiniz.",
+          "Oranlar her yıl, ilgili kuruluşların bütçe kararlarıyla belirlenir; bu nedenle değer değişmese bile fatura değişebilir. Bütçe toplantıları halka açık olduğundan, oran önerileri genellikle fatura gelmeden önce kamuya duyurulur. Güncel millage değerleri ve mill'in nasıl hesaplandığı, ilgili county Tax Collector ve Property Appraiser sitelerinde yayımlanır; bu yazıda oran vermiyoruz."
+        ]
+      },
+      {
+        "heading": "İlçe, okul bölgesi ve yerel kuruluş payları faturada nasıl ayrışır?",
+        "body": [
+          "Faturanın kuruluş bölümünde, vergi uygulayan her birim ayrı satırda görünür. Tipik olarak ilçe yönetimi (county), okul bölgesi (school board), şehir veya belediye, bölgesel su yönetimi kurumu ve bazı yerlerde kütüphane, hastane ya da yangın bölgesi gibi özel amaçlı bölgeler listelenir. Kuruluşların listesi ve sayısı mülkün adresine bağlıdır; şehir sınırları dışında yaşayan biri, şehir payı satırını hiç görmeyebilir.",
+          "Her satırdaki pay, o kuruluşun oranı ile vergilenebilir değerinizin sonucudur; toplam fatura bu payların toplamıdır. Hangi kuruluşun payının en büyük olduğu ilçeye ve mülkün konumuna göre değişir. Ödeme tek faturada birleşse de, paranın farklı kuruluşlara dağıtıldığını bilmek, tek tek satırlara bakmanın nedenini açıklar.",
+          "Faturanın ayrı bir bölümünde non-ad valorem (değere bağlı olmayan) ücretler görünebilir: çöp toplama, yağmur suyu yönetimi veya sokak aydınlatması gibi. Bunlar mülk değerine göre hesaplanmaz; genellikle sabit veya mülk özelliğine bağlı bir esasla belirlenir ve ilgili yerel kuruluşun kararına dayanır. Hangi ücretlerin sizin mülkünüz için geçerli olduğunu ilçenin Tax Collector sayfasından doğrulayın."
+        ]
+      },
+      {
+        "heading": "Property Appraiser ve Tax Collector farkı nedir; fatura hakkında kime başvurulur?",
+        "body": [
+          "Property Appraiser (mülk değerleme ofisi), mülkün değerini belirler ve muafiyet kayıtlarını tutar; vergi tahsil etmez. Tax Collector (vergi tahsildarı) ise kuruluşların belirlediği millage oranlarına göre hazırlanan faturayı gönderir ve ödemeyi alır. Değer sorusu bir ofise, ödeme sorusu diğerine gider. Adresiniz için doğru ofisi bulmanın en kolay yolu, ilçe adını ve Property Appraiser ya da Tax Collector ifadesini birlikte aramaktır.",
+          "Değerinize katılmıyorsanız itiraz süreci Property Appraiser ile başlar ve süreler katıdır; gün sayısını ve başvuru yolunu ilçenin kendi sayfasından ve faturadan önce gelen değer bildiriminden (TRIM notice) doğrulayın. Süreyi kaçırmak, o yılki itiraz hakkını etkileyebilir. Faturadaki parsel numarasını elinizin altında bulundurun; iki ofis de kaydı bu numarayla arar. Böylece yanlış kayıt veya yanlış ofis kaynaklı zaman kaybı yaşamazsınız.",
+          "Son ödeme tarihleri, erken ödeme indirimleri ve ödeme yöntemleri ilçeye göre değiştiği için bu yazıda yazmıyoruz; güncel bilgi için ilçenizin Tax Collector sitesine bakın. Bu içerik genel bilgidir, vergi veya hukuki tavsiye değildir; kişisel durumunuz için vergi uzmanına veya ilgili kuruma danışın."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Millage nedir?",
+        "a": "Millage, Florida'da emlak vergisi oranını ifade eden birimdir ve mill olarak yazılır. Her vergi uygulayan kuruluşun kendi millage değeri vardır; bu oranlar vergilenebilir değere uygulanarak her kuruluşun payını verir. Güncel değerleri ilçenizin Property Appraiser ve Tax Collector sitelerinden kontrol edin."
+      },
+      {
+        "q": "Faturadaki değer neden satın alma fiyatımdan farklı olabilir?",
+        "a": "Property Appraiser, mülkün piyasa değerini toplu değerleme yöntemleriyle tahmin eder ve bu rakam satış fiyatınızla aynı olmak zorunda değildir. Ayrıca assessed value ile taxable value, artış sınırlamaları ve muafiyetler nedeniyle just value'dan düşük çıkabilir. Kendi mülk kaydınızı ilçe Property Appraiser sitesinden inceleyin."
+      },
+      {
+        "q": "Emlak vergisi faturasını kim gönderir ve ödeme kime yapılır?",
+        "a": "Faturayı ve ödemeyi ilçenin Tax Collector (vergi tahsildarı) ofisi yönetir. Ofis, tahsil ettiği parayı okul bölgesi, şehir ve diğer kuruluşlara dağıtır. Ödeme yöntemleri ile son ödeme tarihleri ilçeye göre değişir; güncel bilgi için ilgili Tax Collector sitesine bakın."
+      },
+      {
+        "q": "Non-ad valorem ücret nedir?",
+        "a": "Non-ad valorem (değere bağlı olmayan) ücretler, mülkün değerine göre hesaplanmayan kalemlerdir. Çöp toplama, yağmur suyu yönetimi veya sokak aydınlatması gibi hizmetler örnek olabilir. Faturada ayrı bölümde görünebilir ve her ilçede aynı olmaz; hangilerinin geçerli olduğunu Tax Collector sayfasından doğrulayın."
+      },
+      {
+        "q": "Faturada yanlış bir değer veya bilgi görürsem ne yapmalıyım?",
+        "a": "Önce parsel numaranızla ilçe Property Appraiser sitesindeki mülk kaydını karşılaştırın. Değer veya mülk bilgisi hatalı görünüyorsa itiraz ve düzeltme yolları o ofis üzerinden işler; süreler katıdır, bu yüzden gün sayısını ilçenin kendi sayfasından doğrulayın. Bu bilgi genel niteliktedir ve hukuki tavsiye değildir."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
