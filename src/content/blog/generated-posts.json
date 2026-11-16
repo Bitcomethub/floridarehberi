@@ -5430,5 +5430,105 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "amerikada-kredi-karti-ekstresi-ve-odeme-tarihi-nasil-okunur",
+    "title": "Amerika'da Kredi Kartı Ekstresi Nasıl Okunur?",
+    "question": "Amerika'da kredi kartı ekstresindeki kalemler ne anlama gelir?",
+    "excerpt": "Amerika'da kredi kartı ekstresi, bir dönemin harcamalarını, ödemelerini, faizini ve ücretlerini gösterir. En kritik kalemler statement balance, minimum ödeme ve son ödeme tarihidir. Bu rehber her kalemin anlamını ve sık yapılan hataları açıklar.",
+    "keywords": [
+      "kredi kartı ekstresi",
+      "statement balance",
+      "minimum ödeme",
+      "kredi kartı faizi",
+      "current balance nedir",
+      "kredi kartı son ödeme tarihi",
+      "grace period nedir"
+    ],
+    "publishedAt": "2026-11-16",
+    "updatedAt": "2026-11-16",
+    "intro": [
+      "Amerika'da kredi kartı ekstresi (statement), bir faturalama döneminde yaptığınız harcamaları, ödemeleri, faizi ve ücretleri tek belgede toplar; en önemli kalemler statement balance (ekstre bakiyesi), minimum payment (asgari ödeme) ve due date (son ödeme tarihi) satırlarıdır. Bu üç satırı doğru okumak, hangi tutarı ne zamana kadar ödemeniz gerektiğini belirler.",
+      "Ekstreler kart sağlayıcısına göre farklı görünse de temel kalemler benzerdir. Aşağıda bu kalemlerin ne anlama geldiğini, hangi rakama bakarak ödeme kararı vereceğinizi ve nerede hata yapıldığını bulacaksınız. Faiz oranı, ücret ve puan etkisi gibi değişken konularda sayı vermiyoruz; güncel bilgi için kart sağlayıcınıza ve CFPB'ye bakın. Bu yazı finansal ya da hukuki tavsiye değildir."
+    ],
+    "sections": [
+      {
+        "heading": "Kredi kartı ekstresinin üst kısmında hangi bilgiler yer alır?",
+        "body": [
+          "Ekstrenin ilk sayfasında genellikle hesap özeti (account summary) bulunur. Burada önceki dönemden kalan bakiye (previous balance), bu dönemde yaptığınız ödemeler (payments), yeni harcamalar (purchases), faiz ve ücretler ile dönem sonu yeni bakiye (new balance) alt alta listelenir; bu özet, ekstrenin geri kalanını okumak için harita işlevi görür.",
+          "Aynı sayfada kredi limiti (credit limit), kullanılabilir kredi (available credit), ekstre kesim tarihi (statement closing date) ve son ödeme tarihi (payment due date) yer alır. Kesim tarihi dönemin bittiği günü, son ödeme tarihi ise ödemenin kartınıza işlenmiş olması gereken günü gösterir.",
+          "Sonraki sayfalarda tek tek işlemler tarih, işyeri adı ve tutarla sıralanır; en sonda ise faiz hesabı ve yıllık faiz oranı (APR) tablosu gelir. Ekstreyi ilk açtığınızda önce özet kutusuna, sonra işlem listesine bakmak, tanımadığınız bir kalemi hızlı fark etmenizi sağlar. Kart sağlayıcısının uygulamasında ekstre genellikle PDF olarak da indirilebilir; arşivlemek, sonradan itiraz gerektiğinde işinize yarar. Ekstre tarihleri ve düzeni sağlayıcıya göre biraz farklılaşabilir."
+        ]
+      },
+      {
+        "heading": "Statement balance ile current balance arasındaki fark nedir?",
+        "body": [
+          "Statement balance (ekstre bakiyesi), ekstre kesim tarihinde kartta görünen toplam borçtur ve ekstre kesildikten sonra sabit kalır. Current balance (güncel bakiye) ise bugünkü borcunuzu gösterir; kesimden sonra yaptığınız harcamalar ve ödemeler onu sürekli değiştirir. Yani iki rakam aynı gün bile birbirinden farklı olabilir ve hangisine baktığınız, ne kadar ödemeniz gerektiği sorusunun cevabını değiştirir.",
+          "Faizsiz süre (grace period) kuralı genellikle statement balance üzerinden işler: kart sağlayıcınızın şartlarına göre bu tutarı son ödeme tarihine kadar tam ödediyseniz, yeni alışverişlerinize ayrıca faiz uygulanmaması beklenir. Ancak koşullar kart sözleşmesine bağlıdır; kendi sözleşmenizdeki ifadeyi kontrol edin. Bu nedenle ekstre bakiyesi, ödeme planının asıl referans rakamıdır.",
+          "Pratik örnek: ekstrede borç görünüyor, ama siz bu arada kısmen ödeme yaptınız. Uygulamada current balance düşmüştür, ancak ekstre kağıdındaki statement balance aynı kalır. Son ödeme tarihinde ödenmesi gereken tutar için ekstre bakiyesine ve ödenmiş kısmına birlikte bakılmalıdır; uygulamadaki 'pay statement balance' seçeneği bu hesabı genellikle sizin yerinize yapar."
+        ]
+      },
+      {
+        "heading": "Minimum ödeme nedir ve sadece onu ödemek ne anlama gelir?",
+        "body": [
+          "Minimum payment (asgari ödeme), ödemenizin gecikmiş sayılmaması için son ödeme tarihine kadar yatırmanız gereken en düşük tutardır. Tutar, kart sağlayıcısının sözleşmesindeki formüle göre hesaplanır ve ekstrede 'Minimum Payment Due' satırında yazar; burada rakam vermiyoruz çünkü kartlara göre değişir. Borcu sıfırlamayan her ödeme, aradaki farkı bir sonraki ekstreye taşır.",
+          "Yalnızca minimum ödemeyi yaptığınızda geriye kalan bakiyeye faiz işlemeye devam eder. Faiz her dönem bakiyeye eklenir, ana borç yavaş azalır; dolayısıyla toplam maliyet, borcu tam ödemeye göre belirgin biçimde artabilir. Ayrıca bakiye taşındığında faizsiz süre çoğu kartta o dönem için kaybedilir. Bu yüzden minimum ödeme bir ödeme planı değil, yalnızca hesabı geçici olarak güvende tutan bir alt sınırdır; amaç mümkünse statement balance'ı tam kapatmaktır.",
+          "Ekstrelerde çoğu zaman 'minimum payment warning' adlı bir kutu da bulunur: bu kutu yalnızca minimum öderseniz borcun ne kadar sürede biteceğini ve toplam ne kadar ödeyeceğinizi örnekle gösterir. Kendi ekstrenizdeki bu kutuyu okumak, ödeme kararınızı rakama dayandırmanın en kolay yoludur."
+        ]
+      },
+      {
+        "heading": "Ekstre kesim tarihi ile son ödeme tarihi arasındaki fark nedir?",
+        "body": [
+          "Statement closing date (ekstre kesim tarihi), faturalama döneminin bittiği ve ekstrenin oluşturulduğu gündür. Kesim tarihinden sonra yapılan harcamalar bir sonraki ekstreye girer. Due date (son ödeme tarihi) ise bu ekstredeki ödemenin kart sağlayıcısına ulaşmış olması gereken son gündür. İkisi farklı tarihlerdir ve ekstrenin üst bölümünde ayrı ayrı yazar.",
+          "İkisi arasındaki aralık kart sözleşmesine göre değişir; kesin gün sayısını kendi ekstrenizden ve sözleşmenizden doğrulayın. Son ödeme tarihi hafta sonuna ya da resmî tatile rastlayabilir; sağlayıcıların bu durumdaki işlem kuralı farklı olabileceğinden ödemeyi son güne bırakmamak daha güvenlidir. Bu iki tarihi takvime not etmek, geç ödeme ücretini (late fee) ve faiz yükünü önlemenin en basit yoludur; ücretin tutarı için kart sözleşmesine bakın.",
+          "Ödemenin 'yapıldığı' gün ile 'işlendiği' gün de aynı olmayabilir. Banka havalesi, çek ya da başka bir hesaptan transfer zaman alabilir; bu nedenle son tarihten önce yeterli süre bırakın. Otomatik ödeme (autopay) kurduysanız hangi tutarı çekeceğini, minimum mu yoksa statement balance mı olduğunu ayarlardan kontrol edin."
+        ]
+      },
+      {
+        "heading": "Ekstredeki faiz ve ücret kalemleri nasıl okunur?",
+        "body": [
+          "Ekstrenin 'Interest Charged' (uygulanan faiz) bölümü, dönem içinde hangi işlem türüne hangi yıllık faiz oranının (APR) uygulandığını ve ne kadar faiz tahakkuk ettiğini gösterir. Faiz, çoğu kartta günlük bakiye üzerinden hesaplanır; bu yüzden aynı borç farklı uzunluktaki dönemlerde farklı faiz üretebilir. Alışveriş (purchases), nakit avans (cash advance) ve bakiye transferi (balance transfer) için oranlar ayrı olabilir; kesin oranlar kartınıza ve sözleşmenize bağlıdır.",
+          "Ücretler (fees) ayrı bir bölümde listelenir: yıllık kart ücreti (annual fee), geç ödeme ücreti, yurt dışı işlem ücreti (foreign transaction fee) gibi kalemler olabilir. Hangilerinin sizin kartınızda bulunduğunu kart sağlayıcısının ücret tablosundan (fee schedule) ve sözleşmeden doğrulayın; burada tutar vermiyoruz.",
+          "Faiz ya da ücretin hatalı olduğunu düşünüyorsanız önce kart sağlayıcısının müşteri hizmetleriyle yazılı olarak iletişime geçin. Çözülmezse, ABD'de tüketicileri finansal ürünlerde koruyan federal kurum olan CFPB (Consumer Financial Protection Bureau) sitesindeki kredi kartı rehberleri ve şikâyet bölümü güncel bilgi için başvurulacak resmî kaynaktır. Bu bilgi hukuki tavsiye değildir."
+        ]
+      },
+      {
+        "heading": "Ekstre okurken en sık yapılan hatalar nelerdir?",
+        "body": [
+          "En yaygın hata, uygulamadaki ilk görünen rakamı ödenecek tutar sanmaktır. Ana ekranda çoğu zaman current balance görünür; oysa faizsiz süreyi korumak için bakılması gereken rakam, ekstredeki statement balance'tır. İki rakamı karıştırmak gereksiz faiz doğurabilir. Bunun ardından ödeme tarihini kaçırmak gelir; geç ödeme hem ücret hem faiz hem de kredi kaydınızda olumsuz bir iz bırakabilir; etkisinin kapsamı için sağlayıcınıza ve CFPB'nin sayfalarına bakın.",
+          "Diğer sık hatalar aşağıda sıralanmıştır; ekstreyi her ay açıp özet kutusunu, işlem listesini ve faiz bölümünü sırayla gözden geçirmek çoğunu daha oluşmadan yakalar. Kişisel durumunuza göre ne yapmanız gerektiği konusunda kart sağlayıcınıza ya da lisanslı bir mali danışmana başvurun; bu yazı finansal veya hukuki tavsiye değildir."
+        ],
+        "list": [
+          "Ekstreyi hiç açmayıp tanımadığınız bir işlemi, yani olası dolandırıcılık ya da hatalı tahsilatı (billing error), geç fark etmek.",
+          "Beklemedeki (pending) işlemlerin tutarının ve tarihinin sonradan değişebileceğini unutmak.",
+          "Otomatik ödemenin hangi tutarı çektiğine bakmadan her şeyin tamam olduğunu varsaymak.",
+          "Tekrarlayan abonelikleri (subscription) ve yıllık ücretleri ekstrede gözden geçirmemek."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Statement balance'ı tam ödersem faiz öder miyim?",
+        "a": "Çoğu kartta statement balance'ı son ödeme tarihine kadar tam ödediğinizde, o dönemin alışverişleri için faiz uygulanmaz. Ancak bu kural kart sözleşmesine bağlıdır; nakit avans gibi bazı işlemlerde faiz hemen başlayabilir. Kendi kartınızın şartlarını sözleşmeden ve kart sağlayıcınızdan doğrulayın."
+      },
+      {
+        "q": "Minimum ödeme yaparsam borcum biter mi?",
+        "a": "Hayır. Minimum ödeme yalnızca ödemenizin gecikmiş sayılmasını önleyen en düşük tutardır; kalan bakiyeye faiz işlemeye devam eder. Borç bu şekilde çok yavaş azalır. Ekstredeki 'minimum payment warning' kutusu, yalnızca minimum ödemeyle borcun ne kadar sürede biteceğini örnekle gösterir."
+      },
+      {
+        "q": "Kredi kartı faizi ekstrede nerede yazar?",
+        "a": "Faiz, ekstrenin 'Interest Charged' ya da benzer adlı bölümünde işlem türüne göre ayrı ayrı görünür; yanında yıllık faiz oranı (APR) da yer alır. Alışveriş, nakit avans ve bakiye transferi için oranlar farklı olabilir. Güncel oranı kart sağlayıcınızın sözleşmesinden ve CFPB kaynaklarından doğrulayın."
+      },
+      {
+        "q": "Ekstrede tanımadığım bir işlem görürsem ne yapmalıyım?",
+        "a": "Önce işlemin işyeri adının farklı yazılmış tanıdık bir harcama olup olmadığını kontrol edin. Hâlâ tanımıyorsanız kart sağlayıcınızı vakit kaybetmeden arayın ve itirazı yazılı olarak da iletin. Süreler ve haklar için CFPB'nin kredi kartı sayfalarına bakın. Bu bilgi hukuki tavsiye değildir."
+      },
+      {
+        "q": "Ekstre kesim tarihi ile son ödeme tarihi aynı şey midir?",
+        "a": "Hayır. Kesim tarihi faturalama döneminin bittiği ve ekstrenin oluştuğu gündür; son ödeme tarihi ise ödemenin yapılmış olması gereken gündür. Kesimden sonraki harcamalar bir sonraki ekstreye girer. İkisi arasındaki gün sayısı kartınıza göre değişir; ekstrenizin üst kısmından doğrulayın."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
