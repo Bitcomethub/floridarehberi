@@ -5530,5 +5530,92 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "kasirga-sezonunda-evcil-hayvan-hazirligi",
+    "title": "Kasırga Sezonunda Evcil Hayvan Hazırlığı",
+    "question": "Kasırga sırasında evcil hayvanlar için ne hazırlanmalı?",
+    "excerpt": "Kasırgada evcil hayvan için kimlik ve aşı belgeleri, taşıma kutusu, mama, su ve ilaç stoku ile hayvan kabul eden barınak ya da konaklama planı gerekir. Barınak kuralları için county acil durum sayfasına bakın.",
+    "keywords": [
+      "kasırga evcil hayvan",
+      "tahliye hayvan",
+      "pet shelter",
+      "hayvan acil çanta",
+      "kasırga pet friendly barınak",
+      "evcil hayvan taşıma kutusu kasırga",
+      "köpek kedi kasırga hazırlığı"
+    ],
+    "publishedAt": "2026-11-17",
+    "updatedAt": "2026-11-17",
+    "intro": [
+      "Kasırga sırasında evcil hayvanlar için en az şunlar hazırlanmalı: kimlik ve aşı belgeleri, her hayvana ait taşıma kutusu, mama, su ve ilaç stoku ile hayvanı kabul edecek bir barınak ya da konaklama planı. Bunların hepsi tahliye emri gelmeden, sezon başlamadan hazır olmalıdır.",
+      "Genel tahliye çantası ayrı bir konudur; burada yalnızca hayvana özgü hazırlıklar var. Barınak kuralları afete ve county'ye göre değiştiği için kesin bilgiyi yaşadığınız county'nin acil durum sayfasından doğrulayın. Bu yazı genel bilgi içindir; tıbbi ya da hukuki tavsiye yerine geçmez."
+    ],
+    "sections": [
+      {
+        "heading": "Kasırga öncesi evcil hayvan için hangi belgeler hazır olmalı?",
+        "body": [
+          "Kasırga öncesi hayvanınızın kimliği, aşı kayıtları ve sizinle bağlantısını gösteren belgeler tek bir su geçirmez dosyada toplanmalıdır. Barınaklar ve konaklama yerleri çoğu zaman güncel aşı kanıtı ister; hangi aşıların arandığı yere göre değişir, bu yüzden kesin liste için ilgili county'nin acil durum sayfasına bakmak gerekir.",
+          "Dosyada veteriner aşı belgesi, mikroçip numarası ve çipin kayıtlı olduğu firmanın iletişim bilgisi, kullandığınız ilaçların adı ve dozları, veterinerinizin iletişim bilgisi bulunsun. Kedi, köpek dışında kuş ya da sürüngen besliyorsanız türe özgü bakım notlarını da yazın. Bunların fotoğrafını telefona ve bulut hesabına da kaydedin; elektrik ve internet kesilse bile belgeye erişirsiniz.",
+          "Hayvanın yakın tarihli net bir fotoğrafını, sizinle birlikte çekilmiş bir kareyi de ekleyin. Hayvanla ayrı düşerseniz onu tarif etmek ve sahipliğinizi göstermek kolaylaşır. Tasmaya takılan künyede telefon numaranız güncel olsun; mikroçipteki adres ve telefon bilgisi de taşındıysanız yenilenmelidir. Bu yazı tıbbi ya da hukuki tavsiye değildir; aşı takvimi için veterinerinize danışın."
+        ]
+      },
+      {
+        "heading": "Taşıma kutusu nasıl seçilir ve kasırgaya nasıl hazırlanır?",
+        "body": [
+          "Her hayvan için ayrı, sağlam, havalandırması yeterli bir taşıma kutusu (carrier) hazırlayın. Hayvan kutunun içinde ayağa kalkıp dönebilmeli ve uzanabilmelidir. Kutuyu kasırga sezonu başlamadan önce evde açık bırakın; içine yatak ya da bir battaniye koyarsanız hayvan kutuyu tehlike değil, tanıdık bir yer olarak görmeye başlar.",
+          "Kutunun üzerine hayvanın adını, sizin telefon numaranızı ve varsa ilaç bilgisini yazın. Dayanıklı bir etiket kullanın; yağmur mürekkebi silebilir. Köpekler için kısa bir tasma ve gerekiyorsa ağızlık, kediler için tasma-koşum takımı kutunun yanında dursun. Küçük hayvanlar ve kuşlar için türe uygun, kapağı sıkı kapanan taşıyıcı seçin.",
+          "Aracınızda kutuların sığacağını önceden deneyin; büyük köpekler için kutu yerine araca sabitlenen bir emniyet sistemi gerekebilir. Birden fazla hayvanı aynı kutuya koymayın, stresli hayvanlar birbirine zarar verebilir. Kutu zemini için emici ped ve yedek bir örtü bulundurun; uzun yolculukta ya da barınakta temizlik gerekir. Birçok barınak kendi kutunuzu getirmenizi bekler; kuralı county sayfasından doğrulayın."
+        ]
+      },
+      {
+        "heading": "Mama, su ve ilaç stoku nasıl planlanır?",
+        "body": [
+          "Evcil hayvanın mamasını, suyunu ve ilacını, evdekilerin tahliye çantasından ayrı bir torbada toplayın. Genel kural olarak birkaç günü rahatça karşılayacak miktar hedeflenir; resmî acil durum kurumları ev halkı için gereken günü belirtir, hayvanlar için de aynı süreyi esas almak mantıklıdır. Güncel öneriyi FEMA ve county acil durum sayfasından kontrol edin.",
+          "Mamayı kapalı, su geçirmez kaplarda saklayın ve son kullanma tarihlerini sezon başında kontrol edip eskileri yenileyin. Hayvanınız konserve ya da özel diyet mamasıyla besleniyorsa konserve açacağı ve kaşık ekleyin. Su stokunu hem içmeye hem kap doldurmaya yetecek şekilde planlayın; katlanır kaplar yer kazandırır. Mamayı aniden değiştirmek mide sorunlarına yol açabilir, bu yüzden alışık olduğu markayı stoklayın.",
+          "İlaç kullanan hayvanlar için veterinerinizden yeterli yedek stok ya da reçete yazdırmayı sezon öncesinde konuşun; eczane kapalı kalabilir. İlaçları orijinal kutusunda, dozu yazılı olarak taşıyın. Soğuk zincir gerektiren ilaçlar için soğutucu çanta ve buz aküsü düşünün. Bu bilgiler genel bilgidir, tıbbi tavsiye yerine geçmez; hayvanınıza özel plan için veterinere danışın."
+        ]
+      },
+      {
+        "heading": "Evcil hayvan kabul eden barınak nasıl sorgulanır?",
+        "body": [
+          "Evcil hayvan kabul eden barınaklar her county'de bulunmaz ve kuralları afete göre değişir. Doğru bilgi için yaşadığınız county'nin acil durum yönetimi (emergency management) sayfasına bakın; bu tür barınaklar, kayıt koşulları ve açılış duyuruları genellikle orada yayımlanır. Florida Division of Emergency Management de genel rehber sunar.",
+          "Sorgularken şunları netleştirin: barınak hangi hayvan türlerini kabul ediyor, hayvan insanlarla aynı salonda mı ayrı bir alanda mı kalıyor, kendi kutunuzu ve mamanızı getirmeniz gerekiyor mu, aşı belgesi isteniyor mu? Bu soruların cevabı barınağa göre değişir; tahliye emri geldiğinde değil, sezon başında öğrenin.",
+          "Tahliye emri çıkınca hangi barınağın açıldığı ancak o anda duyurulabilir; bu yüzden county'nin resmî sosyal medya hesabını ve uyarı (alert) sistemini önceden takip edin. Barınak kuralları ve açık olup olmadığı için güncel bilgiyi kurumun kendi sayfasından doğrulayın. Telefonla soracaksanız hat yoğun olabilir; sayfadaki bilgi çoğu zaman daha hızlıdır. Bu bir hukuki tavsiye değildir."
+        ]
+      },
+      {
+        "heading": "Barınak dışında hayvan için hangi tahliye seçenekleri düşünülmeli?",
+        "body": [
+          "Barınak tek seçenek değildir; önce hayvanı kabul edecek bir yer planlayın. Bölge dışında yaşayan bir arkadaş ya da akraba, hayvan kabul eden bir otel ya da motel, hayvan pansiyonu (boarding) veya veteriner kliniği alternatif olabilir. Bu seçeneklerin hangisi uygunsa, tahliye emri gelmeden konuşup anlaşın.",
+          "Otel ve pansiyonlar kasırga yaklaşırken hızla dolabilir; hayvan politikasını (tür, kilo sınırı, ek ücret) rezervasyondan önce yazılı sorun. Ücretler ve kurallar yere göre değişir, güncel koşulu doğrudan teyit edin. Pansiyon ve klinikler de kasırga öncesi kapanabilir ya da kabulü durdurabilir, bu yüzden en az bir yedek plan yapın.",
+          "Hayvanı evde bırakmak güvenli bir plan değildir; tahliye emri geldiğinde hayvanı da götürmek esastır. Sel, rüzgâr ve elektrik kesintisi yalnız bırakılan hayvanı tehlikeye atar. Birlikte gidemeyeceğiniz bir durum olursa, güvenilir birine önceden anlatın ve kutu, mama, belge bilgisini ona da verin. Tahliye bölgesi dışına çıkıyorsanız yol üzerindeki duraklarda hayvanı arabada yalnız bırakmayın."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hayvan acil çantasına neler konmalı?",
+        "a": "Mama ve su, kaplar, ilaçlar, aşı ve kimlik belgeleri, tasma ve ek tasma, taşıma kutusu, atık poşeti ya da kedi kumu, bir battaniye ve tanıdık bir oyuncak. Belgelerin fotoğrafını telefonda da saklayın. İlaç ve özel diyet için veterinerinize danışın."
+      },
+      {
+        "q": "Her barınak evcil hayvan kabul eder mi?",
+        "a": "Hayır, kabul etmeyebilir. Hayvan kabul eden barınaklar county'ye ve afete göre değişir; hangi türlerin alındığı ve hangi belgelerin istendiği de farklıdır. Güncel ve doğru bilgi için yaşadığınız county'nin acil durum yönetimi sayfasına bakın ve duyuruları önceden takip edin."
+      },
+      {
+        "q": "Mikroçip kasırga öncesinde neden önemlidir?",
+        "a": "Mikroçip, ayrı düştüğünüzde hayvana ulaşılmasını kolaylaştırır; ancak çipin kayıtlı olduğu adres ve telefon güncel değilse işe yaramaz. Kayıt bilgisini sezon öncesinde kontrol edin. Barınak ya da konaklama şartları için ilgili kurumu doğrulayın; bu yazı hukuki ya da tıbbi tavsiye değildir."
+      },
+      {
+        "q": "Kasırga yaklaşırken stresli hayvana ne yapılabilir?",
+        "a": "Kutuya önceden alıştırmak, tanıdık bir battaniye ve oyuncak bulundurmak, rutin saatleri mümkün olduğunca korumak genellikle yardımcı olur. Yoğun kaygı ya da kullanılacak sakinleştirici konusunda kendi başınıza karar vermeyin; veterinerinize danışın, bu yazı tıbbi tavsiye değildir."
+      },
+      {
+        "q": "Evcil hayvan hazırlığına ne zaman başlanmalı?",
+        "a": "Sezon başlamadan önce başlamak en rahatıdır: belgeler, kutu, stok ve alternatif yer o zaman hazırlanır. Sezonun güncel dönemini National Hurricane Center'ın resmî sayfasından doğrulayın. Tahliye emri geldiğinde yalnızca çantayı alıp çıkmak gibi bir noktada olmak hedeflenmelidir."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]
