@@ -625,7 +625,8 @@
         "utility kaydı"
       ],
       "angle": "Taşınmadan önce hangi hizmetlerin açılması gerektiğini ve sırayı anlat: sağlayıcı seçimi, depozito istenebileceği, kimlikle başvuru, online/randevulu kurulum. TARİFE veya DEPOZİTO TUTARI VERME — 'sağlayıcı ve adres bazında değişir, güncel tutarı sağlayıcıdan teyit et' çerçevesi. Bölgede hangi sağlayıcıların hizmet verdiğinin adrese göre sınırlı olabileceğini ve taşınma gününden önce başvurulması gerektiğini söyle.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-11-18"
     },
     {
       "id": "arac-kayit-yenileme",
