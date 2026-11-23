@@ -5717,5 +5717,104 @@
     ],
     "status": "published",
     "generated": true
+  },
+  {
+    "slug": "florida-ucretli-yol-ve-sunpass-nasil-calisir",
+    "title": "Florida'da Ücretli Yollar (Toll) ve SunPass Nasıl Çalışır?",
+    "question": "Florida'da ücretli yollarda geçiş nasıl ödenir, SunPass ne işe yarar?",
+    "excerpt": "Florida'da ücretli yollar çoğunlukla nakitsizdir: geçiş SunPass gibi bir transponder ya da plaka okuma (Toll-By-Plate) ile ücretlendirilir. İki yöntemin farkını ve kiralık araçta ücretin sonradan nasıl yansıyabileceğini öğrenin.",
+    "keywords": [
+      "sunpass nedir",
+      "florida toll",
+      "ücretli yol geçişi",
+      "plaka ile geçiş toll by plate",
+      "florida kiralık araç toll ücreti",
+      "sunpass hesabı nasıl yönetilir",
+      "florida express lane transponder"
+    ],
+    "publishedAt": "2026-11-23",
+    "updatedAt": "2026-11-23",
+    "intro": [
+      "Florida'da ücretli yolların çoğunda nakit ödeme yoktur: geçiş, aracın transponder'ı (SunPass gibi elektronik etiket) ya da plakası okunarak otomatik ücretlendirilir ve SunPass, bu ödemeyi ön ödemeli bir hesaptan düşen transponder yöntemiyle kolaylaştırır. Transponder yoksa kamera plakayı okur, fatura aracın kayıtlı sahibine gönderilir.",
+      "Bu yazı geçiş tutarlarını ya da cihaz bedellerini vermez; çünkü tarifeler yola, araca ve döneme göre değişir. Onun yerine iki yöntemin nasıl işlediğini, kiralık araçta ücretin neden sonradan gelebildiğini ve güncel rakamların hangi resmî sayfada doğrulanacağını anlatır. Bilgiler genel niteliktedir; ayrıntılar için ilgili kurumun sayfasına bakın."
+    ],
+    "sections": [
+      {
+        "heading": "Florida'da ücretli yollarda geçiş nasıl ücretlendirilir?",
+        "body": [
+          "Florida'daki ücretli yolların büyük bölümü nakit kabul etmeyen, tamamen elektronik sistemle çalışır. Gişede durmazsınız; yolun üzerindeki portal (üst geçit yapısı) araç geçerken ya ön camdaki transponder'ı ya da plakayı okur. Bu yüzden ücret, siz fark etmeden hesaplanır ve ödeme sonradan, hesabınız ya da fatura üzerinden tahsil edilir.",
+          "Tutar sabit değildir. Yola, mesafeye, araç tipine ve bazı şeritlerde günün saatine ya da trafik yoğunluğuna göre değişir. Aynı rota için iki farklı yöntem arasında tarife farkı da olabilir. Güncel tarifeyi görmek için Florida's Turnpike Enterprise'ın ve ilgili bölge otoyol idaresinin resmî sayfalarına bakmak gerekir.",
+          "Express lane (ücreti dinamik belirlenen hızlı şerit) kullanıyorsanız, girişteki tabelada o anki ücret görünür. Bu ücret, şeride girdiğiniz andaki ücrettir; yolculuk sırasında trafik değişse de o geçiş için genellikle bu tutar uygulanır. Bazı express şeritlerde transponder zorunlu olabilir; plaka okuma yeterli olmayabilir. Şeride girmeden önce tabelayı okumak ve resmî sayfada şeridin kurallarını kontrol etmek, sonradan sürpriz fatura riskini azaltır."
+        ]
+      },
+      {
+        "heading": "SunPass nedir ve ne işe yarar?",
+        "body": [
+          "SunPass, Florida'nın elektronik ücretli yol ödeme sistemidir; işletmesini eyalet ulaştırma kurumuna bağlı Florida's Turnpike Enterprise yürütür. Araca takılan küçük cihaz (transponder), yolun üzerindeki okuyucuya hesabınızı bildirir. Cihaz ve hesap ücretleri dönemsel olarak değişebildiği için güncel koşulları resmî sayfadan görmek gerekir.",
+          "Cihaz, ön ödemeli (prepaid) bir hesaba bağlıdır. Hesaba kartla bakiye yüklersiniz; her geçişte tutar bakiyeden düşer. Bakiye belirlenen düzeyin altına inince kartınızdan otomatik yükleme yapılacak şekilde ayarlamak mümkündür; böylece yetersiz bakiye yüzünden ek ücret ya da ceza riski azalır.",
+          "Hesap; araç plakası, transponder numarası ve ödeme kartıyla ilişkilendirilir. Aracı satar, plaka değiştirir ya da yeni araç alırsanız hesabı güncellemeniz gerekir; aksi halde başka bir aracın geçişi sizin hesabınızdan çıkabilir. Cihazın hangi modeli hangi yollarda ve hangi diğer eyalet sistemlerinde geçerli, resmî sayfadan doğrulanmalıdır. Transponder'ı ön camda üretici talimatındaki konuma takmak önemlidir; yanlış yerleştirilmiş cihaz okunmayabilir ve geçiş plakaya yazılabilir."
+        ]
+      },
+      {
+        "heading": "Plaka ile geçiş (Toll-By-Plate) nasıl işler?",
+        "body": [
+          "Transponder'ınız yoksa ya da cihaz okunmazsa, kamera geçerken aracın plakasını fotoğraflar. Bu yönteme Toll-By-Plate (plakaya göre ücretlendirme) denir. Sistem plakayı eyalet tescil kayıtlarıyla eşleştirir ve geçiş ücretini aracın kayıtlı sahibine fatura eder. Yani sorumlu kişi, o anda direksiyonda olan değil, aracın kayıtlı olduğu kişidir; aracı başkası kullanmış olsa bile fatura tescildeki sahibe çıkar.",
+          "Fatura genellikle posta yoluyla, tescilde kayıtlı adrese gelir. Bu nedenle adres değiştirdiyseniz tescil adresinin güncel olması önemlidir. Tescili başka eyalette olan araçlar da bu sistemde faturalandırılabilir; yani Florida plakalı olmayan bir aracı sürmek geçiş ücretinden muaf olmak anlamına gelmez. Geçişten günler ya da haftalar sonra gelebilen faturayı gözden kaçırmamak gerekir.",
+          "Plakaya göre geçiş, transponderli geçişe kıyasla genellikle daha pahalıdır; ek işlem bedeli ya da farklı tarife uygulanabilir. Güncel uygulamayı Florida's Turnpike Enterprise'ın sayfasından doğrulayın. Faturalar süresinde ödenmezse ek ücret eklenebilir; uzun süre ödenmeyen borçlar ileri aşamada araç tescil yenilemesini de etkileyebilir."
+        ]
+      },
+      {
+        "heading": "Kiralık araçla ücretli yoldan geçersem ücret nasıl yansır?",
+        "body": [
+          "Kiralık araçla geçiş de plakaya yazılır; plaka kiralama şirketine kayıtlı olduğu için fatura önce şirkete gider. Şirket tutarı, çoğunlukla kiracının kartından tahsil eder ve bunun üzerine kendi hizmet bedelini ekleyebilir. Bu bedel sözleşmeye göre değişir; sonradan ve beklenmedik bir kalem olarak gelebilir.",
+          "Aracı teslim almadan önce kiralama masasında şu noktaları netleştirmek en güvenli yoldur:",
+          "Kısa süreli kiralamada bile bu kalemler birikebilir. Aynı gün içinde birkaç geçiş yapıldığında tutarlar hızla çoğalabilir. Geçiş ücretleri sözleşmeyi imzaladıktan haftalar, hatta aylar sonra yansıyabilir; kartınıza geç gelen bir çekim şaşırtmasın diye kiralama sözleşmesindeki ücretli yol maddesini okuyup bir kopyasını saklayın. Navigasyon uygulamalarında 'ücretli yollardan kaçın' seçeneği, ek maliyeti sınırlamanın bir yoludur."
+        ],
+        "list": [
+          "Araçta transponder var mı, varsa kullanımı otomatik mi, yoksa kapatılabilir mi?",
+          "Ücret günlük sabit bir hizmet bedeliyle mi, yalnızca geçtiğiniz günlerde mi alınıyor?",
+          "Geçiş tutarı ve hizmet bedeli kartınızdan ne zaman, hangi kalemle çekilir?",
+          "Kendi transponder'ınızı getirmeniz ya da ücretli yollardan kaçınmanız mümkün mü?"
+        ]
+      },
+      {
+        "heading": "Transponder mı, plaka ile geçiş mi: hangisi bana uygun?",
+        "body": [
+          "Florida'da düzenli araç kullanıyorsanız ve ücretli yolları sık tercih ediyorsanız transponder genellikle daha mantıklıdır: geçiş bakiyeden düşer, fatura beklemezsiniz ve plaka yöntemine uygulanabilecek ek bedellerden kaçınabilirsiniz. Hesap açarken aracın plakasını, kartı ve iletişim bilgilerini doğru girmek yeterlidir; cihazı sonradan başka araca taşımak gerekiyorsa plaka kaydını güncellemeyi unutmayın.",
+          "Ücretli yolu yılda birkaç kez kullanıyorsanız, plaka ile geçiş yeterli olabilir; yeter ki tescil adresiniz güncel olsun ve gelen faturayı süresinde ödeyin. Kısa süre için Florida'da bulunanlar için de bu yöntem mümkündür; ancak express şeritlerde transponder gerekebileceğini unutmayın. Hangi yöntemi seçerseniz seçin, ücretli yol bölümlerini rota planlarken navigasyonda önceden görmek sürprizleri azaltır.",
+          "Karar verirken şu soruları kendinize sorun:"
+        ],
+        "list": [
+          "Ücretli yolu haftada kaç kez kullanıyorum ve rotam değişiyor mu?",
+          "Express şerit kullanacak mıyım, orada transponder şartı var mı?",
+          "Tescil adresim güncel mi, postamı düzenli alıyor muyum?",
+          "Bakiye takibi ve otomatik yükleme için bir hesap yönetmek bana uygun mu?"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "SunPass nedir?",
+        "a": "SunPass, Florida'daki ücretli yollarda kullanılan elektronik ödeme sistemidir. Araca takılan transponder, ön ödemeli bir hesaba bağlıdır ve geçiş ücreti her geçişte bakiyeden düşer. Sistemi Florida's Turnpike Enterprise işletir; cihaz koşulları ve güncel ücretler için kurumun resmî sayfasına bakılmalıdır."
+      },
+      {
+        "q": "Transponder olmadan Florida'da ücretli yoldan geçebilir miyim?",
+        "a": "Evet, çoğu ücretli yolda geçebilirsiniz. Kamera plakanızı okur ve fatura aracın kayıtlı sahibine gönderilir; buna Toll-By-Plate denir. Bu yöntemde genellikle farklı tarife ya da ek işlem bedeli olabilir. Bazı express şeritlerde ise transponder gerekebilir; girişteki tabelayı ve resmî kuralları kontrol edin."
+      },
+      {
+        "q": "Plaka ile geçiş faturası kime gelir?",
+        "a": "Fatura, aracın tescilde kayıtlı sahibine ve tescildeki adrese gönderilir. Aracı başkası kullanmış olsa da sorumlu genellikle kayıtlı sahiptir. Kiralık araçta kayıtlı sahip kiralama şirketidir; şirket tutarı sözleşme şartlarına göre kiracıdan tahsil eder. Bu yüzden tescil adresinin güncel olması önemlidir."
+      },
+      {
+        "q": "Kiralık araçta ücretli yol bedeli sonradan kartıma yansır mı?",
+        "a": "Evet, yansıyabilir. Geçiş plakaya yazıldığı için kiralama şirketi tutarı ve bazı durumlarda kendi hizmet bedelini, aracı teslim ettikten günler ya da haftalar sonra kartınızdan çekebilir. Teslim almadan önce transponder uygulamasını, hizmet bedelinin nasıl hesaplandığını ve tahsilat yöntemini sorun, sözleşmenin ilgili maddesini saklayın."
+      },
+      {
+        "q": "Ücretli yol faturasını ödemezsem ne olur?",
+        "a": "Süresinde ödenmeyen faturalara ek ücret eklenebilir ve uzun süre ödenmeyen borçlar ileri aşamada araç tescil yenilemesinde sorun çıkarabilir. Güncel süreleri ve sonuçları Florida's Turnpike Enterprise'ın resmî sayfasından doğrulayın. Bu bilgi genel niteliktedir ve hukuki tavsiye değildir; itirazlar için kurumun sürecini izleyin."
+      }
+    ],
+    "status": "published",
+    "generated": true
   }
 ]

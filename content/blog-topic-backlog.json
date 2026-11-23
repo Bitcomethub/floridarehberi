@@ -697,7 +697,8 @@
         "plaka ile geçiş toll by plate"
       ],
       "angle": "Ücretli yollarda geçişin nasıl ücretlendirildiğini ve transponder (SunPass gibi) ile plaka okuma yöntemi arasındaki farkı anlat. CİHAZ ÜCRETİ veya GEÇİŞ TUTARI VERME. Kiralık araçla geçişte ücretin plakaya yansıyıp sonradan gelebileceğini ve kiracının bu konuda önceden bilgilendirilmesi gerektiğini yaz.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-11-23"
     },
     {
       "id": "in-network-out-of-network",
