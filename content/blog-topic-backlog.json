@@ -805,7 +805,8 @@
         "büyük eşya toplama"
       ],
       "angle": "Çöp ve geri dönüşüm toplamanın belediye/ilçe düzeyinde düzenlendiğini, günlerin ve kuralların adrese göre değiştiğini anlat. Ayrıştırma kuralları, bahçe atığı ve büyük eşya (bulky waste) toplama gibi tipik başlıkları anlat. Belirli bir belediye/işletme adı verip ücret söyleme — 'oturduğun belediyenin atık yönetimi sayfasına bak' çerçevesi. AŞIRI İADE/İHLAL ÜCRETİ gibi RAKAM VERME.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-11-24"
     },
     {
       "id": "kutuphane-ve-ucretsiz-hizmetler",
