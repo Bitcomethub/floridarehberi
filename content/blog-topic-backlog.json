@@ -823,7 +823,8 @@
         "e-kitap ödünç"
       ],
       "angle": "Kütüphane kartının ikamet/ID belgesiyle nasıl alındığını ve sunulan hizmetleri anlat: basılı/e-kitap/sesli kitap ödünç, çocuk programları, İngilizce öğrenme kaynakları, bilgisayar ve internet erişimi, çevrimiçi kurslar, topluluk etkinlikleri. SPESİFİK ÜYELİK ÜCRETİ VERME (genellikle ücretsizdir ama kuruma göre değişir) — 'şubene göre teyit et' çerçevesi. Yeni gelenler için dil pratiği ve yerel toplulukla bağlantı kurma faydasını vurgula.",
-      "status": "pending"
+      "status": "published",
+      "publishedAt": "2026-11-26"
     },
     {
       "id": "kiralik-ev-gezme-kontrol-listesi",
